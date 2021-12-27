@@ -5,8 +5,10 @@ const Skills = () => {
 
     return (
         <div>
-
-<Link to="/">Home</Link>     
+            <div className="home-link">
+            <Link to="/">Home</Link> 
+            </div>
+   
 <h2>Skills</h2>
         </div>
     )

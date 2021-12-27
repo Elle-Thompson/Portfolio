@@ -5,7 +5,7 @@ const AboutMe = () => {
 
     return (
         <div>
-            <div classNAme="home-link">
+            <div className="home-link">
             <Link to="/">Home</Link> 
             </div>
 <h2>About Me</h2>
