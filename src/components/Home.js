@@ -17,10 +17,9 @@ const Home = () => {
        
           
         <div className="buttons">
-         <h2>Hey There! I'm Elle. 
-          
-            </h2>
-          <span id="typewriter-text" className="span1">Software Developer</span> 
+         <h2>Hey There! I'm Elle. </h2>
+
+           <span id="typewriter-text" className="span1">Software Developer</span>
           {/* <span className="span2">Air Force Veteran</span>
           <span className="span3">Advocate</span>
           <span className="span4">Friend</span> */}
@@ -32,6 +31,8 @@ const Home = () => {
         <div className="links">  
         <a href="https://www.linkedin.com/in/ellethompson01/"> <i class="fab fa-linkedin fa-2x"></i> </a>
        <a href="https://github.com/Elle-Thompson"> <i class="fab fa-github fa-2x"></i></a>
+
+       <i id="plane" class="fas fa-paper-plane fa-2x"></i>
          </div>
 
         </div>
