@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 const Resume = () => {
 
 
-    const  pdf = "https://drive.google.com/file/d/18a78-uJEN6KBEj421Px7z8InWuoxz6s3/preview"
+    const  pdf = "https://drive.google.com/file/d/1jWQHpiCnBexcR8CJMw18d_yRxkK9X1XC/preview"
     return (
         <div className="wrapper">
             <div className="home-link">
@@ -20,6 +20,7 @@ const Resume = () => {
         <div id="resume" className="div-right"> <h2 id="heading">Resume</h2>
         
         <iframe src={pdf} width="640" height="480" allow="autoplay" title="resume"></iframe>
+        
         
          </div>
 
