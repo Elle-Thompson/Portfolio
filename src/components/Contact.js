@@ -1,7 +1,27 @@
 import {Link} from "react-router-dom"
 
-
 const Contact = () => {
+
+
+
+	function subForm  ()  {
+
+   
+    fetch("https://api.apispreadsheets.com/data/ho0MbvJimDpFWFGO/", {
+        method: "POST",
+        body: JSON.stringify({"data": {"full_name":"","email":"","message":""}}),
+    }).then(res =>{
+        if (res.status === 201){
+            // SUCCESS
+        }
+        else{
+            // ERROR
+        }
+    })
+	
+ }
+
+
 
     return (
         <div className="wrapper">
@@ -19,15 +39,20 @@ const Contact = () => {
        
 <form id="contactForm">
     <label>Full Name</label>
-<input type="text" placeholder="Name"/>
+<input type="text" name="full_name" placeholder="Name"/>
 <label>Email</label>
-<input type="text" placeholder="Email"/>
+<input type="text" name="email" placeholder="Email"/>
 <label>Message</label>
-<textarea type="text" placeholder="Message here..."/>
-    <button id="formButton">Submit</button>
+<textarea type="text" name="message" placeholder="Message here..."/>
+    <button onclick={subForm} id="formButton">Submit</button>
 </form>
 
         
+       <div className="contact-links">  
+        <a href="https://www.linkedin.com/in/ellethompson01/"> <i class="fab fa-linkedin fa-3x"></i> </a>
+       <a href="https://github.com/Elle-Thompson"> <i class="fab fa-github fa-3x"></i></a>
+
+         </div>
          </div>
 
        
@@ -35,7 +60,7 @@ const Contact = () => {
 
 
 
-
+         
 
         </div>
 

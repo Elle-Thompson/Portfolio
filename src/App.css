@@ -161,7 +161,7 @@ a {
 #heading {
   position: absolute;
   top: 4%;
-  left: 68%;
+  left: 70%;
   width: 20%;
   margin:0;
  
@@ -288,7 +288,6 @@ display: flex;
 align-items: center;
 float: left;
 
-
 }
 
 #skills-text {
@@ -296,4 +295,19 @@ float: left;
   padding-top: 12%;
   padding-left: 5%;
   font-size: 25px;
+}
+
+.contact-links {
+  position: absolute;
+  bottom: 10%;
+  left: 55%;
+ 
+}
+
+.fa-3x {
+  padding: 10px;
+}
+
+.fa-3x:hover{
+  color: white;
 }

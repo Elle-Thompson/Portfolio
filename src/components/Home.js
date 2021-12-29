@@ -29,10 +29,10 @@ const Home = () => {
          <Link to="/Resume"> <button>RESUME</button> </Link>
 
         <div className="links">  
-        <a href="https://www.linkedin.com/in/ellethompson01/"> <i class="fab fa-linkedin fa-2x"></i> </a>
-       <a href="https://github.com/Elle-Thompson"> <i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/ellethompson01/"> <i class="fab fa-linkedin fa-3x"></i> </a>
+       <a href="https://github.com/Elle-Thompson"> <i class="fab fa-github fa-3x"></i></a>
 
-       <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-2x"></i></Link>
+       <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-3x"></i></Link>
          </div>
 
         </div>
