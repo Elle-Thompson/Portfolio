@@ -268,3 +268,32 @@ margin-left: 35%;
 padding: 2%;
 width: 30%;
 }
+
+#skills-icons {
+  position: absolute;
+  margin-top: 8%;
+  /* margin-left: 1%; */
+display: grid;
+grid-template-columns: repeat(auto-fit, 250px);
+  width: 49%;
+  justify-content: space-evenly;
+  
+}
+
+#skills-div {
+  /* padding: 6%; */
+   
+   filter: drop-shadow(0 0 0.1rem #ffffff);
+display: flex;
+align-items: center;
+float: left;
+
+
+}
+
+#skills-text {
+  text-align: center;
+  padding-top: 12%;
+  padding-left: 5%;
+  font-size: 25px;
+}
