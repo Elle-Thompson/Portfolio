@@ -1,28 +1,49 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-const  {GoogleSpreadsheet} = require("google-spreadsheet");
-const creds = require('../client_secret.json');
+const { GoogleSpreadsheet } = require("google-spreadsheet");
+const creds = require("../client_secret.json");
 let doc = {}
 
 const Contact = () => {
-   
-    const makeInitialCall = async () => {
-        doc = new GoogleSpreadsheet('1O2vXcSv0JxPmREPaEFNP-Zn1AUH_Rs8-mz7TOasXKnE')
-        await doc.useServiceAccountAuth(creds);
-        await doc.loadInfo();
-        let dataRows = await doc.sheetsByIndex[0].getRows();
-        console.log(doc.sheetsByIndex[0])
-        console.log(dataRows);
-        console.log("test")
-       
-       }
-       console.log("test")
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
-       useEffect(()=> {
-        makeInitialCall()
-       
-       },  [])
+  const makeInitialCall = async () => {
+    doc = new GoogleSpreadsheet("1O2vXcSv0JxPmREPaEFNP-Zn1AUH_Rs8-mz7TOasXKnE");
+    await doc.useServiceAccountAuth(creds);
+    await doc.loadInfo();
+    let rows = await doc.sheetsByIndex[0].getRows();
 
+    console.log(rows);
+  };
+
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+    console.log(event.target.value);
+  };
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+    console.log(event.target.value);
+  };
+  const handleMessageChange = (event) => {
+    setMessage(event.target.value);
+    console.log(event.target.value);
+  };
+
+  const handleSubmit = async () => {
+    let newRow = {
+      Name: name,
+      Email: email,
+      Message: message
+    };
+    let sheet = await doc.sheetsByIndex[0];
+    sheet.addRow(newRow);
+  };
+
+  useEffect(() => {
+    makeInitialCall();
+  }, []);
 
   return (
     <div className="wrapper">
@@ -39,23 +60,29 @@ const Contact = () => {
         <h2 id="heading">Contact</h2>
         <form id="contactForm">
           <input
+            onChange={handleNameChange}
             className="name-input"
             type="text"
             name="name"
             placeholder="Name"
+            value={name}
           />
           <input
+            onChange={handleEmailChange}
             className="email-input"
             type="text"
             name="email"
             placeholder="Email"
+            value={email}
           />
           <textarea
+            onChange={handleMessageChange}
             className="message-input"
             name="message"
             placeholder="Message here"
+            value={message}
           ></textarea>
-          <button type="submit" id="formButton">
+          <button onClick={handleSubmit} type="submit" id="formButton">
             Submit
           </button>
         </form>
