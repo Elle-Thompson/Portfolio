@@ -18,7 +18,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/elltee/google_sheets/skjrnQcUqQjsmuGi?Id=contact",
+        "https://v1.nocodeapi.com/elltee/google_sheets/skjrnQcUqQjsmuGi?id=contact",
         {
           method: "POST",
           headers: {
@@ -71,7 +71,7 @@ const Contact = () => {
             name="message"
             placeholder="Message here"
           ></textarea>
-          <button id="formButton">Submit</button>
+          <button type="submit" id="formButton">Submit</button>
         </form>
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/ellethompson01/">
