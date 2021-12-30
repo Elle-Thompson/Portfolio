@@ -1,38 +1,28 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
+const  {GoogleSpreadsheet} = require("google-spreadsheet");
+const creds = require('../client_secret.json');
+let doc = {}
 
 const Contact = () => {
-  const [data, setData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+   
+    const makeInitialCall = async () => {
+        doc = new GoogleSpreadsheet('1O2vXcSv0JxPmREPaEFNP-Zn1AUH_Rs8-mz7TOasXKnE')
+        await doc.useServiceAccountAuth(creds);
+        await doc.loadInfo();
+        let dataRows = await doc.sheetsByIndex[0].getRows();
+        console.log(doc.sheetsByIndex[0])
+        console.log(dataRows);
+        console.log("test")
+       
+       }
+       console.log("test")
 
-  const { name, email, message } = data;
+       useEffect(()=> {
+        makeInitialCall()
+       
+       },  [])
 
-  const handleChange = (e) => {
-    setData({ ...data, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch(
-        "https://v1.nocodeapi.com/elltee/google_sheets/skjrnQcUqQjsmuGi?id=contact",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify([[name, email, message]]),
-        }
-      );
-      await response.json();
-      setData({ ...data, name: "", email: "", message: "" });
-    } catch (err) {
-      console.log(err);
-    }
-  };
 
   return (
     <div className="wrapper">
@@ -46,32 +36,28 @@ const Contact = () => {
 
       <div className="div-right">
         {" "}
-        <h2 id="heading">Contact Me</h2>
-        <form onSubmit={handleSubmit} id="contactForm">
+        <h2 id="heading">Contact</h2>
+        <form id="contactForm">
           <input
-            onChange={handleChange}
             className="name-input"
             type="text"
-            value={name}
             name="name"
             placeholder="Name"
           />
           <input
-            onChange={handleChange}
             className="email-input"
             type="text"
-            value={email}
             name="email"
             placeholder="Email"
           />
           <textarea
-            onChange={handleChange}
             className="message-input"
-            value={message}
             name="message"
             placeholder="Message here"
           ></textarea>
-          <button type="submit" id="formButton">Submit</button>
+          <button type="submit" id="formButton">
+            Submit
+          </button>
         </form>
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/ellethompson01/">
