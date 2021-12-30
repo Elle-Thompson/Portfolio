@@ -14,8 +14,6 @@
 .div-left {
   /* background: radial-gradient( white, rgb(248, 220, 220), rgb(250,217,217)); */
   background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-  /* background-image: url("https://i.ibb.co/kg3Bz3h/cd519aa29129a4029cf49effe94c9195.jpg"); */
-  /* background-image: url("https://i.ibb.co/f9zFvX0/76ecb40b98bd974c12124be3b067ecb8.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -39,25 +37,18 @@ img {
   grid-column-start: 2;
   grid-column-end: 3;
   height: 100vh;
-  /* display: -webkit-flex; */
-  /* display: flex; */
   overflow: auto;
 }
-/* #header{
-  width: 100vw;
-  border: solid black 5px;
-} */
+
 #greeting {
   font-size: 60px;
   position: absolute;
-  /* margin-bottom: 10%; */
   left: 73%;
   top: 26%;
 }
 h2 {
   font-size: 60px;
   position: absolute;
-  /* margin-bottom: 10%; */
   left: 62%;
   top: 21%;
 }
@@ -65,10 +56,6 @@ h3 {
   margin-left: 25px;
   margin-top: 35px;
   font-size: 25px;
-}
-#typewriter-text {
-  /* position: absolute; */
-  /* top: 10%; */
 }
 
 .span1 {
@@ -234,20 +221,11 @@ iframe {
   margin-left: 15%;
 }
 
-
-
-/* input {
-  font-size: 20px;
-  margin-top: 1%;
-  margin-bottom: 3%;
-} */
 textarea {
   font-size: 20px;
   height: 50%;
 }
 #formButton {
-  float: left;
-  /* margin-left: 32%; */
   padding: 2%;
   width: 30%;
 }
@@ -298,8 +276,9 @@ textarea {
   grid-column-start: 1;
   grid-column-end: 2;
   height: 35px;
-  padding: 5%;
+  padding: 2%;
   font-size: 15px;
+  border: solid rgb(255, 236, 220) 5px;
 }
 
 .email-input {
@@ -307,9 +286,10 @@ textarea {
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 3;
-  padding: 5%;
+  padding: 2%;
   font-size: 15px;
   height: 35px;
+  border: solid rgb(255, 236, 220) 5px;
 }
 
 .message-input {
@@ -321,6 +301,7 @@ textarea {
   font-size: 15px;
   height: 100px;
   resize: none;
+  border: solid rgb(255, 236, 220) 5px; 
 }
 
 #contactForm {

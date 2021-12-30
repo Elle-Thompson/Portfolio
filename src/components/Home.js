@@ -25,7 +25,7 @@ const Home = () => {
           <span className="span4">Friend</span> */}
          <Link to="/AboutMe"> <button> ABOUT ME </button> </Link>     
          <Link to="/Projects"> <button>PROJECTS</button> </Link>
-         <Link to="/Skills"> <button>SKILLS</button> </Link>
+         <Link to="/Skills"> <button>Current</button> </Link>
          <Link to="/Resume"> <button>RESUME</button> </Link>
 
         <div className="links">  
