@@ -59,6 +59,10 @@ const Contact = () => {
         {" "}
         <h2 id="heading">Contact</h2>
         <form id="contactForm">
+
+        <input type="hidden" name="form-name" value="Contact" />
+
+        
           <input
             onChange={handleNameChange}
             className="name-input"
