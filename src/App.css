@@ -141,9 +141,9 @@ a {
   color: black;
 }
 
-#about-me {
+/* #about-me {
   background-color: white;
-}
+} */
 
 #heading {
   position: absolute;
@@ -318,4 +318,54 @@ textarea {
   padding: 20px;
   border-radius: 10px;
   gap: 10px;
+}
+.about-me {
+  background-color: white;
+  position: absolute;
+  /* top: 20%;
+  right: 1%;
+  width: 45%;
+  padding: 1%; */
+  border: solid rgb(255, 236, 220) 5px;
+}
+.about-me-wrapper {
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .5fr 1fr 1fr .5;
+  /* height: 85vh;
+  width: 50vw;
+  overflow: auto; */
+  margin-top: 15%;
+
+}
+.pic1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.pic1-words {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.pic2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.pic2-words {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.quote-words{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
