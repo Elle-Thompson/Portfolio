@@ -17,7 +17,7 @@ const AboutMe = () => {
         
         <div className="about-me-wrapper">
 
-        <div className="about-me">
+        <div id="about-me" className="about-me">
             <p>
               Hi Friends! My name is Louis Thompson, but please just call me
               Elle. I recently graduated from the software engineering immersive
@@ -37,15 +37,16 @@ const AboutMe = () => {
           </div>
         
           
-          <div>    
-          <img  className="pic1" src="https://i.ibb.co/JxPCb88/kuwait.jpg" alt="kuwait" />
+          <div id="pic1" className="pic1">    
+           <img id="pic1-img" src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg" alt="IMG-3221" />
           </div>
-          <div className="pic1-words"> <p> Test words here   </p> </div>
-          <div >  
-          <img className="pic2" src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg" alt="IMG-3221" />
+          <div id="pic1-words" className="pic1-words"> <p> Test words here   </p> </div>
+          <div className="pic2"> <img id="pic2-img"  src="https://i.ibb.co/JxPCb88/kuwait.jpg" alt="kuwait" />
           </div>
-          <div className="pic2-words"> <p>Test words here</p></div>
-          <div className="quote-words"> <p>“Listen to the mustn'ts, child. Listen to the don'ts. Listen to the shouldn'ts, the impossibles, the won'ts. Listen to the never haves, then listen close to me... Anything can happen, child. Anything can be.”
+          <div id="pic2-words" className="pic2-words"> <p>Test words here</p></div>
+          <div id="quote-words" className="quote-words">
+              <h5>Favorite Quote</h5>
+               <p>“Listen to the mustn'ts, child. Listen to the don'ts. Listen to the shouldn'ts, the impossibles, the won'ts. Listen to the never haves, then listen close to me... Anything can happen, child. Anything can be.”
 
 ― Shel Silverstein</p></div>
         </div>
