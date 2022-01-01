@@ -57,7 +57,7 @@ const Contact = () => {
 
       <div className="div-right">
         {" "}
-        <h2 id="heading">Contact</h2>
+        <h2 id="heading">Contact Me</h2>
         <form id="contactForm">
 
         <input type="hidden" name="form-name" value="Contact" />

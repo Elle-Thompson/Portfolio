@@ -22,6 +22,9 @@
   height: 100vh;
 }
 
+p {
+  
+}
 
 .div-right {
   background: rgb(244, 213, 211);
@@ -61,9 +64,9 @@ h3 {
   animation-iteration-count: infinite;
   font-size: 30px;
   /* margin-right: 2px; */
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
-.span1::after {
+.span1:after {
   content: "|";
   position: absolute;
   right: 0;
@@ -136,11 +139,17 @@ a {
 
 #heading {
   position: absolute;
-  top: 4%;
-  left: 70%;
-  width: 20%;
+  padding-left: 17%;
+  top: 3%;
+  left: 50%;
+  width: 50%;
   margin: 0;
-  font-family: shizuru;
+  font-size: 5vw;
+  /* font-family: shizuru; */
+  /* font-family: 'Permanent Marker', cursive; */
+  font-family: 'Corinthia', cursive;
+  /* -webkit-text-stroke: .4px white; */
+  border-bottom: 1px solid black;
 }
 
 #project-wrapper {
@@ -203,12 +212,17 @@ a {
 }
 h4 {
   margin-left: 25%;
+  /* font-family: shizuru; */
+  font-family: 'Raleway', sans-serif;
+  align-self: center;
 }
 
 iframe {
   height: 80%;
-  margin-top: 12%;
+  margin-top: 16%;
   margin-left: 15%;
+  border: solid rgb(255, 236, 220) 5px;
+  border-radius: 10px;
 }
 
 textarea {
@@ -242,8 +256,10 @@ textarea {
 #skills-text {
   text-align: center;
   padding-top: 12%;
-  padding-left: 5%;
+  /* padding-left: 5%; */
+  margin-left: 5%;
   font-size: 25px;
+  border-bottom: 1px solid;
 }
 
 .contact-links {
@@ -318,11 +334,12 @@ textarea {
   width: 48vw;
   overflow: auto;
   margin-top: 15%;
+  margin-left: 3%;
   gap: 40px;
 
 }
 .about-me {
-  background-color: white;
+  background-color: rgb(225,216,217);
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -330,11 +347,14 @@ textarea {
   height: 90%;
   width: 90%;
   font-size: .9vw;
+  margin-top: 1%;
   margin-left: 2%;
   border: solid rgb(255, 236, 220) 5px;
   padding-left: 1.5%;
   padding-right: 1.5%;
+  padding-bottom: 1%;
   border-radius: 10px;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 #pic1 {
@@ -365,7 +385,7 @@ textarea {
   font-family: serif;
   display: block;
   margin-bottom: 1%;
-  background-color: white;
+  background-color: rgb(225,216,217);
   border-radius: 10px;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
@@ -399,7 +419,7 @@ textarea {
   margin-left: 5%;
   display: block;
   margin-top: 1%;
-  background-color: white;
+  background-color: rgb(225,216,217);
   border-radius: 10px;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
@@ -415,9 +435,12 @@ textarea {
   margin-left: 2%;
   display: block;
   margin-bottom: 1%;
+  border-radius: 10px;
   background-color: white;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
 }
 img {
   display: flex;
@@ -429,5 +452,19 @@ img {
   border-radius: 5%;
 }
 h5{
-  padding-left: 45%;
+  padding-left: 42%;
+  font-weight: 600;
+  font-size: 2vh;
+}
+
+.name {
+  font-size: 2vh;
+  font-weight: 550;
+}
+
+.secret {
+  line-height: .5;
+  font-size: 4vh;
+  float: left;
+  font-weight: bold;
 }

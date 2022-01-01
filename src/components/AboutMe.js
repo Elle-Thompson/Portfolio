@@ -18,9 +18,9 @@ const AboutMe = () => {
         <div className="about-me-wrapper">
 
         <div id="about-me" className="about-me">
-            <p>
-              Hi Friends! My name is Louis Thompson, but please just call me
-              Elle. I recently graduated from the software engineering immersive
+            <p> <span className="secret"> H </span>
+                 i Friends! My name is <span className="name"> Louis Thompson   </span>, but please just call me 
+              <span className="name"> Elle</span>. I recently graduated from the software engineering immersive
               at General Assembly, and now I'm looking for opportunities to grow
               as an engineer. I have a diverse background in behavioral
               psychology, aircraft maintenance, and customer service. All of
