@@ -30,8 +30,8 @@ const Skills = () => {
                   <div id="skills-div"> <img alt="" src="https://img.icons8.com/color/50/000000/django.png"/> <p id="skills-text">Django  </p></div>
                   <div id="skills-div"> <img alt="" src="https://img.icons8.com/fluency/50/000000/python.png"/>  <p id="skills-text">Python </p> </div>
                   <div id="skills-div"> <img alt="" src="https://img.icons8.com/color/50/000000/postgreesql.png"/> <p id="skills-text">PostgreSQL </p> </div>
-                     
-            
+                  <div id="skills-div"> <img src="https://img.icons8.com/wired/50/000000/postman-api.png"/> <p id="skills-text">Postman </p> </div>  
+                  <div id="skills-div"> <img src="https://img.icons8.com/ios/50/000000/api-settings.png"/> <p id="skills-text">Rest API </p> </div>  
             </div>
          
         </div>
