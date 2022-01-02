@@ -5,7 +5,8 @@ import {Link} from "react-router-dom"
 const Resume = () => {
 
 
-    const  pdf = "https://drive.google.com/file/d/1CPSV2lVROiTaN5OcnSmzBN1rDnhBe7Nn/view?usp=sharing"
+    const  pdf = "https://drive.google.com/file/d/1CPSV2lVROiTaN5OcnSmzBN1rDnhBe7Nn/view?usp=sharing";
+    
     return (
         <div className="wrapper">
             <div className="home-link">
