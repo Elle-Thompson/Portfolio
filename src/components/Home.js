@@ -8,7 +8,7 @@ const Home = () => {
         <div className="home">
      <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer  </h3>
-      <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me"/>
+      <img id="primary-picture" src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me"/>
         </div>
 
 
@@ -17,12 +17,11 @@ const Home = () => {
        
           
         <div className="buttons">
-         <h2>Hey There! I'm Elle. </h2>
+          <header> <h2>Hey There! I'm Elle. </h2>
 
-           <span id="typewriter-text" className="span1">Software Developer</span>
-          {/* <span className="span2">Air Force Veteran</span>
-          <span className="span3">Advocate</span>
-          <span className="span4">Friend</span> */}
+           <span className="span1">Software Developer</span>   </header>
+         
+          
          <Link to="/AboutMe"> <button> ABOUT ME </button> </Link>     
          <Link to="/Projects"> <button>PROJECTS</button> </Link>
          <Link to="/Skills"> <button>SKILLS</button> </Link>
