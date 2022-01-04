@@ -20,7 +20,7 @@ const Resume = () => {
 
         <div id="resume" className="div-right"> <h2 id="heading">Resume</h2>
         
-        <iframe src={pdf} width="640" height="480" allow="autoplay"></iframe>
+        <iframe title="resume" src={pdf} width="640" height="480" allow="autoplay"></iframe>
         
         
          </div>
