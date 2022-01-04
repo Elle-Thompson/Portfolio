@@ -17,7 +17,6 @@
   height: auto;
 }
 .div-left {
-  /* background: radial-gradient( white, rgb(248, 220, 220), rgb(250,217,217)); */
   background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,10 +24,6 @@
   grid-column-start: 1;
   grid-column-end: 2;
   height: 100vh;
-}
-
-p {
-  
 }
 
 .div-right {
@@ -40,18 +35,11 @@ p {
   overflow: auto;
 }
 
-/* #greeting {
-  font-size: 60px;
-  position: absolute;
-  left: 73%;
-  top: 26%;
-} */
 h2 {
   font-size: 4vw;
   position: absolute;
   left: 58%;
   top: 19%;
-  /* width: auto; */
   gap: 1vh;
 }
 h3 {
@@ -160,10 +148,7 @@ a {
   width: 50%;
   margin: 0;
   font-size: 5vw;
-  /* font-family: shizuru; */
-  /* font-family: 'Permanent Marker', cursive; */
   font-family: 'Corinthia', cursive;
-  /* -webkit-text-stroke: .4px white; */
   border-bottom: 1px solid black;
 }
 
@@ -175,8 +160,6 @@ a {
   width: 50vw;
   overflow: auto;
   margin-top: 15%;
-  
-  /* font-family: 'Cinzel', serif; */
 }
 
 #proj1 {
@@ -215,8 +198,7 @@ a {
 }
 
 #proj1-description {
-  font-size: 30px;
-  
+  font-size: 30px; 
 }
 
 #proj2-description {
@@ -231,9 +213,6 @@ a {
 }
 h4 {
   margin-left: 25%;
-  /* font-family: shizuru; */
-  /* font-family: 'Raleway', sans-serif;
-  align-self: center; */
 }
 
 iframe {
@@ -256,7 +235,6 @@ textarea {
 #skills-icons {
   position: absolute;
   margin-top: 8%;
-  /* margin-left: 1%; */
   display: grid;
   grid-template-columns: repeat(auto-fit, 250px);
   width: 49%;
@@ -264,8 +242,6 @@ textarea {
 }
 
 #skills-div {
-  /* padding: 6%; */
-
   filter: drop-shadow(0 0 0.1rem #ffffff);
   display: flex;
   align-items: center;
@@ -275,7 +251,6 @@ textarea {
 #skills-text {
   text-align: center;
   padding-top: 12%;
-  /* padding-left: 5%; */
   margin-left: 5%;
   font-size: 25px;
   border-bottom: 1px solid;
@@ -339,13 +314,11 @@ textarea {
   height: 30%;
   width: 40%;
   font-size: 25px;
-  /* border: solid rgb(255, 236, 220) 5px; */
   padding: 20px;
   border-radius: 10px;
   gap: 10px;
 }
 .about-me-wrapper {
-  /* position: relative; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -366,6 +339,7 @@ textarea {
   height: 90%;
   width: 90%;
   font-size: .9vw;
+  /* font-weight: 900; */
   margin-top: 1%;
   margin-left: 2%;
   border: solid rgb(255, 236, 220) 5px;
@@ -374,8 +348,7 @@ textarea {
   padding-bottom: 1%;
   border-radius: 10px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-  font-family: 'Cinzel', serif;
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 
 #pic1 {
@@ -403,7 +376,7 @@ textarea {
   grid-row-end: 5;
   height: 98%;
   width: 90%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins', sans-serif;
   display: block;
   margin-bottom: 1%;
   background-color: rgb(225,216,220);
@@ -416,7 +389,7 @@ textarea {
   padding-left: 1.5%;
   padding-right: 1.5%;
   padding-bottom: 1%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins', sans-serif;
 }
 #pic2 {
   grid-column-start: 2;
@@ -425,7 +398,6 @@ textarea {
   grid-row-end: 3;
   height: 100%;
   width: 90%;
-  /* margin-left: 2%; */
   display: block;
   margin-top: 0;
 }
@@ -459,7 +431,7 @@ textarea {
   padding-left: 1.5%;
   padding-right: 1.5%;
   padding-bottom: 1%;
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins', sans-serif;
 }
 #quote-words{
   grid-column-start: 1;
@@ -524,7 +496,7 @@ h6 {
   border-radius: 10px;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins', sans-serif;
 }
 .hobbies{
   grid-column-start: 2;
@@ -540,5 +512,5 @@ h6 {
   border-radius: 10px;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-  font-family: 'Cinzel', serif;
+  font-family: 'Poppins', sans-serif;
 }
