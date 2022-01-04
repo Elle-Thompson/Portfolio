@@ -26,12 +26,13 @@ const Home = () => {
          <Link to="/Projects"> <button>PROJECTS</button> </Link>
          <Link to="/Skills"> <button>SKILLS</button> </Link>
          <Link to="/Resume"> <button>RESUME</button> </Link>
+         <Link to="/Contact"> <button>CONTACT ME</button> </Link>
 
         <div className="links">  
         <a href="https://www.linkedin.com/in/ellethompson01/"> <i class="fab fa-linkedin fa-3x"></i> </a>
        <a href="https://github.com/Elle-Thompson"> <i class="fab fa-github fa-3x"></i></a>
 
-       <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-3x"></i></Link>
+       {/* <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-3x"></i></Link> */}
          </div>
 
         </div>
