@@ -50,8 +50,13 @@ const Home = () => {
               {" "}
               <i class="fab fa-github fa-3x"></i>
             </a>
-
-            <a href="https://www.linkedin.com/in/ellethompson01/">
+           
+           
+            {/* <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-3x"></i></Link> */}
+          </div>
+        </div>
+        <footer id="footer">
+        <a href="https://www.linkedin.com/in/ellethompson01/">
               {" "}
               <i class="fab fa-linkedin fa-2x"></i>{" "}
             </a>
@@ -59,10 +64,9 @@ const Home = () => {
               {" "}
               <i class="fab fa-github fa-2x"></i>
             </a>
-            {/* <Link to="/Contact"><i id="plane" class="fas fa-paper-plane fa-3x"></i></Link> */}
-          </div>
-        </div>
-        <footer id="footer"> </footer>
+
+            <p id="copyright"> © 2021 by Elle Thompson  </p>
+         </footer>
       </div>
       
     </div>

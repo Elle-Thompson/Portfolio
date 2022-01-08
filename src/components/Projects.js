@@ -5,9 +5,7 @@ const Projects = () => {
 
     return (
         <div className="wrapper">
-            <div className="home-link">
-            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
-            </div>
+            
             <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer  </h3>
       <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me"/>
@@ -36,6 +34,13 @@ const Projects = () => {
 
 </div>
 </div>
+<footer id="footer">
+       
+            <div className="home-link">
+            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
+            </div>
+            
+             </footer>
         </div>
     )
 }

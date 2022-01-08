@@ -3,9 +3,7 @@ import { Link } from "react-router-dom";
 const Skills = () => {
   return (
     <div className="wrapper">
-      <div className="home-link">
-      <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
-      </div>
+      
 
       <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer </h3>
@@ -36,6 +34,13 @@ const Skills = () => {
          
         </div>
       </div>
+      <footer id="footer">
+       
+            <div className="home-link">
+            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
+            </div>
+            
+             </footer>
     </div>
   );
 };

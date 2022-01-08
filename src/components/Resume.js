@@ -24,6 +24,13 @@ const Resume = () => {
         
         
          </div>
+         <footer id="footer">
+       
+            <div className="home-link">
+            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
+            </div>
+            
+             </footer>
 
         </div>
     )
