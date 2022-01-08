@@ -113,6 +113,7 @@
     border-radius: 10px;
     margin: 1%;
     border: solid rgb(255, 236, 220) 3px;
+    color: black;
   }
   button:hover {
     background-color: black;
@@ -525,7 +526,7 @@
 
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-    height:50px;
+    height: 60px;
     width: 100%;
     /* position: absolute; */
     bottom: 0;
@@ -573,11 +574,12 @@
   }
 
   h2 {
-    font-size: 10vw;
-    position: absolute;
-    left: 7%;
+    font-size: 11vw;
+    /* position: absolute; */
+    left: 15%;
     top: 38%;
     font-weight: 500;
+    margin: 0;
     /* gap: 1vh; */
   }
   h3 {
@@ -601,8 +603,8 @@
     font-size: 7vw;
     margin-left: 4vw;
     margin-bottom: 3vh;
-    margin-top: 3%;
-    padding-bottom: 1vh;
+    /* margin-top: 3%; */
+    padding-bottom: .5vh;
   }
   .span1:after {
     content: "|";
@@ -631,7 +633,7 @@
       opacity: 1;
     }
   }
-  
+
   .buttons {
     display: flex;
     flex-direction: column;
@@ -654,6 +656,7 @@
     border-radius: 10px;
     margin: 2%;
     border: solid rgb(255, 236, 220) 3px;
+    color: black;
   }
   button:hover {
     background-color: black;
@@ -667,7 +670,7 @@
   }
 
   .fa-2x {
-    padding-left: 20px;
+    padding-left: 10px;
   }
   .fa-2x:hover {
     color: white;
@@ -800,7 +803,8 @@
   .links {
     padding-top: 2%;
     padding-bottom: 2%;
-
+    display: flex;
+    justify-content: center;
   }
 
   .contact-links {
@@ -808,17 +812,15 @@
     bottom: 10%;
     left: 55%;
   }
-.fa-2x {
-  padding: 10px;
-  margin-left: 20%;
-}
-.fa-2x:hover{
-  color: white;
-}
+  .fa-2x {
+    padding: 10px;
+  }
+  .fa-2x:hover {
+    color: white;
+  }
   .fa-3x {
     display: none;
   }
-
 
   .name-input {
     grid-row-start: 1;
@@ -1063,5 +1065,3 @@
     font-family: "Poppins", sans-serif;
   }
 }
-
-
