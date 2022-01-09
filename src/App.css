@@ -534,6 +534,14 @@
     left: 0;
   }
 
+  #resume {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
     height: 60px;
@@ -708,6 +716,7 @@
     width: 50%;
     margin: 0;
     font-size: 10vw;
+    display: none;
     /* font-family: "Corinthia", cursive; */
   }
 
@@ -775,9 +784,9 @@
   }
 
   iframe {
-    height: 80%;
-    margin-top: 16%;
-    margin-left: 15%;
+    height: 60%;
+    margin-top: 20%;
+    /* margin-left: 1%; */
     border: solid rgb(255, 236, 220) 5px;
     border-radius: 10px;
   }
@@ -1017,12 +1026,13 @@
   }
   img {
     display: flex;
-    height: 40%;
+    height: 60%;
     margin-top: 23%;
     margin-left: 30%;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     border-radius: 5%;
+  
   }
   h5 {
     padding-left: 42%;

@@ -9,9 +9,7 @@ const Resume = () => {
     
     return (
         <div className="wrapper">
-            <div className="home-link">
-            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
-            </div>
+            
             <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer  </h3>
       <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me"/>
@@ -20,8 +18,8 @@ const Resume = () => {
 
         <div id="resume" className="div-right"> <h2 id="heading">Resume</h2>
         
-        <iframe title="resume" src={pdf} width="640" height="480" allow="autoplay"></iframe>
-        
+        <iframe title="resume" src={pdf}  allow="autoplay"></iframe>
+        {/* width="auto" height="480" */}
         
          </div>
          <footer id="footer">
