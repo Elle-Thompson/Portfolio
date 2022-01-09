@@ -803,19 +803,28 @@
   }
 
   #skills-icons {
-    /* position: absolute; */
-    /* margin-top: 8%; */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
+    position: absolute; 
+    margin-top: 25%; 
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, 250px); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
     width: 100%;
     justify-content: space-evenly;
+  }
+  #skill-icon {
+    margin-top: 0;
+    margin-left: 0;
+    height: 10vh;
   }
 
   #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);
     display: flex;
-    /* align-items: center; */
-    /* float: left; */
+    align-items: center;
+    float: left;
+    margin-bottom: 3%;
   }
 
   #skills-text {
@@ -824,6 +833,7 @@
     margin-left: 5%;
     font-size: 25px;
     border-bottom: 1px solid;
+    display:none;
   }
 
   .links {
@@ -884,7 +894,7 @@
 
   #contactForm {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 2%;
     display: grid;
     grid-template-rows: 0.3fr .03fr 1.7fr;
