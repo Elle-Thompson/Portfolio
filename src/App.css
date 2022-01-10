@@ -212,7 +212,7 @@
   #proj1-description {
     font-size: 30px;
     padding-left: 20px;
-    border-bottom: solid rgb(255, 236, 220) 5px;
+
   }
 
   #proj2-description {
@@ -601,7 +601,7 @@
     grid-row-start: 2;
     grid-row-end: 3;
     height: 100vh;
-    /* overflow: auto; */
+    overflow: auto;
   }
 
   h2 {
@@ -937,21 +937,21 @@
     margin-left:24vw;
   }
   .about-me-wrapper {
+    background: rgb(244, 213, 211);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 180vh;
-    width: 90vw;
+    width: 100vw;
     margin-top: 20%;
-    overflow: auto;
-    /* margin-left: 3%; */
     gap: 20px;
+    justify-content: center;
   }
   .about-me {
     background-color: rgb(225, 216, 217);
     grid-row-start: 1;
     grid-row-end: 2;
     height: auto;
-    width: 85%;
+    width: 90%;
     font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
@@ -965,79 +965,31 @@
   }
 
   #pic1 {
-    display: grid;
-    grid-row-start: 6;
-    grid-row-end: 7;
-
-    margin-left: 1%;
     display:none;
-    margin-top: 0;
   }
   #pic1-img {
-    height: 100%;
-    width: 90%;
-    margin-left: 10px;
     display: none;
     margin-top: 0;
   }
   #pic1-words {
 
-    grid-row-start: 5;
-    grid-row-end: 6;
-    height: auto;
-    width: 85%;
-    font-family: "Poppins", sans-serif;
     display: none;
-    margin-bottom: 1%;
-    background-color: rgb(225, 216, 220);
-    border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-size: 15px;
-    margin-top: 1%;
-    margin-left: 2%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
+  
   }
   #pic2 {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: 60%;
-    width: 40%;
+
     display: none;
-    margin-top: 0;
+   
   }
   #pic2-img {
-    height: 70%;
-    width: auto;
-    margin-left: 0;
+  
     display: none;
-    margin-top: 0;
+   
     
   }
   #pic2-words {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 100%;
-    width: 90%;
     display: none;
-    margin-top: 1%;
-    background-color: rgb(225, 216, 217);
-    border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    height: 90%;
-    width: 90%;
-    font-size: 15;
-    margin-top: 1%;
-    margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
+   
   }
   #quote-words {
     grid-row-start: 2;
@@ -1095,6 +1047,7 @@
     /* display: block; */
     /* display: none; */
     margin-top: 1%;
+    margin-left: 1.5vw;
     background-color: rgb(225, 216, 217);
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
@@ -1109,7 +1062,8 @@
     padding-left: 4%;
     /* display: block; */
     /* display: none; */
-    margin-top: 1%;
+    margin-top: 4%;
+    margin-left: 1.5vw;
     background-color: white;
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
