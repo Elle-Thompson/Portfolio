@@ -53,7 +53,7 @@ const Contact = () => {
         <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
       </div>
 
-      <div className="div-right">
+      <div id="contact" className="div-right">
         {" "}
         <h2 id="heading">Contact Me</h2>
         <form id="contactForm">
