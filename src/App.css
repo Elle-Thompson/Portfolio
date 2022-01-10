@@ -166,7 +166,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 90vh;
+    height: 80vh;
     width: 50vw;
     overflow: auto;
     margin-top: 15%;
@@ -178,8 +178,9 @@
     grid-column-start: 1;
     grid-column-end: 2;
     margin: 0;
-    height: 100%;
-    width: 100%;
+    height: 110%;
+    width: 110%;
+    
   }
 
   #proj2 {
@@ -189,7 +190,7 @@
     grid-column-end: 3;
     margin: 0;
     height: 110%;
-    width: 90%;
+    width: 110%;
   }
 
   #proj3 {
@@ -199,20 +200,23 @@
     grid-column-end: 2;
     margin: 0;
     height: 110%;
-    width: 90%;
+    width: 110%;
     padding-top: 5%;
   }
 
   #proj-img {
     margin: 10% 0 0 10%;
+    
   }
 
   #proj1-description {
     font-size: 30px;
+    padding-left: 20px;
+    border-bottom: solid rgb(255, 236, 220) 5px;
   }
 
   #proj2-description {
-    padding-left: 40px;
+    padding-left: 20px;
     font-size: 30px;
   }
 
@@ -242,7 +246,9 @@
     padding: 2%;
     width: 30%;
   }
-
+#skills{
+  height: 100vh;
+}
   #skills-icons {
     position: absolute;
     margin-top: 10%;
@@ -927,25 +933,26 @@
     border-radius: 10px;
     gap: 10px;
   }
+  #me{
+    margin-left:24vw;
+  }
   .about-me-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 80vh;
-    width: 50vw;
-    margin-top: 15%;
-    margin-left: 3%;
-    gap: 40px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 180vh;
+    width: 90vw;
+    margin-top: 20%;
+    overflow: auto;
+    /* margin-left: 3%; */
+    gap: 20px;
   }
   .about-me {
     background-color: rgb(225, 216, 217);
-    grid-column-start: 1;
-    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    height: 90%;
-    width: 90%;
-    font-size: 0.9vw;
+    height: auto;
+    width: 85%;
+    font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
     border: solid rgb(255, 236, 220) 5px;
@@ -959,37 +966,34 @@
 
   #pic1 {
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
 
     margin-left: 1%;
-    display: block;
+    display:none;
     margin-top: 0;
   }
   #pic1-img {
     height: 100%;
     width: 90%;
     margin-left: 10px;
-    display: block;
+    display: none;
     margin-top: 0;
   }
   #pic1-words {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    height: 98%;
-    width: 90%;
+
+    grid-row-start: 5;
+    grid-row-end: 6;
+    height: auto;
+    width: 85%;
     font-family: "Poppins", sans-serif;
-    display: block;
+    display: none;
     margin-bottom: 1%;
     background-color: rgb(225, 216, 220);
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-size: 0.9vw;
+    font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
     padding-left: 1.5%;
@@ -998,30 +1002,27 @@
     font-family: "Poppins", sans-serif;
   }
   #pic2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 100%;
-    width: 90%;
-    display: block;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 60%;
+    width: 40%;
+    display: none;
     margin-top: 0;
   }
   #pic2-img {
-    height: 100%;
-    width: 90%;
+    height: 70%;
+    width: auto;
     margin-left: 0;
-    display: block;
+    display: none;
     margin-top: 0;
+    
   }
   #pic2-words {
-    grid-column-start: 1;
-    grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     height: 100%;
     width: 90%;
-    display: block;
+    display: none;
     margin-top: 1%;
     background-color: rgb(225, 216, 217);
     border-radius: 10px;
@@ -1029,7 +1030,7 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     height: 90%;
     width: 90%;
-    font-size: 0.9vw;
+    font-size: 15;
     margin-top: 1%;
     margin-left: 2%;
     border: solid rgb(255, 236, 220) 5px;
@@ -1039,15 +1040,13 @@
     font-family: "Poppins", sans-serif;
   }
   #quote-words {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
     height: 85%;
     width: 90%;
     padding: 1%;
     margin-left: 2%;
-    display: block;
+    display:none;
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;
@@ -1088,14 +1087,13 @@
     font-weight: bold;
   }
   .favorite-books-movies {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
     height: 100%;
     width: 90%;
     padding-left: 4%;
-    display: block;
+    /* display: block; */
+    /* display: none; */
     margin-top: 1%;
     background-color: rgb(225, 216, 217);
     border-radius: 10px;
@@ -1104,14 +1102,13 @@
     font-family: "Poppins", sans-serif;
   }
   .hobbies {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
     height: 100%;
     width: 90%;
     padding-left: 4%;
-    display: block;
+    /* display: block; */
+    /* display: none; */
     margin-top: 1%;
     background-color: white;
     border-radius: 10px;

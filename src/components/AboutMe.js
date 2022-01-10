@@ -7,7 +7,7 @@ const AboutMe = () => {
 
       <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer </h3>
-        <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
+        <img id="me" src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
       </div>
       <div id="about-me" className="div-right">
         {" "}
