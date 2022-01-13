@@ -65,7 +65,7 @@ const Home = () => {
               <i class="fab fa-github fa-2x"></i>
             </a>
 
-            <p id="copyright"> © 2021 by Elle Thompson  </p>
+            {/* <p id="copyright"> © 2021 by Elle Thompson  </p> */}
          </footer>
       </div>
       
