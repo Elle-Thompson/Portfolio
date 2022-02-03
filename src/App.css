@@ -155,7 +155,7 @@
     padding-left: 17%;
     top: 3%;
     left: 50%;
-    width: 50%;
+    width: 33%;
     margin: 0;
     font-size: 5vw;
     font-family: "Corinthia", cursive;
@@ -180,7 +180,6 @@
     margin: 0;
     height: 110%;
     width: 110%;
-    
   }
 
   #proj2 {
@@ -206,13 +205,11 @@
 
   #proj-img {
     margin: 10% 0 0 10%;
-    
   }
 
   #proj1-description {
     font-size: 30px;
     padding-left: 20px;
-
   }
 
   #proj2-description {
@@ -246,9 +243,9 @@
     padding: 2%;
     width: 30%;
   }
-#skills{
-  height: 100vh;
-}
+  #skills {
+    height: 100vh;
+  }
   #skills-icons {
     position: absolute;
     margin-top: 10%;
@@ -934,9 +931,9 @@
     border-radius: 10px;
     gap: 10px;
   }
-  #me{
+  #me {
     position: relative;
-    margin-left:32vw;
+    margin-left: 32vw;
     z-index: 999;
   }
   .about-me-wrapper {
@@ -968,31 +965,23 @@
   }
 
   #pic1 {
-    display:none;
+    display: none;
   }
   #pic1-img {
     display: none;
     margin-top: 0;
   }
   #pic1-words {
-
     display: none;
-  
   }
   #pic2 {
-
     display: none;
-   
   }
   #pic2-img {
-  
     display: none;
-   
-    
   }
   #pic2-words {
     display: none;
-   
   }
   #quote-words {
     grid-row-start: 2;
@@ -1001,7 +990,7 @@
     width: 90%;
     padding: 1%;
     margin-left: 2%;
-    display:none;
+    display: none;
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;

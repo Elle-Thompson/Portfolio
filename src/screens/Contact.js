@@ -1,22 +1,11 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-const { GoogleSpreadsheet } = require("google-spreadsheet");
-const creds = require("../client_secret.json");
-let doc = {}
+import {useState } from "react";
+import Footer from "../components/footer";
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const makeInitialCall = async () => {
-    doc = new GoogleSpreadsheet("1O2vXcSv0JxPmREPaEFNP-Zn1AUH_Rs8-mz7TOasXKnE");
-    await doc.useServiceAccountAuth(creds);
-    await doc.loadInfo();
-    let rows = await doc.sheetsByIndex[0].getRows();
-
-    console.log(rows);
-  };
 
   const handleNameChange = (event) => {
     setName(event.target.value);
@@ -35,32 +24,23 @@ const Contact = () => {
     let newRow = {
       Name: name,
       Email: email,
-      Message: message
+      Message: message,
     };
-    let sheet = await doc.sheetsByIndex[0];
-    sheet.addRow(newRow);
-  };
 
-  useEffect(() => {
-    makeInitialCall();
-  }, []);
+  };
 
   return (
     <div className="wrapper">
-    
       <div className="div-left">
         <h3> Elle Thompson | Full-Stack Developer </h3>
         <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
       </div>
 
       <div id="contact" className="div-right">
-        {" "}
         <h2 id="heading">Contact Me</h2>
         <form id="contactForm">
+          <input type="hidden" name="form-name" value="Contact" />
 
-        <input type="hidden" name="form-name" value="Contact" />
-
-        
           <input
             onChange={handleNameChange}
             className="name-input"
@@ -91,21 +71,15 @@ const Contact = () => {
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/ellethompson01/">
             {" "}
-            <i class="fab fa-linkedin fa-3x"></i>{" "}
+            <i class="fab fa-linkedin fa-3x" />{" "}
           </a>
+
           <a href="https://github.com/Elle-Thompson">
-            {" "}
             <i class="fab fa-github fa-3x"></i>
           </a>
         </div>
       </div>
-      <footer id="footer">
-       
-            <div className="home-link">
-            <Link to="/"><button button ID="HOME-BTTN">HOME</button></Link>
-            </div>
-            
-             </footer>
+      <Footer />
     </div>
   );
 };

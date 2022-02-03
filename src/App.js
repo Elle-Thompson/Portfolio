@@ -1,12 +1,11 @@
 import './App.css';
-
 import {Routes, Route } from "react-router-dom";
-import Projects from "./components/Projects";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Resume from "./components/Resume";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
+import Projects from "./screens/Projects";
+import AboutMe from "./screens/AboutMe";
+import Skills from "./screens/Skills";
+import Resume from "./screens/Resume";
+import Home from "./screens/Home";
+import Contact from "./screens/Contact";
 
 
 function App() {
