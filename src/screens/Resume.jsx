@@ -2,7 +2,7 @@ import Footer from "../components/footer";
 
 const Resume = () => {
   const pdf =
-    "https://drive.google.com/file/d/1CPSV2lVROiTaN5OcnSmzBN1rDnhBe7Nn/preview";
+    "https://drive.google.com/file/d/1BRvbmw7olyGPdgKbQnH6_Si8DU8_Otyk/preview";
 
   return (
     <div className="wrapper">
