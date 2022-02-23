@@ -21,11 +21,11 @@ const Contact = () => {
   };
 
   const handleSubmit = async () => {
-    let newRow = {
-      Name: name,
-      Email: email,
-      Message: message,
-    };
+    // let newRow = {
+    //   Name: name,
+    //   Email: email,
+    //   Message: message,
+    // };
 
   };
 
