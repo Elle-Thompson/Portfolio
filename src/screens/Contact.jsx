@@ -70,11 +70,11 @@ const Contact = () => {
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/ellethompson01/">
             {" "}
-            <i class="fab fa-linkedin fa-3x" />{" "}
+            <i className="fab fa-linkedin fa-3x" />
           </a>
 
           <a href="https://github.com/Elle-Thompson">
-            <i class="fab fa-github fa-3x"></i>
+            <i className="fab fa-github fa-3x" />
           </a>
         </div>
       </div>
