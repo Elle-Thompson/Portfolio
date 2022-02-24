@@ -19,13 +19,46 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint": "eslint --fix 'src/**/*.{js,jsx,ts,tsx}'"
   },
   "eslintConfig": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaVersion": "2021",
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "jest/no-disabled-tests": "warn",
+      "jest/no-focused-tests": "error",
+      "jest/no-identical-title": "error",
+      "jest/prefer-to-have-length": "warn",
+      "jest/valid-expect": "error",
+      "no-console": 0,
+      "react/no-unescaped-entities": 0
+    },
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+      "eslint:recommended",
+      "plugin:jest/recommended",
+      "plugin:react/jsx-runtime",
+      "plugin:react/recommended"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect"
+      },
+      "jest": {
+        "version": 26
+      }
+    },
+    "env": {
+      "browser": true,
+      "jest/globals": true,
+      "node": true
+    }
   },
   "browserslist": {
     "production": [
@@ -38,5 +71,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "24.7.0",
+    "eslint-plugin-react": "7.28.0",
+    "jest": "26.6.0"
   }
 }
