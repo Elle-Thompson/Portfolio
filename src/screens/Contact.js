@@ -1,4 +1,4 @@
-import {useState } from "react";
+import React, {useState} from 'react';
 import Footer from "../components/footer";
 
 const Contact = () => {
@@ -26,7 +26,6 @@ const Contact = () => {
     //   Email: email,
     //   Message: message,
     // };
-
   };
 
   return (
@@ -63,7 +62,7 @@ const Contact = () => {
             name="message"
             placeholder="Message here"
             value={message}
-          ></textarea>
+          />
           <button onClick={handleSubmit} type="submit" id="formButton">
             Submit
           </button>
