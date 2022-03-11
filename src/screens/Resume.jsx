@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from "../components/footer";
 
 const Resume = () => {
@@ -14,7 +15,7 @@ const Resume = () => {
       <div id="resume" className="div-right">
         {" "}
         <h2 id="heading">Resume</h2>
-        <iframe title="resume" src={pdf} allow="autoplay"></iframe>
+        <iframe title="resume" src={pdf} allow="autoplay" />
       </div>
       <Footer />
     </div>

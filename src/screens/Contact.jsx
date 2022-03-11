@@ -1,4 +1,4 @@
-import {useState } from "react";
+import React, {useState} from 'react';
 import Footer from "../components/footer";
 
 const Contact = () => {
@@ -26,7 +26,6 @@ const Contact = () => {
     //   Email: email,
     //   Message: message,
     // };
-
   };
 
   return (
@@ -63,7 +62,7 @@ const Contact = () => {
             name="message"
             placeholder="Message here"
             value={message}
-          ></textarea>
+          />
           <button onClick={handleSubmit} type="submit" id="formButton">
             Submit
           </button>
@@ -71,11 +70,11 @@ const Contact = () => {
         <div className="contact-links">
           <a href="https://www.linkedin.com/in/ellethompson01/">
             {" "}
-            <i class="fab fa-linkedin fa-3x" />{" "}
+            <i className="fab fa-linkedin fa-3x" />
           </a>
 
           <a href="https://github.com/Elle-Thompson">
-            <i class="fab fa-github fa-3x"></i>
+            <i className="fab fa-github fa-3x" />
           </a>
         </div>
       </div>

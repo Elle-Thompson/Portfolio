@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -40,14 +41,14 @@ const Home = () => {
               <i className="fab fa-linkedin fa-3x" />
             </a>
             <a href="https://github.com/Elle-Thompson">
-              <i className="fab fa-github fa-3x"></i>
+              <i className="fab fa-github fa-3x" />
             </a>
 
           </div>
         </div>
         <footer id="footer">
           <a href="https://www.linkedin.com/in/ellethompson01/">
-            <i class="fab fa-linkedin fa-2x" />
+            <i className="fab fa-linkedin fa-2x" />
           </a>
           <a href="https://github.com/Elle-Thompson">
             <i className="fab fa-github fa-2x" />

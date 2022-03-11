@@ -3,6 +3,7 @@
     position: absolute;
     right: 0;
   }
+
   .home {
     height: 100vh;
     width: auto;
@@ -21,6 +22,7 @@
     width: 40%;
     height: auto;
   }
+
   .div-left {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
     background-repeat: no-repeat;
@@ -48,11 +50,13 @@
     top: 19%;
     gap: 1vh;
   }
+
   h3 {
     margin-left: 1vw;
     margin-top: 2vh;
     font-size: 25px;
   }
+
   header {
     display: flex-inline;
   }
@@ -70,6 +74,7 @@
     margin-left: 5vw;
     padding-bottom: 4vh;
   }
+
   .span1:after {
     content: "|";
     position: absolute;
@@ -78,6 +83,7 @@
     animation-duration: 2s;
     animation-timing-function: steps(1, end);
   }
+
   @keyframes typewriter {
     0%,
     100% {
@@ -103,6 +109,7 @@
     margin-left: 24%;
     margin-top: 35%;
   }
+
   #HOME-BTTN {
     width: 120%;
     margin-right: 1vw;
@@ -120,10 +127,12 @@
     border: solid rgb(255, 236, 220) 3px;
     color: black;
   }
+
   button:hover {
     background-color: black;
     color: rgb(203, 160, 154);
   }
+
   .home-link {
     position: absolute;
     right: 2vw;
@@ -134,9 +143,11 @@
   .fa-3x {
     padding: 20px;
   }
+
   .fa-3x:hover {
     color: white;
   }
+
   .fa-2x {
     display: none;
   }
@@ -222,6 +233,7 @@
     padding-left: 4%;
     padding-bottom: 2%;
   }
+
   h4 {
     margin-left: 25%;
   }
@@ -239,13 +251,16 @@
     font-size: 20px;
     height: 50%;
   }
+
   #formButton {
     padding: 2%;
     width: 30%;
   }
+
   #skills {
     height: 100vh;
   }
+
   #skills-icons {
     position: absolute;
     margin-top: 10%;
@@ -332,6 +347,7 @@
     border-radius: 10px;
     gap: 10px;
   }
+
   .about-me-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -343,6 +359,7 @@
     margin-left: 3%;
     gap: 40px;
   }
+
   .about-me {
     background-color: rgb(225, 216, 217);
     grid-column-start: 1;
@@ -375,6 +392,7 @@
     display: block;
     margin-top: 0;
   }
+
   #pic1-img {
     height: 100%;
     width: 90%;
@@ -382,6 +400,7 @@
     display: block;
     margin-top: 0;
   }
+
   #pic1-words {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -404,6 +423,7 @@
     padding-bottom: 1%;
     font-family: "Poppins", sans-serif;
   }
+
   #pic2 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -414,6 +434,7 @@
     display: block;
     margin-top: 0;
   }
+
   #pic2-img {
     height: 100%;
     width: 90%;
@@ -421,6 +442,7 @@
     display: block;
     margin-top: 0;
   }
+
   #pic2-words {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -445,6 +467,7 @@
     padding-bottom: 1%;
     font-family: "Poppins", sans-serif;
   }
+
   #quote-words {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -463,6 +486,7 @@
     font-family: "Cinzel", serif;
     font-weight: 600;
   }
+
   img {
     display: flex;
     height: 40%;
@@ -472,11 +496,13 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     border-radius: 5%;
   }
+
   h5 {
     padding-left: 42%;
     font-weight: 600;
     font-size: 2vh;
   }
+
   h6 {
     padding-left: 30%;
     font-weight: 600;
@@ -494,6 +520,7 @@
     float: left;
     font-weight: bold;
   }
+
   .favorite-books-movies {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -510,6 +537,7 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-family: "Poppins", sans-serif;
   }
+
   .hobbies {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -532,6 +560,7 @@
   body {
     margin: none;
   }
+
   #copyright {
     position: absolute;
     left: 0;
@@ -561,6 +590,7 @@
     position: fixed;
     box-sizing: border-box;
   }
+
   .home {
     height: 100vh;
     width: auto;
@@ -582,6 +612,7 @@
     right: 22%;
     border-radius: 15%;
   }
+
   .div-left {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
     background-repeat: no-repeat;
@@ -612,11 +643,13 @@
     /* gap: 1vh; */
     margin-left: 3%;
   }
+
   h3 {
     margin-left: 6vw;
     margin-top: 2vh;
     font-size: 15px;
   }
+
   header {
     display: flex-inline;
   }
@@ -636,6 +669,7 @@
     /* margin-top: 3%; */
     padding-bottom: 0.5vh;
   }
+
   .span1:after {
     content: "|";
     position: absolute;
@@ -644,6 +678,7 @@
     animation-duration: 2s;
     animation-timing-function: steps(1, end);
   }
+
   @keyframes typewriter {
     0%,
     100% {
@@ -672,6 +707,7 @@
     margin-bottom: 30%;
     justify-content: center;
   }
+
   #HOME-BTTN {
     width: 60vw;
     margin-left: 22vw;
@@ -689,10 +725,12 @@
     border: solid rgb(255, 236, 220) 3px;
     color: black;
   }
+
   button:hover {
     background-color: black;
     color: rgb(203, 160, 154);
   }
+
   .home-link {
     position: absolute;
     display: flex;
@@ -705,9 +743,11 @@
   .fa-2x {
     padding-left: 10px;
   }
+
   .fa-2x:hover {
     color: white;
   }
+
   #plane {
     margin-left: 44%;
   }
@@ -808,6 +848,7 @@
     font-size: 25px;
     text-align: center;
   }
+
   #contact {
     height: 75vh;
   }
@@ -823,6 +864,7 @@
     font-size: 20px;
     height: 50%;
   }
+
   #formButton {
     padding: 2%;
     width: 40%;
@@ -839,6 +881,7 @@
     width: 100%;
     justify-content: space-evenly;
   }
+
   #skill-icon {
     margin-top: 0;
     margin-left: 0;
@@ -874,12 +917,15 @@
     bottom: 10%;
     left: 55%;
   }
+
   .fa-2x {
     padding: 10px;
   }
+
   .fa-2x:hover {
     color: white;
   }
+
   .fa-3x {
     display: none;
   }
@@ -931,11 +977,13 @@
     border-radius: 10px;
     gap: 10px;
   }
+
   #me {
     position: relative;
     margin-left: 32vw;
     z-index: 999;
   }
+
   .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;
@@ -946,6 +994,7 @@
     gap: 20px;
     justify-content: center;
   }
+
   .about-me {
     background-color: rgb(225, 216, 217);
     grid-row-start: 1;
@@ -967,22 +1016,28 @@
   #pic1 {
     display: none;
   }
+
   #pic1-img {
     display: none;
     margin-top: 0;
   }
+
   #pic1-words {
     display: none;
   }
+
   #pic2 {
     display: none;
   }
+
   #pic2-img {
     display: none;
   }
+
   #pic2-words {
     display: none;
   }
+
   #quote-words {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -999,6 +1054,7 @@
     font-family: "Cinzel", serif;
     font-weight: 600;
   }
+
   img {
     display: flex;
     height: 65%;
@@ -1008,11 +1064,13 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     border-radius: 5%;
   }
+
   h5 {
     padding-left: 42%;
     font-weight: 600;
     font-size: 2vh;
   }
+
   h6 {
     padding-left: 30%;
     font-weight: 600;
@@ -1030,6 +1088,7 @@
     float: left;
     font-weight: bold;
   }
+
   .favorite-books-movies {
     grid-row-start: 2;
     grid-row-end: 3;
@@ -1046,6 +1105,7 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-family: "Poppins", sans-serif;
   }
+
   .hobbies {
     grid-row-start: 3;
     grid-row-end: 4;
