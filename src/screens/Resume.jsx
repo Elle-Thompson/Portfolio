@@ -1,4 +1,5 @@
 import React from 'react';
+import DivLeft from '../components/DivLeft';
 import Footer from "../components/footer";
 
 const Resume = () => {
@@ -7,10 +8,7 @@ const Resume = () => {
 
   return (
     <div className="wrapper">
-      <div className="div-left">
-        <h3> Elle Thompson | Full-Stack Developer </h3>
-        <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
-      </div>
+      <DivLeft />
 
       <div id="resume" className="div-right">
         {" "}

@@ -1,13 +1,11 @@
 import React from 'react';
+import DivLeft from '../components/DivLeft';
 import Footer from "../components/footer";
 
 const AboutMe = () => {
   return (
     <div className="wrapper">
-      <div className="div-left">
-        <h3> Elle Thompson | Full-Stack Developer </h3>
-        <img id="me" src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
-      </div>
+      <DivLeft />
       <div id="about-me" className="div-right">
         <h2 id="heading">About Me</h2>
 

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import DivLeft from '../components/DivLeft';
 import Footer from "../components/footer";
 
 const Contact = () => {
@@ -30,10 +31,7 @@ const Contact = () => {
 
   return (
     <div className="wrapper">
-      <div className="div-left">
-        <h3> Elle Thompson | Full-Stack Developer </h3>
-        <img src="https://i.ibb.co/kM3Fb41/It-me.jpg" alt="It-me" />
-      </div>
+      <DivLeft />
 
       <div id="contact" className="div-right">
         <h2 id="heading">Contact Me</h2>
