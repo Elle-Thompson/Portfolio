@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import DivLeft from '../components/DivLeft';
-import Footer from "../components/footer";
+import DivLeft from '../../components/DivLeft';
+import Footer from "../../components/footer";
 
 const Contact = () => {
   const [name, setName] = useState("");
