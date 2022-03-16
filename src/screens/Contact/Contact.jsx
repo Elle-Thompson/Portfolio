@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import DivLeft from '../components/DivLeft';
-import Footer from "../components/footer";
+import './Contact.css'
+import DivLeft from '../../components/DivLeft';
+import Footer from "../../components/footer";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -30,7 +31,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="wrapper">
+    <div className="wrapper contact-page">
       <DivLeft />
 
       <div id="contact" className="div-right">

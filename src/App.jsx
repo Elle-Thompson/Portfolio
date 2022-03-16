@@ -6,7 +6,7 @@ import AboutMe from './screens/AboutMe';
 import Skills from './screens/Skills';
 import Resume from './screens/Resume';
 import Home from './screens/Home';
-import Contact from './screens/Contact';
+import Contact from './screens/Contact/Contact';
 
 function App () {
   return (
