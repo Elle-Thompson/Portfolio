@@ -140,14 +140,6 @@
     font-size: 25px;
   }
 
-  .fa-3x {
-    padding: 20px;
-  }
-
-  .fa-3x:hover {
-    color: white;
-  }
-
   .fa-2x {
     display: none;
   }
@@ -252,11 +244,6 @@
     height: 50%;
   }
 
-  #formButton {
-    padding: 2%;
-    width: 30%;
-  }
-
   #skills {
     height: 100vh;
   }
@@ -285,68 +272,7 @@
     border-bottom: 1px solid;
   }
 
-  .contact-links {
-    position: absolute;
-    bottom: 10%;
-    left: 55%;
-  }
-
-  .fa-3x {
-    padding: 10px;
-  }
-
-  .fa-3x:hover {
-    color: white;
-  }
-
-  .name-input {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    height: 35px;
-    padding: 2%;
-    font-size: 15px;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  .email-input {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    padding: 2%;
-    font-size: 15px;
-    height: 35px;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  .message-input {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 2%;
-    font-size: 15px;
-    height: 100px;
-    resize: none;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  #contactForm {
-    position: absolute;
-    top: 20%;
-    left: 55%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 1.7fr;
-    height: 30%;
-    width: 40%;
-    font-size: 25px;
-    padding: 20px;
-    border-radius: 10px;
-    gap: 10px;
-  }
+ 
 
   .about-me-wrapper {
     display: grid;
@@ -849,9 +775,7 @@
     text-align: center;
   }
 
-  #contact {
-    height: 75vh;
-  }
+  
 
   iframe {
     height: 60%;
@@ -865,16 +789,9 @@
     height: 50%;
   }
 
-  #formButton {
-    padding: 2%;
-    width: 40%;
-  }
-
   #skills-icons {
     position: absolute;
     margin-top: 25%;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, 250px); */
     display: flex;
     flex-wrap: wrap;
     gap: 2%;
@@ -912,12 +829,6 @@
     justify-content: center;
   }
 
-  .contact-links {
-    position: absolute;
-    bottom: 10%;
-    left: 55%;
-  }
-
   .fa-2x {
     padding: 10px;
   }
@@ -926,57 +837,7 @@
     color: white;
   }
 
-  .fa-3x {
-    display: none;
-  }
-
-  .name-input {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    height: 35px;
-    padding: 2%;
-    font-size: 15px;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  .email-input {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    padding: 2%;
-    font-size: 15px;
-    height: 35px;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  .message-input {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    padding: 2%;
-    font-size: 15px;
-    height: 100px;
-    resize: none;
-    border: solid rgb(255, 236, 220) 5px;
-  }
-
-  #contactForm {
-    position: absolute;
-    top: 50%;
-    left: 1%;
-    display: grid;
-    grid-template-rows: 0.3fr 0.03fr 1.7fr;
-    height: 30%;
-    width: 20%;
-    font-size: 25px;
-    /* padding: 20px; */
-    border-radius: 10px;
-    gap: 10px;
-  }
+  
 
   #me {
     position: relative;

@@ -1,3 +1,136 @@
-.contact-page .name-input {
-    color: green;
+@media only screen and (min-width: 900px) {
+  .contact-page .name-input {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 35px;
+    padding: 2%;
+    font-size: 15px;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page .email-input {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 2%;
+    font-size: 15px;
+    height: 35px;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page .message-input {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 2%;
+    font-size: 15px;
+    height: 100px;
+    resize: none;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page #formButton {
+    padding: 2%;
+    width: 30%;
+  }
+
+  .contact-page .contact-links {
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+  }
+
+  .contact-page .fa-3x {
+    padding: 10px;
+  }
+
+  .contact-page .fa-3x:hover {
+    color: white;
+  }
+
+  .contact-page #contactForm {
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr;
+    height: 30%;
+    width: 40%;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .contact-page .name-input {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 35px;
+    padding: 2%;
+    font-size: 15px;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page .email-input {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 2%;
+    font-size: 15px;
+    height: 35px;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page .message-input {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 2%;
+    font-size: 15px;
+    height: 100px;
+    resize: none;
+    border: solid rgb(255, 236, 220) 5px;
+  }
+
+  .contact-page #formButton {
+    padding: 2%;
+    width: 40%;
+  }
+
+  .contact-page .contact-links {
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+  }
+
+  .contact-page .fa-3x {
+    display: none;
+  }
+  .contact-page #contactForm {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    display: grid;
+    grid-template-rows: 0.3fr 0.03fr 1.7fr;
+    height: 30%;
+    width: 20%;
+    font-size: 25px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+
+  .contact-page #contact {
+    height: 75vh;
+  }
 }
