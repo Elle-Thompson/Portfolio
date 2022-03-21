@@ -4,7 +4,7 @@ import Footer from "../components/footer";
 
 const Projects = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper projects-page">
      <DivLeft />
 
       <div id="projects" className="div-right">

@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Projects from './screens/Projects';
-import AboutMe from './screens/AboutMe';
+import AboutMe from './screens/AboutMe/AboutMe';
 import Skills from './screens/Skills';
 import Resume from './screens/Resume';
 import Home from './screens/Home';

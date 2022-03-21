@@ -480,6 +480,10 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-family: "Poppins", sans-serif;
   }
+
+  .fa-2x:hover {
+    color: white;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -670,7 +674,7 @@
     padding-left: 10px;
   }
 
-  .fa-2x:hover {
+  .fa-3x:hover {
     color: white;
   }
 
@@ -831,10 +835,6 @@
 
   .fa-2x {
     padding: 10px;
-  }
-
-  .fa-2x:hover {
-    color: white;
   }
 
   
