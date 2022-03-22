@@ -272,10 +272,6 @@
     border-bottom: 1px solid;
   }
 
-  
-
-  
-
   #pic2 {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -360,8 +356,6 @@
     font-weight: 600;
     font-size: 2vh;
   }
-
-  
 
   .favorite-books-movies {
     grid-column-start: 1;
@@ -757,11 +751,6 @@
     z-index: 999;
   }
 
-  #pic1-img {
-    display: none;
-    margin-top: 0;
-  }
-
  
 
   #pic2 {
@@ -814,8 +803,6 @@
     font-weight: 600;
     font-size: 2vh;
   }
-
-  
 
   .favorite-books-movies {
     grid-row-start: 2;
