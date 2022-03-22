@@ -272,19 +272,6 @@
     border-bottom: 1px solid;
   }
 
- 
-
-  .about-me-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 80vh;
-    width: 48vw;
-    overflow: auto;
-    margin-top: 15%;
-    margin-left: 3%;
-    gap: 40px;
-  }
 
   .about-me {
     background-color: rgb(225, 216, 217);
@@ -843,17 +830,6 @@
     position: relative;
     margin-left: 32vw;
     z-index: 999;
-  }
-
-  .about-me-wrapper {
-    background: rgb(244, 213, 211);
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 180vh;
-    width: 100vw;
-    margin-top: 20%;
-    gap: 20px;
-    justify-content: center;
   }
 
   .about-me {
