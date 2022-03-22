@@ -274,13 +274,7 @@
 
   
 
-  #pic1-img {
-    height: 100%;
-    width: 90%;
-    margin-left: 10px;
-    display: block;
-    margin-top: 0;
-  }
+  
 
   #pic2 {
     grid-column-start: 2;
