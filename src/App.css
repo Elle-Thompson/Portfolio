@@ -400,10 +400,7 @@
     font-size: 2vh;
   }
 
-  .name {
-    font-size: 2vh;
-    font-weight: 550;
-  }
+  
 
   .favorite-books-movies {
     grid-column-start: 1;
