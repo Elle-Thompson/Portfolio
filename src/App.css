@@ -272,13 +272,7 @@
     border-bottom: 1px solid;
   }
 
-  #pic2-img {
-    height: 100%;
-    width: 90%;
-    margin-left: 0;
-    display: block;
-    margin-top: 0;
-  }
+  
 
   #pic2-words {
     grid-column-start: 1;
