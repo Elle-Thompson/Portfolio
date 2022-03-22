@@ -405,12 +405,7 @@
     font-weight: 550;
   }
 
-  .secret {
-    line-height: 0.5;
-    font-size: 4vh;
-    float: left;
-    font-weight: bold;
-  }
+ 
 
   .favorite-books-movies {
     grid-column-start: 1;
