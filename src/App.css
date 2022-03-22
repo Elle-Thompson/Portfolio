@@ -272,8 +272,6 @@
     border-bottom: 1px solid;
   }
 
-  
-
   img {
     display: flex;
     height: 40%;
@@ -313,22 +311,7 @@
     font-family: "Poppins", sans-serif;
   }
 
-  .hobbies {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    height: 100%;
-    width: 90%;
-    padding-left: 4%;
-    display: block;
-    margin-top: 1%;
-    background-color: white;
-    border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
-  }
+  
 
   .fa-2x:hover {
     color: white;
@@ -689,8 +672,6 @@
     margin-left: 32vw;
     z-index: 999;
   }
-
-  
 
   img {
     display: flex;
