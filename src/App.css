@@ -272,8 +272,6 @@
     border-bottom: 1px solid;
   }
 
-  
-
   #pic2-img {
     height: 100%;
     width: 90%;
@@ -740,12 +738,6 @@
     position: relative;
     margin-left: 32vw;
     z-index: 999;
-  }
-
- 
-
-  #pic2 {
-    display: none;
   }
 
   #pic2-img {
