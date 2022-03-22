@@ -786,10 +786,6 @@
     z-index: 999;
   }
 
-  #pic1 {
-    display: none;
-  }
-
   #pic1-img {
     display: none;
     margin-top: 0;
