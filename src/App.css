@@ -282,29 +282,6 @@
     margin-top: 0;
   }
 
-  #pic1-words {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    height: 98%;
-    width: 90%;
-    font-family: "Poppins", sans-serif;
-    display: block;
-    margin-bottom: 1%;
-    background-color: rgb(225, 216, 220);
-    border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-size: 0.9vw;
-    margin-top: 1%;
-    margin-left: 2%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
-  }
-
   #pic2 {
     grid-column-start: 2;
     grid-column-end: 3;
