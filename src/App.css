@@ -272,8 +272,6 @@
     border-bottom: 1px solid;
   }
 
-  
-
   #pic2-words {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -732,10 +730,6 @@
     position: relative;
     margin-left: 32vw;
     z-index: 999;
-  }
-
-  #pic2-img {
-    display: none;
   }
 
   #pic2-words {
