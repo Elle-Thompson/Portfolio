@@ -248,14 +248,7 @@
     height: 100vh;
   }
 
-  #skills-icons {
-    position: absolute;
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    width: 49%;
-    justify-content: space-evenly;
-  }
+  
 
   #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);
