@@ -272,30 +272,7 @@
     border-bottom: 1px solid;
   }
 
-  #pic2-words {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 100%;
-    width: 90%;
-    display: block;
-    margin-top: 1%;
-    background-color: rgb(225, 216, 217);
-    border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    height: 90%;
-    width: 90%;
-    font-size: 0.9vw;
-    margin-top: 1%;
-    margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
-  }
+
 
   #quote-words {
     grid-column-start: 1;
