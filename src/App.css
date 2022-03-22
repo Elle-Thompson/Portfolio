@@ -272,17 +272,7 @@
     border-bottom: 1px solid;
   }
 
-  #pic1 {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
-
-    margin-left: 1%;
-    display: block;
-    margin-top: 0;
-  }
+  
 
   #pic1-img {
     height: 100%;
