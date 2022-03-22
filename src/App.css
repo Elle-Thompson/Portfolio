@@ -282,10 +282,6 @@
     border-radius: 5%;
   }
 
- 
-
-  
-
   .fa-2x:hover {
     color: white;
   }
@@ -655,6 +651,4 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     border-radius: 5%;
   }
-
-  
 }
