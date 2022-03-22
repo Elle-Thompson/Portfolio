@@ -272,8 +272,6 @@
     border-bottom: 1px solid;
   }
 
-
-
   #quote-words {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -707,10 +705,6 @@
     position: relative;
     margin-left: 32vw;
     z-index: 999;
-  }
-
-  #pic2-words {
-    display: none;
   }
 
   #quote-words {
