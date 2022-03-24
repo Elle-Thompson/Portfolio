@@ -584,13 +584,7 @@
     height: 10vh;
   }
 
-  #skills-div {
-    filter: drop-shadow(0 0 0.1rem #ffffff);
-    display: flex;
-    align-items: center;
-    float: left;
-    margin-bottom: 3%;
-  }
+  
 
   #skills-text {
     /* text-align: center; */
