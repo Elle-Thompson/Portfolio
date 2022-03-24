@@ -248,12 +248,7 @@
     height: 100vh;
   }
 
-  #skills-div {
-    filter: drop-shadow(0 0 0.1rem #ffffff);
-    display: flex;
-    align-items: center;
-    float: left;
-  }
+  
 
   #skills-text {
     text-align: center;
