@@ -244,9 +244,7 @@
     height: 50%;
   }
 
-  #skills {
-    height: 100vh;
-  }
+  
 
   img {
     display: flex;
@@ -567,10 +565,6 @@
     font-size: 20px;
     height: 50%;
   }
-
-  
-
-  
 
   .links {
     padding-top: 2%;
