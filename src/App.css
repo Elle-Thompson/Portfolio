@@ -301,13 +301,7 @@
     height: 76vh;
   }
 
-  #resume {
-    height: 75vh;
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
+  
 
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
