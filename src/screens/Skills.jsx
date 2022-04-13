@@ -13,8 +13,7 @@ const Skills = () => {
         <h2 id="heading">Skills</h2>
 
         <div >
-          {/* <h4>
-            My current stack includes: </h4> */}
+        
             <div id="skills-icons">
               
                   <div id="skills-div"><img id="skill-icon" alt="" src="https://img.icons8.com/ios-filled/50/000000/html.png"/> <p id="skills-text"> HTML </p>  </div>
