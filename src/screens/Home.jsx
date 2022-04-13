@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="div-left">
-        <h3> Elle Thompson | Full-Stack Developer </h3>
+        <h3> Elle Thompson | Front-End Developer </h3>
         <img
           id="primary-picture"
           src="https://i.ibb.co/kM3Fb41/It-me.jpg"
@@ -17,7 +17,7 @@ const Home = () => {
         <div className="buttons">
           <header>
             <h2>Hey There! I'm Elle. </h2>
-            <span className="span1">Software Developer</span>
+            <span className="span1">Front-End Developer</span>
           </header>
 
           <Link to="/AboutMe">
