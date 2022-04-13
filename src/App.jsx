@@ -3,8 +3,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Projects from './screens/Projects';
 import AboutMe from './screens/AboutMe/AboutMe';
-import Skills from './screens/Skills';
-import Resume from './screens/Resume';
+import Skills from './screens/Skills/Skills';
+import Resume from './screens/Resume/Resume';
 import Home from './screens/Home';
 import Contact from './screens/Contact/Contact';
 
