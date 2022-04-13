@@ -1,0 +1,14 @@
+@media only screen and (min-width: 900px) {
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .resume-page #resume {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
