@@ -26,7 +26,7 @@ const Projects = () => {
             {" "}
             <h4> MeTime</h4>{" "}
             <p>
-              A game inspired by Bop-it and whack-a-mole. Built with react,
+              A game inspired by Bop-it and whack-a-mole. Built with react.js,
               HTML, and javascript, and styled with CSS.
             </p>{" "}
           </div>
