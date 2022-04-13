@@ -1,0 +1,302 @@
+@media only screen and (min-width: 900px) {
+  .AboutMe-page .about-me-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 80vh;
+    width: 48vw;
+    overflow: auto;
+    margin-top: 15%;
+    margin-left: 3%;
+    gap: 40px;
+  }
+  .AboutMe-page .about-me {
+    background-color: rgb(225, 216, 217);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 90%;
+    width: 90%;
+    font-size: 0.9vw;
+    /* font-weight: 900; */
+    margin-top: 1%;
+    margin-left: 2%;
+    border: solid rgb(255, 236, 220) 5px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page .secret {
+    line-height: 0.5;
+    font-size: 4vh;
+    float: left;
+    font-weight: bold;
+  }
+  .AboutMe-page .name {
+    font-size: 2vh;
+    font-weight: 550;
+  }
+  .AboutMe-page #pic1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+
+    margin-left: 1%;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic1-words {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 98%;
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 1%;
+    background-color: rgb(225, 216, 220);
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-size: 0.9vw;
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page #pic1-img {
+    height: 100%;
+    width: 90%;
+    margin-left: 10px;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2-img {
+    height: 100%;
+    width: 90%;
+    margin-left: 0;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2-words {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin-top: 1%;
+    background-color: rgb(225, 216, 217);
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    height: 90%;
+    width: 90%;
+    font-size: 0.9vw;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: solid rgb(255, 236, 220) 5px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page #quote-words {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 85%;
+    width: 90%;
+    padding: 1%;
+    margin-left: 2%;
+    display: block;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+  }
+  .AboutMe-page .hobbies {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    height: 100%;
+    width: 90%;
+    padding-left: 4%;
+    display: block;
+    margin-top: 1%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page .favorite-books-movies {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    height: 100%;
+    width: 90%;
+    padding-left: 4%;
+    display: block;
+    margin-top: 1%;
+    background-color: rgb(225, 216, 217);
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page h5 {
+    padding-left: 42%;
+    font-weight: 600;
+    font-size: 2vh;
+  }
+
+  .AboutMe-page h6 {
+    padding-left: 30%;
+    font-weight: 600;
+    font-size: 2vh;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .AboutMe-page .about-me-wrapper {
+    background: rgb(244, 213, 211);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 180vh;
+    width: 100vw;
+    margin-top: 20%;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .AboutMe-page .about-me {
+    background-color: rgb(225, 216, 217);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: auto;
+    width: 90%;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 2%;
+    border: solid rgb(255, 236, 220) 5px;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page .secret {
+    line-height: 0.5;
+    font-size: 4vh;
+    float: left;
+    font-weight: bold;
+  }
+  .AboutMe-page .name {
+    font-size: 2vh;
+    font-weight: 550;
+  }
+
+  .AboutMe-page #pic1 {
+    display: none;
+  }
+  .AboutMe-page #pic1-words {
+    display: none;
+  }
+  .AboutMe-page #pic1-img {
+    display: none;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2 {
+    display: none;
+  }
+  .AboutMe-page #pic2-img {
+    display: none;
+  }
+  .AboutMe-page #pic2-words {
+    display: none;
+  }
+  .AboutMe-page #quote-words {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 85%;
+    width: 90%;
+    padding: 1%;
+    margin-left: 2%;
+    display: none;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Cinzel", serif;
+    font-weight: 600;
+  }
+  .AboutMe-page .hobbies {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 100%;
+    width: 90%;
+    padding-left: 4%;
+    margin-top: 4%;
+    margin-left: 1.5vw;
+    background-color: rgb(225, 216, 217);
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page .favorite-books-movies {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+    width: 90%;
+    padding-left: 4%;
+    margin-top: 1%;
+    margin-left: 1.5vw;
+    background-color: white;
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    font-family: "Poppins", sans-serif;
+  }
+  .AboutMe-page h5 {
+    padding-left: 42%;
+    font-weight: 600;
+    font-size: 2vh;
+  }
+
+  .AboutMe-page h6 {
+    padding-left: 30%;
+    font-weight: 600;
+    font-size: 2vh;
+  }
+
+}
