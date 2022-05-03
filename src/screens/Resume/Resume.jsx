@@ -6,6 +6,7 @@ import './Resume.css'
 const Resume = () => {
   const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
 
+
   return (
     <div className="wrapper resume-page">
       <DivLeft />
