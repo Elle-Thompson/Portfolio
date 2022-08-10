@@ -9,6 +9,7 @@
     margin-top: 15%;
     margin-left: 3%;
     gap: 40px;
+    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page .about-me {
     background-color: rgb(225, 216, 217);
@@ -28,7 +29,6 @@
     padding-bottom: 1%;
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page .secret {
     line-height: 0.5;
@@ -58,7 +58,6 @@
     grid-row-end: 5;
     height: 98%;
     width: 90%;
-    font-family: "Poppins", sans-serif;
     display: block;
     margin-bottom: 1%;
     background-color: rgb(225, 216, 220);
@@ -71,7 +70,6 @@
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page #pic1-img {
     height: 100%;
@@ -119,7 +117,6 @@
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page #quote-words {
     grid-column-start: 1;
@@ -136,7 +133,6 @@
     background-color: white;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Cinzel", serif;
     font-weight: 600;
   }
   .AboutMe-page .hobbies {
@@ -153,7 +149,6 @@
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page .favorite-books-movies {
     grid-column-start: 1;
@@ -169,7 +164,6 @@
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page h5 {
     padding-left: 42%;
@@ -184,7 +178,7 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 899px) {
   .AboutMe-page .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;
@@ -194,6 +188,7 @@
     margin-top: 20%;
     gap: 20px;
     justify-content: center;
+    font-family: "Poppins", sans-serif;
   }
 
   .AboutMe-page .about-me {
@@ -211,7 +206,6 @@
     padding-bottom: 1%;
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page .secret {
     line-height: 0.5;
@@ -256,7 +250,6 @@
     background-color: white;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Cinzel", serif;
     font-weight: 600;
   }
   .AboutMe-page .hobbies {
@@ -271,7 +264,6 @@
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page .favorite-books-movies {
     grid-row-start: 2;
@@ -285,7 +277,6 @@
     border-radius: 10px;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-family: "Poppins", sans-serif;
   }
   .AboutMe-page h5 {
     padding-left: 42%;
