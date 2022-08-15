@@ -1,22 +1,19 @@
 import React from 'react';
 import './AboutMe.css'
-import DivLeft from '../../components/DivLeft';
 import Footer from "../../components/footer";
 
 const AboutMe = () => {
   return (
-    <div className="wrapper AboutMe-page">
-      <DivLeft />
+    <div className="AboutMe-page">
+  
       <div className="div-right">
-        <h2 id="heading">About Me</h2>
+        {/* <h2 id="heading">About Me</h2> */}
 
         <div className="about-me-wrapper">
           <div className="about-me">
             <p>
               <span className="secret"> H </span>i Friends! My name is
-              <span className="name"> Louis Thompson </span>, but please just
-              call me
-              <span className="name"> Elle</span>. I recently graduated from the
+              Louis, but please just call me Elle. I recently graduated from the
               software engineering immersive at General Assembly, and now I'm
               looking for opportunities to grow as a software developer. I have
               a diverse background in behavioral psychology, aircraft
@@ -33,13 +30,25 @@ const AboutMe = () => {
             </p>
           </div>
 
-          <div id="pic1" >
+          <div id="pic2-words">
+            <p>
+              <span className="secret"> F </span>or as long as I can remember
+              I've wanted to help people for a living. Maybe I would become a
+              police officer? Perhaps a doctor? I was never certain. At the age
+              of 17 I enlisted in the US Air Force as an aircraft mechanic. I
+              was able to gain hands-on experience working with complex systems,
+              both mechanical and electronic. This is when I learned just how
+              much I enjoyed problem solving.
+            </p>
+          </div>
+
+          {/* <div id="pic1" >
             <img
               id="pic1-img"
               src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg"
               alt="IMG-3221"
             />
-          </div>
+          </div> */}
           <div id="pic1-words" >
             <p>
               <span className="secret"> S </span>till eager to change the world,
@@ -56,24 +65,14 @@ const AboutMe = () => {
               with other people and companies who share my vision.
             </p>
           </div>
-          <div className="pic2">
+          {/* <div className="pic2">
             <img
               id="pic2-img"
               src="https://i.ibb.co/JxPCb88/kuwait.jpg"
               alt="kuwait"
             />
-          </div>
-          <div id="pic2-words">
-            <p>
-              <span className="secret"> F </span>or as long as I can remember
-              I've wanted to help people for a living. Maybe I would become a
-              police officer? Perhaps a doctor? I was never certain. At the age
-              of 17 I enlisted in the US Air Force as an aircraft mechanic. I
-              was able to gain hands-on experience working with complex systems,
-              both mechanical and electronic. This is when I learned just how
-              much I enjoyed problem solving.
-            </p>
-          </div>
+          </div> */}
+          
           <div id="quote-words">
             <h5>Favorite Quote</h5>
             <p>

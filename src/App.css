@@ -11,12 +11,7 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .wrapper {
-    height: 100vh;
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+ 
 
   #primary-picture {
     width: 40%;
@@ -293,12 +288,7 @@
     grid-template-rows: 1fr 1fr;
   }
 
-  .wrapper {
-    height: 100vh;
-    width: auto;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
+  
 
   #primary-picture {
     width: 50%;
