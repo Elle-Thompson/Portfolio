@@ -7,14 +7,15 @@ const AboutMe = () => {
     <div className="AboutMe-page">
   
       <div className="div-right">
-        {/* <h2 id="heading">About Me</h2> */}
+        <h2 id="heading">About Me</h2>
+        <Footer />
 
         <div className="about-me-wrapper">
           <div className="about-me">
             <p>
               <span className="secret"> H </span>i Friends! My name is
               Louis, but please just call me Elle. I graduated from the
-              software engineering immersive at General Assembly in December 21', and now I'm
+              software engineering immersive program at General Assembly in December 21', and now I'm
               looking for opportunities to grow as a software developer. I have
               a diverse background in behavioral psychology, aircraft
               maintenance, and customer service. All of these fields have taught
@@ -115,7 +116,7 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-      <Footer />
+     
     </div>
   );
 };

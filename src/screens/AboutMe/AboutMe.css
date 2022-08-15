@@ -1,22 +1,23 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 851px) {
   .AboutMe-page .about-me-wrapper {
-    height: 60%;
+    height: 55%;
     width: 50%;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-left: 27%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     gap: 5%;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    /* justify-content: space-between; */
-    font-size: 1.3vw;
+    font-size: 1.8vw;
   }
+
+  
+
   .AboutMe-page .about-me {
     background-color: rgb(255, 255, 255);
-    /*  */
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -44,7 +45,9 @@
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
+    font-weight: 400;
   }
+  
 
   .AboutMe-page #pic2-words {
     background-color: rgb(255, 255, 255);
@@ -77,6 +80,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    
   }
   .AboutMe-page h5 {
     padding-left: 42%;
@@ -89,9 +93,20 @@
     font-weight: 600;
     font-size: 3vh;
   }
+
+  #footer {
+    background-color: white;
+    border-bottom: solid rgb(255, 236, 220) 2px;
+    height: 9%;
+    width: 100%;
+    top: 0;
+    /* font-size: 100%; */
+    position: fixed;
+    z-index: 100;
+  }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 850px) {
   .AboutMe-page .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;

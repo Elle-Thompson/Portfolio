@@ -47,7 +47,7 @@ const Home = () => {
 
           </div>
         </div>
-        <footer id="footer">
+        <footer >
           <a href="https://www.linkedin.com/in/ellethompson01/">
             <i className="fab fa-linkedin fa-2x" />
           </a>
