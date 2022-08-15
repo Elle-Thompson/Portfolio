@@ -105,6 +105,17 @@
     z-index: 100;
     display: flex;
   }
+  .page-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #page-button{
+    width: 130%;
+    margin-left: 7vw;
+    
+  }
   #HOME-BTTN {
     width: 100%;
     padding: 1vh;
