@@ -15,7 +15,7 @@
   }
   .AboutMe-page .about-me {
     background-color: rgb(255, 255, 255);
-    border: solid rgb(255, 236, 220) 5px;
+    /*  */
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -43,7 +43,6 @@
   .AboutMe-page #pic1-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     padding-left: 1.5%;
     padding-right: 1.5%;
@@ -54,9 +53,8 @@
   .AboutMe-page #pic2-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    border: solid rgb(255, 236, 220) 5px;
+    
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -65,21 +63,22 @@
     padding: 1%;
     border-radius: 10px;
     background-color: white;
-    border: solid rgb(255, 236, 220) 5px;
+    
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     /* font-weight: 600; */
   }
   .AboutMe-page .hobbies {
+    width: 120%;
     background-color: white;
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
+    
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
     padding-left: 4%;
+    width: 120%;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page h5 {
@@ -113,7 +112,7 @@
     font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
+    
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -159,7 +158,7 @@
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;
-    border: solid rgb(255, 236, 220) 5px;
+    
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-weight: 600;
   }
@@ -171,7 +170,7 @@
     margin-left: 1.5vw;
     background-color: rgb(225, 216, 217);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
+    
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
@@ -182,7 +181,7 @@
     margin-left: 1.5vw;
     background-color: white;
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
+    
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page h5 {
