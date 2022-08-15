@@ -1,4 +1,4 @@
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 601px) {
   .AboutMe-page .about-me-wrapper {
     height: 55%;
     width: 50%;
@@ -35,6 +35,9 @@
     font-weight: 550;
   }
 
+  h4 {
+    margin-left: 30%;
+  }
 
   .AboutMe-page #pic1-words {
     background-color: rgb(255, 255, 255);
@@ -114,7 +117,7 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 600px) {
   .AboutMe-page .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;
