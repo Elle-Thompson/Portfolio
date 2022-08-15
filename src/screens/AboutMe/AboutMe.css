@@ -1,10 +1,11 @@
 @media only screen and (min-width: 900px) {
   .AboutMe-page .about-me-wrapper {
-    height: 65vh;
+    height: 60%;
     width: 50%;
     margin-top: 5%;
     margin-left: 27%;
-    gap: 3%;
+    margin-bottom: 10%;
+    gap: 5%;
     font-family: "Poppins", sans-serif;
     display: flex;
     flex-direction: row;
@@ -33,12 +34,8 @@
     font-weight: 550;
   }
 
-
   .AboutMe-page #pic1 {
-
-   
   }
-
 
   .AboutMe-page #pic1-words {
     background-color: rgb(255, 255, 255);
@@ -49,12 +46,11 @@
     padding-bottom: 1%;
   }
 
-
   .AboutMe-page #pic2-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    
+
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -63,15 +59,16 @@
     padding: 1%;
     border-radius: 10px;
     background-color: white;
-    
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     /* font-weight: 600; */
   }
   .AboutMe-page .hobbies {
+    padding-left: 4%;
     width: 120%;
     background-color: white;
     border-radius: 10px;
-    
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
@@ -87,14 +84,14 @@
     font-size: 3vh;
   }
 
-  .AboutMe-page h6 {
-    padding-left: 30%;
+  .AboutMe-page h4 {
+    padding-left: 2%;
     font-weight: 600;
     font-size: 3vh;
   }
 }
 
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 900px) {
   .AboutMe-page .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;
@@ -112,7 +109,7 @@
     font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
-    
+
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -158,7 +155,7 @@
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;
-    
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-weight: 600;
   }
@@ -170,7 +167,7 @@
     margin-left: 1.5vw;
     background-color: rgb(225, 216, 217);
     border-radius: 10px;
-    
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
@@ -181,7 +178,7 @@
     margin-left: 1.5vw;
     background-color: white;
     border-radius: 10px;
-    
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page h5 {
@@ -196,4 +193,13 @@
     font-size: 2vh;
   }
 
+  #footer {
+    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    font-size: 100%;
+    position: fixed;
+    box-sizing: border-box;
+  }
 }

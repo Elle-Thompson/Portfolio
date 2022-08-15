@@ -13,8 +13,8 @@ const AboutMe = () => {
           <div className="about-me">
             <p>
               <span className="secret"> H </span>i Friends! My name is
-              Louis, but please just call me Elle. I recently graduated from the
-              software engineering immersive at General Assembly, and now I'm
+              Louis, but please just call me Elle. I graduated from the
+              software engineering immersive at General Assembly in December 21', and now I'm
               looking for opportunities to grow as a software developer. I have
               a diverse background in behavioral psychology, aircraft
               maintenance, and customer service. All of these fields have taught
@@ -74,7 +74,7 @@ const AboutMe = () => {
           </div> */}
           
           <div id="quote-words">
-            <h5>Favorite Quote</h5>
+            <h4>Favorite Quote</h4>
             <p>
               “Listen to the mustn'ts, child. Listen to the don'ts. Listen to
               the shouldn'ts, the impossibles, the won'ts. Listen to the never
@@ -84,7 +84,7 @@ const AboutMe = () => {
           </div>
 
           <div className="hobbies">
-            <h6>Favorite Hobbies</h6>
+            <h4>Favorite Hobbies</h4>
             <p>
               I love to try new things. These are a few of my current favorite
               hobbies:
@@ -101,7 +101,7 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="favorite-books-movies">
-            <h6>Favorite Books</h6>
+            <h4>Favorite Books</h4>
             <p>
               I love to read anything mystery, sci-fi, fantasy, or psychology
               related.
