@@ -1,29 +1,28 @@
-import React from 'react';
-import './AboutMe.css'
+import React from "react";
+import "./AboutMe.css";
 import Footer from "../../components/footer";
+import Banner from "../../components/Banner";
 
 const AboutMe = () => {
   return (
     <div className="AboutMe-page">
-  
       <div className="div-right">
         <h2 id="heading">About Me</h2>
         <Footer />
-
+        <Banner />
         <div className="about-me-wrapper">
           <div className="about-me">
             <p>
-              <span className="secret"> H </span>i Friends! My name is
-              Louis, but please just call me Elle. I graduated from the
-              software engineering immersive program at General Assembly in December 21', and now I'm
-              looking for opportunities to grow as a software developer. I have
-              a diverse background in behavioral psychology, aircraft
-              maintenance, and customer service. All of these fields have taught
-              me valuable skills that I'm now able to use as a developer. For
-              example, my degree in psychology led me to work with early
-              learners who happened to be on the autism spectrum. This taught me
-              patience and how to communicate with a diverse group of
-              individuals. My passion for helping people remains at the
+              <span className="secret"> H </span>i Friends! My name is Elle ( like the letter). I graduated from the software
+              engineering immersive program at General Assembly in December 21',
+              and now I'm looking for opportunities to grow as a software
+              developer. I have a diverse background in behavioral psychology,
+              aircraft maintenance, and customer service. All of these fields
+              have taught me valuable skills that I'm now able to use as a
+              developer. For example, my degree in psychology led me to work
+              with early learners who happened to be on the autism spectrum.
+              This taught me patience and how to communicate with a diverse
+              group of individuals. My passion for helping people remains at the
               forefront of my mind as I begin my search for developer
               opportunities. I am a hands-on learner with an eye for detail. I
               hope to find new ways to utilize these skills in a manner that
@@ -43,14 +42,7 @@ const AboutMe = () => {
             </p>
           </div>
 
-          {/* <div id="pic1" >
-            <img
-              id="pic1-img"
-              src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg"
-              alt="IMG-3221"
-            />
-          </div> */}
-          <div id="pic1-words" >
+          <div id="pic1-words">
             <p>
               <span className="secret"> S </span>till eager to change the world,
               I began studying to become a social worker. I spent my time
@@ -66,14 +58,7 @@ const AboutMe = () => {
               with other people and companies who share my vision.
             </p>
           </div>
-          {/* <div className="pic2">
-            <img
-              id="pic2-img"
-              src="https://i.ibb.co/JxPCb88/kuwait.jpg"
-              alt="kuwait"
-            />
-          </div> */}
-          
+
           <div id="quote-words">
             <h4>Favorite Quote</h4>
             <p>
@@ -116,7 +101,6 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-     
     </div>
   );
 };
