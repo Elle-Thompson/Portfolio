@@ -10,7 +10,13 @@ const AboutMe = () => {
         <h2 id="heading">About Me</h2>
         <Footer />
         <Banner />
+        
+        <img  id="pic1-img" src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
+        
         <div className="about-me-wrapper">
+
+
+        
           <div className="about-me">
             <p>
               <span className="secret"> H </span>i Friends! My name is Elle ( like the letter). I graduated from the software
@@ -29,6 +35,14 @@ const AboutMe = () => {
               will help those who cannot help themselves.
             </p>
           </div>
+
+          {/* <img
+              id="pic1-img"
+              src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg"
+              alt="IMG-3221"
+            />  */}
+
+      
 
           <div id="pic2-words">
             <p>

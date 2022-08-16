@@ -1,6 +1,7 @@
 import React from 'react';
-import DivLeft from '../components/DivLeft';
-import Footer from "../components/footer";
+import DivLeft from '../../components/DivLeft';
+import Footer from "../../components/footer";
+import './Projects.css'
 
 const Projects = () => {
   return (

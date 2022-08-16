@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Projects from './screens/Projects';
+import Projects from './screens/Projects/Projects';
 import AboutMe from './screens/AboutMe/AboutMe';
 import Skills from './screens/Skills/Skills';
 import Resume from './screens/Resume/Resume';

@@ -238,7 +238,7 @@
     height: 50%;
   }
 
-  img {
+  .personal-photo {
     display: flex;
     height: 40%;
     margin-top: 23%;
