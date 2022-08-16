@@ -75,12 +75,12 @@ const AboutMe = () => {
               I love to try new things. These are a few of my current favorite
               hobbies:
             </p>
-            <ul>
+            <ol className="aboutMe-list">
               <li>Pottery</li>
               <li>Video games (MMORPG's especially)</li>
               <li>Reading (See book list)</li>
               <li>Painting/drawing</li>
-            </ul>
+            </ol>
             <p>
               I'm currently hoping to try skydiving and horseback riding this
               year.
@@ -91,12 +91,12 @@ const AboutMe = () => {
             <p>
               I love to read anything mystery, sci-fi, fantasy, or psychology
               related.
-              <ul>
+              <ol className="aboutMe-list">
                 <li>The Davinci Code by Dan Brown</li>
                 <li>The Eragon series by Christoper Paolini</li>
                 <li>Emotional Intelligence by Daniel Goleman</li>
                 <li>One, None, and A Hundred-Thousand by Luigi Pirandello</li>
-              </ul>
+              </ol>
             </p>
           </div>
         </div>

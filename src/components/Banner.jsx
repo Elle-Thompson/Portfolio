@@ -3,28 +3,36 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
+      <div>
     <div id="banner">
-      <div className="home-link">
-        <Link to="/">
-          <button id="HOME-BTTN">HOME</button>
-        </Link>
 
-        <div className="page-links">
-          <Link to="/Projects">
-            <button id="page-button"> Projects </button>
-          </Link>
-          <Link to="/Skills">
-            <button id="page-button">Skills</button>
-          </Link>
-          <Link to="/Resume">
-            <button id="page-button">Resume</button>
-          </Link>
-          <Link to="/Contact">
-            <button id="page-button">Contact Me</button>
-          </Link>
-        </div>
+        <ul id="link-list">
+    
+        <li >  <Link to="/">
+          Home
+        </Link></li>
+
+        <li><Link to="/Projects">
+           Projects 
+        </Link></li>
+
+        <li><Link to="/Skills">
+          Skills
+        </Link></li>
+
+        <li> <Link to="/Resume">
+          Resume
+        </Link></li>
+
+       <li> <Link to="/Contact">
+          Contact Me
+        </Link>
+        </li>
+        
+        </ul>
       </div>
-    </div>
+      </div>
+   
   );
 };
 

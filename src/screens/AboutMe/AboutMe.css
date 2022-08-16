@@ -11,10 +11,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    font-size: 1.8vw;
+    font-size: 16px;
   }
-
-  
 
   .AboutMe-page .about-me {
     background-color: rgb(255, 255, 255);
@@ -35,37 +33,28 @@
     font-weight: 550;
   }
 
-  h4 {
-    margin-left: 30%;
-  }
-
   .AboutMe-page #pic1-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
-    font-weight: 400;
-  }
+    padding: 2%;
   
+  }
 
   .AboutMe-page #pic2-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
 
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
+    padding: 2%;
+    
   }
   .AboutMe-page #quote-words {
-    padding: 1%;
+    padding: 2%;
     border-radius: 10px;
     background-color: white;
 
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    /* font-weight: 600; */
   }
   .AboutMe-page .hobbies {
     padding-left: 4%;
@@ -81,7 +70,6 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    
   }
   .AboutMe-page h5 {
     padding-left: 42%;
@@ -92,35 +80,47 @@
   .AboutMe-page h4 {
     padding-left: 2%;
     font-weight: 600;
-    font-size: 3vh;
+    font-size: 20px;
+    margin-left: 35%;
+    justify-content: center;
   }
 
   #banner {
     background-color: black;
-    height: 9%;
+    height: 7%;
     width: 100%;
     top: 0;
-    /* font-size: 100%; */
     position: fixed;
     z-index: 100;
-    display: flex;
+    text-align: center;
   }
-  .page-links{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  #page-button{
-    width: 130%;
-    margin-left: 7vw;
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    width: 90%;
+    height: 100%;
     
   }
-  #HOME-BTTN {
-    width: 100%;
-    padding: 1vh;
-    margin-top: 1.5vh;
-    margin-left: 3vw;
+  ul li {
+    display: inline;
+    padding-left: 3%;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  ul li a {
+    color: white;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+  }
+
+  ul li a:hover {
+    color: pink;
+    
+    
   }
 
   #footer {
