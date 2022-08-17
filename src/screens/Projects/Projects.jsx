@@ -15,7 +15,7 @@ const Projects = () => {
         </div>
         <div className="project-wrapper">
          
-            <div className="proj-img1">
+            <div className="proj-img proj-img1">
               <a href="https://elle-thompson.github.io/rick-morty-project2/#/">
                 <img
                   id="proj-img"
@@ -25,7 +25,7 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className=" proj-img2">
+            <div className="proj-img proj-img2">
               <a href="https://elle-thompson-metime.netlify.app/">
                 <img
                   id="proj-img"
@@ -35,7 +35,7 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className="proj-img3">
+            <div className="proj-img proj-img3">
               <a href="https://ga-runtime-terror.github.io/toucan/">
                 <img
                   id="proj-img"
@@ -45,7 +45,7 @@ const Projects = () => {
               </a>
             </div>
 
-            <div className="proj-img4"> 
+            <div className="proj-img proj-img4"> 
             <p id="more">  More to come!  </p>
                </div>
 
