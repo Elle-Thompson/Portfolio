@@ -1,17 +1,19 @@
-import React from 'react';
-import DivLeft from '../../components/DivLeft';
+import React from 'react'
 import Footer from "../../components/footer";
 import './Projects.css'
+import Banner from "../../components/Banner-P";
 
 const Projects = () => {
   return (
-    <div className="wrapper projects-page">
-     <DivLeft />
+    <div className="projects-page-wrapper ">
 
-      <div id="projects" className="div-right">
+      <div className="div-right">
         <div id="header">
-          {" "}
-          <h2 id="heading">Projects</h2>{" "}
+          
+          <h2 id="heading">Projects</h2>
+
+          <Banner/>
+          
         </div>
         <div id="project-wrapper">
           <div id="proj1">
@@ -24,16 +26,16 @@ const Projects = () => {
             </a>
           </div>
           <div id="proj1-description">
-            {" "}
-            <h4> MeTime</h4>{" "}
+            
+            <h4> MeTime</h4>
             <p>
               A game inspired by Bop-it and whack-a-mole. Built with react.js,
               HTML, and javascript, and styled with CSS.
-            </p>{" "}
+            </p>
           </div>
 
           <div id="proj2">
-            {" "}
+            
             <a href="https://elle-thompson.github.io/rick-morty-project2/#/">
               <img
                 id="proj-img"
@@ -44,23 +46,23 @@ const Projects = () => {
           </div>
 
           <div id="proj2-description">
-            {" "}
+            
             <h4> Rick and Morty</h4>
             <p>
-              {" "}
+              
               Search engine using Rick and Morty API. Built with react, HTML,
               and javascript, and styled with CSS.
-            </p>{" "}
+            </p>
           </div>
 
           <div id="proj3">
             <a href="https://ga-runtime-terror.github.io/toucan/">
-              {" "}
+              
               <img
                 id="proj-img"
                 src="https://i.ibb.co/Th5Qtyk/Screen-Shot-2021-12-27-at-7-20-53-PM.png"
                 alt="project3"
-              />{" "}
+              />
             </a>
           </div>
 

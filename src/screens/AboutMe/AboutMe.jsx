@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import Footer from "../../components/footer";
-import Banner from "../../components/Banner";
+import Banner from "../../components/Banner-A";
 
 const AboutMe = () => {
   return (
@@ -36,11 +36,6 @@ const AboutMe = () => {
             </p>
           </div>
 
-          {/* <img
-              id="pic1-img"
-              src="https://i.ibb.co/qgvdjvF/IMG-3221.jpg"
-              alt="IMG-3221"
-            />  */}
 
       
 

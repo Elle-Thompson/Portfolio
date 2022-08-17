@@ -1,3 +1,21 @@
+@media only screen and (min-width: 851px) {
+  .projects-wrapper {
+    height: 55%;
+    width: 50%;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    gap: 5%;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-size: 16px;
+  }
+
+
+
 #proj-img {
     display: flex;
     height: 40%;
@@ -7,3 +25,5 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     border-radius: 5%;
   }
+
+}
