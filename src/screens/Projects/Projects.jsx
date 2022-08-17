@@ -23,6 +23,13 @@ const Projects = () => {
                   alt="project1"
                 />
               </a>
+
+              <h4 className="proj1-des1"> Rick and Morty</h4>
+              <p className="proj1-des2">
+                Search engine using Rick and Morty API. Built with react, HTML,
+                and javascript, and styled with CSS.
+              </p>
+
             </div>
 
             <div className="proj-img proj-img2">
@@ -33,6 +40,12 @@ const Projects = () => {
                   alt="project2"
                 />
               </a>
+
+              <h4 className="proj2-des1"> MeTime</h4>
+              <p className="proj2-des2">
+                A game inspired by Bop-it and whack-a-mole. Built with react.js,
+                HTML, and javascript, and styled with CSS.
+              </p>
             </div>
 
             <div className="proj-img proj-img3">
@@ -43,38 +56,32 @@ const Projects = () => {
                   alt="project3"
                 />
               </a>
+
+              <h4 className="proj3-des1">To-do list</h4>
+              <p className="proj3-des2">
+                User auth. Front-end built with react, HTML, and javascript, and
+                styled with CSS. Back-end built with node.js, mongo, and
+                express. Also uses a quote api.
+              </p>
             </div>
 
             <div className="proj-img proj-img4"> 
             <p id="more">  More to come!  </p>
                </div>
 
-            <div className="proj1-des">
-              <h4> Rick and Morty</h4>
-              <p>
-                Search engine using Rick and Morty API. Built with react, HTML,
-                and javascript, and styled with CSS.
-              </p>
+            <div >
+             
             </div>
 
             <div className="proj2"></div>
             <div className="proj2-description">
-              <h4> MeTime</h4>
-              <p>
-                A game inspired by Bop-it and whack-a-mole. Built with react.js,
-                HTML, and javascript, and styled with CSS.
-              </p>
+              
             </div>
 
             <div className="proj3"></div>
 
             <div className="proj3-description">
-              <h4>To-do list</h4>
-              <p>
-                User auth. Front-end built with react, HTML, and javascript, and
-                styled with CSS. Back-end built with node.js, mongo, and
-                express. Also uses a quote api.
-              </p>
+              
             </div>
           </div>
         </div>

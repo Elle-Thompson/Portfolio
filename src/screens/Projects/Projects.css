@@ -1,7 +1,7 @@
 @media only screen and (min-width: 851px) {
   .projects-page-wrapper .projects-wrapper {
     height: 80vh;
-    width: 80vw; 
+    width: 80vw;
     margin-top: 7%;
     margin-left: 30%;
   }
@@ -10,9 +10,8 @@
     display: grid;
     grid-template-rows: (2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: 15%;
-    margin-bottom: 15%;
     width: 70vw;
     height: 70vh;
     position: absolute;
@@ -21,29 +20,217 @@
   #proj-img {
     height: 100%;
     width: 100%;
-    margin: 1%;
+    /* margin: 1%; */
   }
 
   .proj-img {
-    margin: 3%;
+    margin: 0.8%;
+    display: flex;
+    width: 89%;
+    height: 89.2%;
+    border-radius: 5%;
+    position: relative;
   }
 
   .proj-img1 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 1;
+    position: relative;
+  }
+
+  .proj-img1:hover .proj1-des1 {
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    font-size: 30px;
+  }
+
+  .proj1-des1 {
+    position: absolute;
+
+    top: 0;
+    bottom: 50%;
+    left: 3%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    font-size: 20px;
+    text-align: center;
+  }
+  .proj1-des2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+
+  .proj-img1:hover .proj1-des2 {
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    font-size: 16px;
   }
 
   .proj-img2 {
     grid-column-start: 3;
     grid-column-end: 5;
     grid-row: 1;
+    position: relative;
+  }
+
+  .proj-img2:hover .proj2-des1 {
+    visibility: visible;
+    opacity: 1;
+
+    background-color: transparent;
+    color: black;
+  }
+
+  .proj2-des1 {
+    position: absolute;
+
+    top: 0;
+    bottom: 50%;
+    left: 3%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .proj2-des2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    left: 3%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .proj-img2:hover .proj2-des2 {
+    visibility: visible;
+    opacity: 1;
+
+    background-color: transparent;
+    color: black;
   }
 
   .proj-img3 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 2;
+    position: relative;
+    background-color: #fff;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+
+  .proj3-img3 #proj-img {
+    opacity: 1;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+
+  .proj-img3:hover {
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+  }
+
+  img:hover,
+  proj3-img3:hover #proj-img {
+    opacity: 0.5;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  }
+
+  .proj-img3:hover .proj3-des1 {
+    visibility: visible;
+    opacity: 1;
+
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+  }
+
+  .proj3-des1 {
+    position: absolute;
+
+    top: 0;
+    bottom: 50%;
+    left: 3%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    text-align: center;
+  }
+  .proj3-des2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 5%;
+    left: 3%;
+    right: 0;
+    background-color: transparent;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+    border-radius: 5%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .proj-img3:hover .proj3-des2 {
+    visibility: visible;
+    opacity: 1;
+    font-size: 16px;
+    background-color: transparent;
+    color: black;
   }
 
   .proj-img4 {
@@ -56,27 +243,13 @@
   }
 
   #more {
-    visibility: visible;
+    display: none;
     vertical-align: text-top;
   }
 
-  /* .proj1-des {
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.8s;
-  font-size: 2rem;
-  color: white;
-} */
-
-  .proj-img1:hover {
-    box-shadow: 0 0 0 1200px rgba(238, 4, 4, 0.9) inset;
-  }
-
-  .project-wrapper p {
-    display: none;
-  }
-
-  .project-wrapper h4 {
-    display: none
+  img {
+    border: solid rgb(255, 236, 220) 5px;
+    border-radius: 5%;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
 }
