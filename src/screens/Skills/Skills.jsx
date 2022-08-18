@@ -1,15 +1,18 @@
 import React from "react";
-import DivLeft from "../../components/DivLeft";
 import Footer from "../../components/footer";
 import "./Skills.css";
+import Banner from "../../components/Banner-S";
 
 const Skills = () => {
   return (
-    <div className="wrapper skills-page">
-      <DivLeft />
+    <div className="skills-page">
+    
 
       <div className="div-right">
         <h2 id="heading">Skills</h2>
+
+<Banner/>
+<Footer/>
 
         <div>
           <div id="skills-icons">
