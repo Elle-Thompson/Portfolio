@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/footer";
 import "./Projects.css";
-import Banner from "../../components/Banner-P";
+import NavBar from "../../components/NavBar";
 
 const Projects = () => {
   return (
@@ -10,7 +10,7 @@ const Projects = () => {
         <div id="header">
           <h2 id="heading">Projects</h2>
 
-          <Banner />
+          <NavBar />
           <Footer />
         </div>
         <div className="project-wrapper">

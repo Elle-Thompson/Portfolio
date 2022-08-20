@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/footer";
 import "./Skills.css";
-import Banner from "../../components/Banner-S";
+import NavBar from "../../components/NavBar";
 
 const Skills = () => {
   return (
@@ -11,7 +11,7 @@ const Skills = () => {
       <div className="div-right">
         <h2 id="heading">Skills</h2>
 
-<Banner/>
+<NavBar/>
 <Footer/>
 
         <div>

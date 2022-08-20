@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import Footer from "../../components/footer";
-import Banner from "../../components/Banner-A";
+import NavBar from "../../components/NavBar";
 
 const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <div className="div-right">
         <h2 id="heading">About Me</h2>
         <Footer />
-        <Banner />
+        <NavBar />
         
         <img  id="pic1-img" src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
         

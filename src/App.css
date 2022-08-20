@@ -4,7 +4,10 @@
     right: 0;
   }
 
-  
+  .current {
+    color: pink;
+    border:1px solid pink;
+  }
 
   .home {
     height: 100vh;
