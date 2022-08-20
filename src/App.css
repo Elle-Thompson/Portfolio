@@ -6,7 +6,7 @@
 
   .current {
     color: pink;
-    border:1px solid pink;
+    border-bottom:2px solid white;
   }
 
   .home {
