@@ -1,4 +1,4 @@
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 901px) {
   .AboutMe-page .about-me-wrapper {
     height: 55%;
     width: 50%;
@@ -80,19 +80,30 @@
 
   #NavBar {
     background-color: black;
-    height: 7%;
+    height: 8%;
     width: 100%;
     top: 0;
     position: fixed;
-    z-index: 100;
     text-align: center;
+    vertical-align: middle;
+    z-index: 100;
   }
+
+  #nav-links {
+    display: inline-block;
+    position: absolute;
+    left: 15%;  
+
+  }
+  
 
   ul {
     list-style: none;
     display: inline-block;
     width: 90%;
     height: 100%;
+    position: absolute;
+    right:5%;
   }
   ul li {
     display: inline;
@@ -131,7 +142,7 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .AboutMe-page .about-me-wrapper {
     background: rgb(244, 213, 211);
     display: grid;

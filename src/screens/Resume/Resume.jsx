@@ -11,16 +11,20 @@ const Resume = () => {
 
 
   return (
-    <div className="wrapper resume-page">
-
-<NavBar/>
-
-
-      <div id="resume" className="div-right">
+    <div className="Resume-page">
+      <div id="Resume" className="div-right">
         <h2 id="heading">Resume</h2>
+<Footer />
+<NavBar/>
+      
+        <div className="Resume-page-wrapper">  
+
+
+
         <iframe title="resume" src={pdf} allow="autoplay" />
       </div>
-      <Footer />
+      </div>
+      
     </div>
   );
 };

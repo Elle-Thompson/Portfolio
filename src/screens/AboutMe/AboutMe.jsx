@@ -19,7 +19,7 @@ const AboutMe = () => {
         
           <div className="about-me">
             <p>
-              <span className="secret"> H </span>i Friends! My name is Elle ( like the letter). I graduated from the software
+              <span className="secret"> H </span>i Friends! My name is Elle ( pronounced like the letter). I graduated from the software
               engineering immersive program at General Assembly in December 21',
               and now I'm looking for opportunities to grow as a software
               developer. I have a diverse background in behavioral psychology,

@@ -22,7 +22,6 @@ const NavBar = () => {
 
 
   return (
-      <div>
     <div id="NavBar">
     <nav>
         <ul id="link-list">
@@ -51,11 +50,12 @@ const NavBar = () => {
           Contact Me
         </Link>
         </li>
-        
         </ul>
-        </nav>
+       </nav>
+
+       
       </div>
-      </div>
+    
    
   );
 };
