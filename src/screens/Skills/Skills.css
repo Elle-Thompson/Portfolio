@@ -3,29 +3,32 @@
     height: 55%;
     width: 70%;
     margin-top: 7%;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-bottom: 5%;
-    gap: 5%;
-    
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-flow: row wrap;
     font-size: 16px;
+    gap: 1%;
 
   }
   .skills-page #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);
     display: flex;
     align-items: center;
+    min-width: 15%;
+    /* border: 2px black solid; */
+  }
+
+  .skills-page #skill-icon {
     float: left;
   }
-  #skills-text {
+  .skills-page #skills-text {
     text-align: center;
-    padding-top: 12%;
-    margin-left: 5%;
     font-size: 25px;
-  
+  padding-left: 4%;
   }
 }
 
