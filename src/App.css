@@ -3,11 +3,10 @@
     position: absolute;
     right: 0;
   }
- 
 
   .current {
     color: pink;
-    border-bottom:2px solid white;
+    border-bottom: 2px solid white;
   }
 
   .home {
@@ -33,6 +32,25 @@
     height: 100vh;
   }
 
+
+  #NavBar {
+    background-color: black;
+    height: 8%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 100;
+  }
+
+  #nav-links {
+    display: inline-block;
+    position: absolute;
+    left: 15%;  
+
+  }
+
   .div-right {
     background: rgb(244, 213, 211);
     color: black;
@@ -41,20 +59,6 @@
     height: 100vh;
 
     overflow: auto;
-  }
-
-  h2 {
-    font-size: 4vw;
-    position: absolute;
-    left: 58%;
-    top: 19%;
-    gap: 1vh;
-  }
-
-  h3 {
-    margin-left: 1vw;
-    margin-top: 2vh;
-    font-size: 25px;
   }
 
   .span1 {
@@ -158,14 +162,13 @@
     font-size: 7vw;
     writing-mode: vertical-rl;
     -webkit-text-stroke: 1px white;
-
+    /* font-size: 4vw; */
+    position: absolute;
   }
 
   header {
     display: inline-flex;
   }
-
- 
 
   iframe {
     height: 80%;
@@ -264,11 +267,11 @@
     margin-left: 3%;
   }
 
-  h3 {
+  /* h3 {
     margin-left: 6vw;
     margin-top: 2vh;
     font-size: 15px;
-  }
+  } */
 
   header {
     display: flex-inline;
