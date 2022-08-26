@@ -39,7 +39,7 @@ const NavBar = () => {
         </Link></a></li>
 
         <li><Link to="/Skills">
-          Skills
+          Tech Stack
         </Link></li>
 
         <li> <Link to="/Resume">

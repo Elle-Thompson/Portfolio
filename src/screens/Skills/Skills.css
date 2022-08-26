@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 901px) {
   .skills-page #skills-icons {
     position: absolute;
     margin-top: 10%;
@@ -22,7 +22,7 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .skills-page #skills-icons {
     position: absolute;
     margin-top: 25%;
