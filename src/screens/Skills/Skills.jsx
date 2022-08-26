@@ -10,12 +10,15 @@ const Skills = () => {
 
       <div className="div-right">
         <h2 id="heading">Tech Stack</h2>
-
-<NavBar/>
 <Footer/>
+<NavBar/>
 
-        <div>
-          <div id="skills-icons">
+
+        <div className="skills-wrapper">
+
+
+         
+
             <div id="skills-div">
               <img
                 id="skill-icon"
@@ -24,6 +27,7 @@ const Skills = () => {
               />
               <p id="skills-text"> HTML </p>
             </div>
+
             <div id="skills-div">
               
               <img
@@ -33,6 +37,7 @@ const Skills = () => {
               />
               <p id="skills-text">React </p>
             </div>
+
             <div id="skills-div">
               
               <img
@@ -125,7 +130,6 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </div>
       <Footer />
     </div>
   );

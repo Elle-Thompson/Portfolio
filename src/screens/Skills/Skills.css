@@ -1,12 +1,18 @@
 @media only screen and (min-width: 901px) {
-  .skills-page #skills-icons {
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 30%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    width: 49%;
-    justify-content: space-evenly;
+  .skills-page .skills-wrapper{
+    height: 55%;
+    width: 70%;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    gap: 5%;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-size: 16px;
+
   }
   .skills-page #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);
@@ -19,6 +25,7 @@
     padding-top: 12%;
     margin-left: 5%;
     font-size: 25px;
+  
   }
 }
 
