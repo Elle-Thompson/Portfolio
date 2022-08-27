@@ -1,5 +1,21 @@
 @media only screen and (min-width: 900px) {
-  .contact-page-wrapper .name-input {
+  
+  .contact-page-wrapper #contactForm {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 1.7fr 1fr;
+    height: 30%;
+    width: 40%;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 10px;
+  }
+
+.contact-page-wrapper .name-input {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -35,39 +51,29 @@
 
   .contact-page-wrapper #formButton {
     padding: 2%;
-    width: 30%;
+    width: 40%;
   }
 
   .contact-page-wrapper .contact-links {
-    position: absolute;
+    /* position: absolute;
     bottom: 0%;
-    left: 65%;
-
-
+    left: 65%; */
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
   }
 
   .contact-page-wrapper .fa-3x {
     padding: 10px;
+    font-size: 2em;
+    float:right;
   }
 
   .contact-page-wrapper .fa-3x:hover {
     color: white;
   }
-
-  .contact-page-wrapper #contactForm {
-    position: absolute;
-    top: 20%;
-    left: 30%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.3fr 1.7fr;
-    height: 30%;
-    width: 40%;
-    font-size: 25px;
-    padding: 20px;
-    border-radius: 10px;
-    gap: 10px;
-  }
+  
 }
 
 @media only screen and (max-width: 850px) {

@@ -67,14 +67,16 @@ const Contact = () => {
           <button onClick={handleSubmit} type="submit" id="formButton">
             Submit
           </button>
-           <a className="contact-links" href="https://www.linkedin.com/in/ellethompson01/">
+          <div className="contact-links">  
+           <a href="https://www.linkedin.com/in/ellethompson01/">
             
             <i className="fab fa-linkedin fa-3x" />
           </a>
 
-          <a className="contact-links" href="https://github.com/Elle-Thompson">
+          <a  href="https://github.com/Elle-Thompson">
             <i className="fab fa-github fa-3x" />
-          </a>
+          </a> 
+          </div>
         </form>
        
          
