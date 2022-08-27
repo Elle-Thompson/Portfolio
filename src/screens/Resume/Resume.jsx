@@ -4,7 +4,7 @@ import "./Resume.css";
 import NavBar from "../../components/NavBar";
 
 const Resume = () => {
-  // const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
+  const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
 
   return (
     <div className="Resume-page">
@@ -33,8 +33,8 @@ const Resume = () => {
             that provide growth and mentorship opportunities
           </p>
 
-          <div>
-            <h2>Technical Skills</h2>
+          <div id="work-xp">
+            <h2 >Technical Skills</h2>
             <ul>
               <li> HTML </li>
               <li> CSS </li>
@@ -47,61 +47,73 @@ const Resume = () => {
             </ul>
           </div>
 
-          <div >
+          <div id="work-xp">
             <h2>Work Experience</h2>
-            <h2>SpaceLab</h2>
-            <div id="job-title">
-              <h2 > Jr. Front-end Developer</h2> <p>06/2022 - Present</p>
+             <h3> Jr. Front-end Developer</h3>
+            <div id="job-title"><h4>SpaceLab</h4>
+              <p>06/2022 - Present</p>
             </div>
-            <ul id="work-xp">
+            <ul >
               <li>
                 
-                - Assisted with the development and creation of startup website
+                Assisted with the development and creation of startup website
               </li>
               <li>
                 
-                - Resolved conflicts due to inconsistencies in user story General
+                Resolved conflicts due to inconsistencies in user story General
                 Assembly
               </li>
+              </ul>
 
-              <h2> General Assembly </h2>
+               <h3>Software Engineering Fellow </h3>
               <div id="job-title">
+                <h4> General Assembly </h4>
                 
-                <h2>Software Engineering Fellow </h2>
-                <p>09/2021 - </p>
+                <p>09/2021 - 12/2021 </p>
               </div>
+              <ul>
               <li>
                 
-                - Me Time (Game inspired by "Bop-it") Built using react.js, HTML,
+                Me Time (Game inspired by "Bop-it") Built using react.js, HTML,
                 CSS, and javascript.
               </li>
               <li>
                 
-                - Rick & Morty (Character dictionary) Built using Rest api,
+                Rick & Morty (Character dictionary) Built using Rest api,
                 react.js, HTML, CSS, and javascript
               </li>
               <li>
                 
-                - To-Do List (Full stack web application) Built using Mongo DB,
+                To-Do List (Full stack web application) Built using Mongo DB,
                 react.js, HTML, CSS, and javascript
               </li>
-
-              <h2>NizTech</h2>
-              <div id="job-title"><h2>Freelance Web Developer</h2>  <p>02/2021 - 07/2021</p></div>
-              <li>- Partnered with Sr. Web Developer to create web application components in react.js</li>
-              <h2> Advance Behavioral Therapies</h2>
-              <div><h2>Lead Behavior Technician</h2> <p>08/2019 - 09/2021</p></div>
-              <li> - Led team of 63 behavior technicians ensuring quality of training and clinical practices</li>
-              <li> - Taught neurodiverse children life and social skills through play therapy</li>
-            </ul>
+              </ul>
+               <h3>Freelance Web Developer</h3>
+              <div id="job-title"> <h4>NizTech</h4> <p>02/2021 - 07/2021</p></div>
+              <ul> 
+              <li> Partnered with Sr. Web Developer to create web application components in react.js</li>
+              </ul>
+               <h3>Lead Behavior Technician</h3>
+              <div id="job-title"><h4> Advance Behavioral Therapies</h4> <p>08/2019 - 09/2021</p></div>
+              <ul> <li> Led team of 63 behavior technicians ensuring quality of training and clinical practices</li>
+              <li> Taught neurodiverse children life and social skills through play therapy</li>
+              </ul>
+              <h3>Shift Supervisor</h3>
+              <div id="job-title"><h4> Starbucks Coffee Company</h4> <p>03/2013 - 01/2018</p></div>
+              <h3>Lead Behavior Technician</h3>
+              <div id="job-title"><h4> Advance Behavioral Therapies</h4> <p>08/2019 - 09/2021</p></div>
+            
           </div>
-
-          <h2>Education and Training</h2>
-          <div> <h3> Bachelor of Arts - Psychology</h3> <p>Arizona State University, Tempe AZ</p></div>
-          <div>  <h3>Software Engineering Certificate</h3> <p>General Assembly, San Francisco </p></div>
+<div id="work-xp">   
+          <h2>Education and Training</h2>  </div>
+          <div id="ed-title"> <h3 > Bachelor of Arts - Psychology </h3> <p>- Arizona State University, Tempe AZ</p></div>
+          <div id="ed-title">  <h3>Software Engineering Certificate  </h3> <p>- General Assembly, San Francisco </p></div>
 
           {/* <iframe title="resume" src={pdf} allow="autoplay" /> */}
         </div>
+        <div> 
+        <a href="https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/view?usp=sharing" download={pdf}> Download Resume </a>
+      </div> 
       </div>
     </div>
   );
