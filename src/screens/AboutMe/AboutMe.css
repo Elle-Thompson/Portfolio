@@ -51,8 +51,10 @@
     padding: 2%;
     border-radius: 10px;
     background-color: white;
-
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  }
+  #quote-words h4 {
+    justify-self: center;
   }
   .AboutMe-page .hobbies {
     padding-left: 4%;
@@ -74,8 +76,7 @@
     padding-left: 2%;
     font-weight: 600;
     font-size: 20px;
-    margin-left: 35%;
-    justify-content: center;
+    text-align: center;
   }
 
   
@@ -189,7 +190,6 @@
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;
-
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     font-weight: 600;
   }
