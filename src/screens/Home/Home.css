@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 901px) {
 
 .wrapper {
     height: 100vh;
@@ -6,15 +6,123 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  #primary-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+
+  }
+
+  #primary-picture img {
+    width: 20vw;
+    height: 40%;
+  }
+
+  .div-left {
+    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    height: auto;
+  }
+
+  .home {
+    height: 100vh;
+    /* width: auto; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @keyframes typewriter {
+    0%,
+    100% {
+      width: 0;
+    }
+    20%,
+    80% {
+      width: 9em;
+    }
+  }
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .span1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+    font-size: 2vw;
+    margin-left: 3vw;
+    padding-bottom: 4vh;
+  }
+
+  .span1:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 2s;
+    animation-timing-function: steps(1, end);
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24%;
+    margin-top: 15%;
+  }
+
+  button {
+    width: 70%;
+    padding: 2.5%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 1%;
+    border: solid rgb(255, 236, 220) 3px;
+    color: black;
+  }
+
+  button:hover {
+    background-color: black;
+    color: rgb(203, 160, 154);
+  }
+
+  .fa-3x:hover {
+    color: white;
+  }
+  header {
+    display: inline-block;
+    margin-bottom: 10%;
+  }
+
+  .home h2 {
+    font-size: 3vw;
+  }
 }
 
 
 
-  @media only screen and (max-width: 899px) {
-  .wrapper {
+
+
+  @media only screen and (max-width: 900px) {
+  /* .wrapper {
     height: 100vh;
     width: auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
-  }
+  } */
 }

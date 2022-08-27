@@ -1,4 +1,4 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 901px) {
   
   .contact-page-wrapper #contactForm {
     position: absolute;
@@ -73,10 +73,13 @@
   .contact-page-wrapper .fa-3x:hover {
     color: white;
   }
+  .fa-3x:hover {
+    color: white;
+  }
   
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 900px) {
   .contact-page .name-input {
     grid-row-start: 1;
     grid-row-end: 2;

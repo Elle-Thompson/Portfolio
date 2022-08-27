@@ -7,11 +7,12 @@ const Home = () => {
     <div className="home">
       <div className="div-left">
         <h3> Elle Thompson | Front-End Developer </h3>
-        <img
-          id="primary-picture"
+        <div id="primary-picture"> <img
+          
           src="https://i.ibb.co/kM3Fb41/It-me.jpg"
           alt="It-me"
         />
+        </div>
       </div>
 
       <div className="div-right">
