@@ -1,9 +1,9 @@
 @media only screen and (min-width: 901px) {
   .skills-page .skills-wrapper{
-    height: 55%;
+    height: 75%;
     width: 70%;
     margin-top: 7%;
-    margin-left: 22%;
+    margin-left: 17%;
     margin-bottom: 5%;
     justify-content: space-evenly;
     display: flex;
@@ -12,7 +12,11 @@
     flex-flow: row wrap;
     font-size: 16px;
     gap: 1%;
-
+    background-color: white;
+    border-radius: 10%;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+padding-left: 2%;
   }
   .skills-page #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);

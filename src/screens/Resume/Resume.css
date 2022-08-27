@@ -133,7 +133,11 @@ font-weight: 400;
 
 #download-link button:hover {
   /* background-color: black; */
-  color: white;
+
+}
+#download-link a:hover {
+  
+  color: pink;
 }
 
 }
