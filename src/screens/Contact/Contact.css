@@ -1,5 +1,5 @@
 @media only screen and (min-width: 900px) {
-  .contact-page .name-input {
+  .contact-page-wrapper .name-input {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -10,7 +10,7 @@
     border: solid rgb(255, 236, 220) 5px;
   }
 
-  .contact-page .email-input {
+  .contact-page-wrapper .email-input {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 2;
@@ -21,7 +21,7 @@
     border: solid rgb(255, 236, 220) 5px;
   }
 
-  .contact-page .message-input {
+  .contact-page-wrapper .message-input {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
@@ -33,29 +33,31 @@
     border: solid rgb(255, 236, 220) 5px;
   }
 
-  .contact-page #formButton {
+  .contact-page-wrapper #formButton {
     padding: 2%;
     width: 30%;
   }
 
-  .contact-page .contact-links {
+  .contact-page-wrapper .contact-links {
     position: absolute;
-    bottom: 10%;
-    left: 55%;
+    bottom: 0%;
+    left: 65%;
+
+
   }
 
-  .contact-page .fa-3x {
+  .contact-page-wrapper .fa-3x {
     padding: 10px;
   }
 
-  .contact-page .fa-3x:hover {
+  .contact-page-wrapper .fa-3x:hover {
     color: white;
   }
 
-  .contact-page #contactForm {
+  .contact-page-wrapper #contactForm {
     position: absolute;
     top: 20%;
-    left: 55%;
+    left: 30%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.3fr 1.7fr;

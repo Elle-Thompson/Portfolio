@@ -128,16 +128,12 @@ font-weight: 400;
   background-color: white;
   font-size: medium;
   border: solid rgb(255, 236, 220) 3px;
-  color: teal;
+  filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
 }
 
-#download-link button:hover {
-  /* background-color: black; */
-
-}
 #download-link a:hover {
   
-  color: pink;
+  color: rgb(244, 213, 211);
 }
 
 }

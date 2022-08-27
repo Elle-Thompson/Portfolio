@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Contact.css'
-import DivLeft from '../../components/DivLeft';
 import Footer from "../../components/footer";
+import NavBar from "../../components/NavBar";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -31,11 +31,13 @@ const Contact = () => {
   };
 
   return (
-    <div className="wrapper contact-page">
-      <DivLeft />
+    <div className="contact-page-wrapper">
+      
 
       <div id="contact" className="div-right">
         <h2 id="heading">Contact Me</h2>
+<NavBar/>
+<div className="contact-page"> 
         <form id="contactForm">
           <input type="hidden" name="form-name" value="Contact" />
 
@@ -65,16 +67,18 @@ const Contact = () => {
           <button onClick={handleSubmit} type="submit" id="formButton">
             Submit
           </button>
-        </form>
-        <div className="contact-links">
-          <a href="https://www.linkedin.com/in/ellethompson01/">
-            {" "}
+           <a className="contact-links" href="https://www.linkedin.com/in/ellethompson01/">
+            
             <i className="fab fa-linkedin fa-3x" />
           </a>
 
-          <a href="https://github.com/Elle-Thompson">
+          <a className="contact-links" href="https://github.com/Elle-Thompson">
             <i className="fab fa-github fa-3x" />
           </a>
+        </form>
+       
+         
+        
         </div>
       </div>
       <Footer />
