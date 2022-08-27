@@ -39,7 +39,7 @@ const AboutMe = () => {
 
       
 
-          <div id="pic2-words">
+          {/* <div id="pic2-words">
             <p>
               <span className="secret"> F </span>or as long as I can remember
               I've wanted to help people for a living. Maybe I would become a
@@ -49,12 +49,12 @@ const AboutMe = () => {
               both mechanical and electronic. This is when I learned just how
               much I enjoyed problem solving.
             </p>
-          </div>
+          </div> */}
 
-          <div id="pic1-words">
+          {/* <div id="pic1-words">
             <p>
-              <span className="secret"> S </span>till eager to change the world,
-              I began studying to become a social worker. I spent my time
+              <span className="secret"> E </span>ager to change the world,
+              I studied to become a social worker. I spent my time
               volunteering at local childcare centers. Eventually, my focus on
               sociology turned into behaviorial psychology. After graduating
               college I chose to work with autistic children. I spent about 2
@@ -66,7 +66,7 @@ const AboutMe = () => {
               easy to use for atypically developed children. I hope to find work
               with other people and companies who share my vision.
             </p>
-          </div>
+          </div> */}
 
           <div id="quote-words">
             <h4>Favorite Quote</h4>

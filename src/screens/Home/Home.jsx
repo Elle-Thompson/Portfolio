@@ -48,16 +48,7 @@ const Home = () => {
 
           </div>
         </div>
-        <footer >
-          <a href="https://www.linkedin.com/in/ellethompson01/">
-            <i className="fab fa-linkedin fa-2x" />
-          </a>
-          <a href="https://github.com/Elle-Thompson">
-            <i className="fab fa-github fa-2x" />
-          </a>
-
-    
-        </footer>
+        
       </div>
     </div>
   );

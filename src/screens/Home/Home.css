@@ -1,4 +1,4 @@
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 770px) {
 
 .wrapper {
     height: 100vh;
@@ -41,7 +41,7 @@
     }
     20%,
     80% {
-      width: 9em;
+      width: 10em;
     }
   }
   @keyframes caret {
@@ -64,7 +64,7 @@
     animation-timing-function: steps(25, end);
     animation-iteration-count: infinite;
     font-size: 2vw;
-    margin-left: 3vw;
+    margin-left: 2vw;
     padding-bottom: 4vh;
   }
 
@@ -119,11 +119,32 @@
 
 
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 769px) {
   /* .wrapper {
     height: 100vh;
     width: auto;
     display: grid;
     grid-template-rows: 1fr 1fr;
   } */
+
+  #primary-picture {
+    display: none;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 22%;
+    border-radius: 15%;
+  }
+  
+
+  .div-left {
+    display: none;
+    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    height: 28vh;
+  }
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 851px) {
+@media only screen and (min-width: 770px) {
   .projects-page-wrapper .projects-wrapper {
     height: 80vh;
     width: 80vw;
@@ -254,4 +254,7 @@
     border-radius: 5%;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
+}
+
+@media only screen and (min-width: 769px) {
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 770px) {
   .current {
     color: rgb(244, 213, 211);
     border-bottom: 2px solid white;
@@ -54,15 +54,10 @@
 
 
 
-@media only screen and (max-width: 900px) {
-  body {
-    margin: none;
-  }
-
-  #copyright {
-    position: absolute;
-    left: 0;
-  }
+@media only screen and (max-width: 769px) {
+ #NavBar {
+   display: none;
+ }
 
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
@@ -74,32 +69,12 @@
     justify-content: flex-end;
     position: fixed;
     box-sizing: border-box;
+    z-index: 100;
   }
 
-  .home {
-    height: 100vh;
-    width: auto;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  }
+  
 
-  #primary-picture {
-    width: 50%;
-    height: auto;
-    position: absolute;
-    right: 22%;
-    border-radius: 15%;
-  }
-
-  .div-left {
-    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    height: 28vh;
-  }
+ 
 
   .div-right {
     background: rgb(244, 213, 211);

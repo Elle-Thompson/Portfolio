@@ -1,4 +1,4 @@
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 770px) {
   
   .contact-page-wrapper #contactForm {
     position: absolute;
@@ -79,7 +79,7 @@
   
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 769px) {
   .contact-page .name-input {
     grid-row-start: 1;
     grid-row-end: 2;
