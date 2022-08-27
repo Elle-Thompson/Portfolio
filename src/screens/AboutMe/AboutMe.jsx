@@ -10,9 +10,9 @@ const AboutMe = () => {
         <h2 id="heading">About Me</h2>
         <Footer />
         <NavBar />
-        
-        <img  id="pic1-img" src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
-        
+        <div id="pic1-img">  
+        <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
+        </div>
         <div className="about-me-wrapper">
 
 

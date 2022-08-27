@@ -114,15 +114,26 @@
   }
 
   #pic1-img {
-    position: absolute;
-    float: right;
+    position: fixed;
     margin-left: 76%;
-    margin-top: 12%;
-    width: 20%;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    border-radius: 5%;
+    margin-top: 15%;
+    width: 17%;
+    /* height: 45%; */
     
+  }
+
+  #pic1-img img {
+  display: relative;
+  width: 100%;
+  border: solid rgb(255, 236, 220) 5px;
+  filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  border-radius: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+
   }
 }
 
