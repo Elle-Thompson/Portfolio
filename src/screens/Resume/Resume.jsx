@@ -4,7 +4,7 @@ import "./Resume.css";
 import NavBar from "../../components/NavBar";
 
 const Resume = () => {
-  const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
+  // const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
 
   return (
     <div className="Resume-page">
@@ -109,14 +109,13 @@ const Resume = () => {
           <div id="ed-title"> <h3 > Bachelor of Arts - Psychology </h3> <p>- Arizona State University, Tempe AZ</p></div>
           <div id="ed-title">  <h3>Software Engineering Certificate  </h3> <p>- General Assembly, San Francisco </p></div>
 
-          {/* <iframe title="resume" src={pdf} allow="autoplay" /> */}
         </div>
-        <div> 
-        <a href="https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/view?usp=sharing" download={pdf}> Download Resume </a>
-      </div> 
-      </div>
+        
+        <div id="download-link"> <button> <a href="https://drive.google.com/uc?export=download&id=1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U"  download="Elle_Thompson_Resume"> Download Resume </a></button>  </div>
+
+        </div> 
     </div>
-  );
+  ); 
 };
 
 export default Resume;
