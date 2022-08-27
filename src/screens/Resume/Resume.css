@@ -9,10 +9,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   border: black solid 2px;
     background-color: white;
     overflow: auto;
     padding: 2%;
+    border-radius: 10px;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
 }
 
 .Resume-page-wrapper ul {
@@ -130,7 +132,7 @@ font-weight: 400;
 }
 
 #download-link button:hover {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 
