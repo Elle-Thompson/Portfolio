@@ -1,7 +1,6 @@
 @media only screen and (min-width: 770px) {
   body {
     background-color: rgb(244, 213, 211);
-    
   }
   .current {
     color: rgb(244, 213, 211);
@@ -28,21 +27,21 @@
   .div-right {
     background: rgb(244, 213, 211);
     color: black;
-   position: relative;
+    position: relative;
     height: 100vh;
     overflow: auto;
   }
 
-   .fa-2x {
+  .fa-2x {
     display: none;
   }
 
-   a {
+  a {
     text-decoration: none;
     color: black;
   }
- 
- #heading {
+
+  #heading {
     top: 22%;
     left: 0;
     margin: 0;
@@ -51,21 +50,47 @@
     -webkit-text-stroke: 1px white;
     position: fixed;
   }
- 
 }
-
-
-
 
 @media only screen and (max-width: 769px) {
   body {
     background-color: rgb(244, 213, 211);
-    
-
   }
- #NavBar {
-   display: none;
- }
+  #NavBar {
+    display: flex;
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 100;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  #NavBar ul {
+     color: white;
+  }
+
+  #NavBar li {
+    width: 15%;
+    list-style: none;
+    display: inline-block;
+   
+  }
+  /* #nav-links {
+    display: inline-block;
+    position: absolute;
+    left: 15%;
+  } */
+
+  .current {
+    color: rgb(244, 213, 211);
+    border-bottom: 2px solid white;
+  }
 
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
@@ -73,43 +98,35 @@
     width: 100%;
     bottom: 0;
     font-size: 100%;
-    display: flex;
+    display: none;
     justify-content: flex-end;
     position: fixed;
     box-sizing: border-box;
     z-index: 100;
   }
 
-  
-
- 
-
-  /* .div-right {
+  .div-right {
     background: rgb(244, 213, 211);
     color: black;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
     height: 100vh;
     overflow: auto;
     scroll-snap-stop: normal;
-  } */
+  }
 
-  
   .home-link {
     position: absolute;
-    display: flex;
+    display: none;
     justify-content: center;
     bottom: 0;
     left: 0;
     font-size: 25px;
   }
 
-
   .fa-3x:hover {
     color: white;
   }
-
-  
 
   #heading {
     top: 3%;
@@ -203,8 +220,6 @@
     text-align: center;
   }
 
-
-
   textarea {
     font-size: 20px;
     height: 50%;
@@ -220,8 +235,4 @@
   .fa-2x {
     padding: 10px;
   }
-
- 
-
-  
 }

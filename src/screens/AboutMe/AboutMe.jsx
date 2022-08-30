@@ -16,7 +16,10 @@ const AboutMe = () => {
         </div>
        
         <div className="about-me-wrapper">
-
+        <div id="pic2-img">  
+       
+       <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
+       </div>
 
         
           <div className="about-me">
