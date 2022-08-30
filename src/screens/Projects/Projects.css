@@ -4,9 +4,9 @@
 }
 
   .projects-page-wrapper .project-wrapper {
-    width: 70%;
-    top: 20%;
-    left: 17%;
+    width: 65%;
+    top: 12%;
+    left: 20%;
      display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -21,12 +21,12 @@
     height: 100%;
     width: 100%;
      min-width: 250px;
-     max-width: 500px;
+     /* max-width: 500px; */
     /* margin: 1%; */
   }
 
   .proj-img {
-    margin: 0.8%;
+    margin: 0;
     /* display: flex; */
     width: 89%;
     height: 89.2%;
@@ -149,6 +149,7 @@
     grid-column-end: 3;
     grid-row: 2;
     position: relative;
+
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;
