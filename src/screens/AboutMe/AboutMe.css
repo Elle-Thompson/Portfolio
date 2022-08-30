@@ -2,16 +2,15 @@
   .AboutMe-page .about-me-wrapper {
     height: 55%;
     width: 50%;
-    margin-top: 7%;
+    top: 10%;
     margin-left: 20%;
     margin-bottom: 5%;
     gap: 5%;
     font-family: "Poppins", sans-serif;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     flex-flow: row wrap;
     font-size: 16px;
+    position: absolute;
   }
 
   .AboutMe-page .about-me {
@@ -115,15 +114,17 @@
 
   #pic1-img {
     position: fixed;
-    margin-left: 76%;
-    margin-top: 15%;
+    right:5%;
+    top: 33%;
     width: 17%;
-    /* height: 45%; */
+    min-width: 180px;
+
+    
     
   }
 
   #pic1-img img {
-  display: relative;
+  
   width: 100%;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));

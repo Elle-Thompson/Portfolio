@@ -1,33 +1,33 @@
 @media only screen and (min-width: 770px) {
-  .projects-page-wrapper .projects-wrapper {
-    height: 80vh;
-    width: 80vw;
-    margin-top: 7%;
-    margin-left: 30%;
-    
-  }
+.projects-page-wrapper {
+  /* display: flex; */
+}
 
-  .project-wrapper {
-    display: grid;
+  .projects-page-wrapper .project-wrapper {
+    width: 70%;
+    top: 20%;
+    left: 17%;
+     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 6%;
-    margin-left: 15%;
-    width: 70vw;
-    height: 70vh;
     position: absolute;
-    
+    justify-content: center;
+
+   
   }
+
 
   #proj-img {
     height: 100%;
     width: 100%;
+     min-width: 250px;
+     max-width: 500px;
     /* margin: 1%; */
   }
 
   .proj-img {
     margin: 0.8%;
-    display: flex;
+    /* display: flex; */
     width: 89%;
     height: 89.2%;
     border-radius: 5%;
@@ -149,7 +149,6 @@
     grid-column-end: 3;
     grid-row: 2;
     position: relative;
-    background-color: #fff;
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;

@@ -35,7 +35,7 @@ const Contact = () => {
       
 
       <div id="contact" className="div-right">
-        <h2 id="heading">Contact Me</h2>
+        <h2 id="heading">Contact</h2>
 <NavBar/>
 <div className="contact-page"> 
         <form id="contactForm">
