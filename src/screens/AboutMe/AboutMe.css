@@ -117,14 +117,11 @@
     right:5%;
     top: 33%;
     width: 17%;
-    min-width: 180px;
-
-    
+    min-width: 180px; 
     
   }
 
   #pic1-img img {
-  
   width: 100%;
   border: solid rgb(255, 236, 220) 5px;
   filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
@@ -140,23 +137,14 @@
 
 @media only screen and (max-width: 769px) {
   .AboutMe-page .about-me-wrapper {
-    background: rgb(244, 213, 211);
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 20%;
-    gap: 20px;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
   }
 
   .AboutMe-page .about-me {
-    background-color: rgb(225, 216, 217);
-    grid-row-start: 1;
-    grid-row-end: 2;
+    background-color: white;
     font-size: 15px;
     margin-top: 1%;
     margin-left: 2%;
-
+    margin-right: 2%;
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -169,41 +157,42 @@
     float: left;
     font-weight: bold;
   }
-  .AboutMe-page .name {
-    font-size: 2vh;
-    font-weight: 550;
+  
+ 
+  .AboutMe-page #pic1-img {
+    margin-top: 2%;
   }
 
-  .AboutMe-page #pic1 {
-    display: none;
+  #pic1-img {
+    position: fixed;
+    /* right:5%;
+    top: 33%; */
+    width: 17%;
+    min-width: 180px; 
+    
   }
-  .AboutMe-page #pic1-words {
-    display: none;
+
+  #pic1-img img {
+  width: 100%;
+  border: solid rgb(255, 236, 220) 5px;
+  filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  border-radius: 5%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+
   }
-  .AboutMe-page #pic1-img {
-    display: none;
-    margin-top: 0;
-  }
-  .AboutMe-page #pic2 {
-    display: none;
-  }
-  .AboutMe-page #pic2-img {
-    display: none;
-  }
-  .AboutMe-page #pic2-words {
-    display: none;
-  }
+  
   .AboutMe-page #quote-words {
-    grid-row-start: 2;
-    grid-row-end: 3;
     padding: 1%;
     margin-left: 2%;
-    display: none;
+    margin-right: 2%;
     margin-bottom: 1%;
     border-radius: 10px;
     background-color: white;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-weight: 600;
   }
   .AboutMe-page .hobbies {
     grid-row-start: 3;
@@ -211,7 +200,7 @@
     padding-left: 4%;
     margin-top: 4%;
     margin-left: 1.5vw;
-    background-color: rgb(225, 216, 217);
+    background-color: white;
     border-radius: 10px;
 
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
@@ -239,13 +228,5 @@
     font-size: 2vh;
   }
 
-  #footer {
-    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-    height: 60px;
-    width: 100%;
-    bottom: 0;
-    font-size: 100%;
-    position: fixed;
-    box-sizing: border-box;
-  }
+  
 }

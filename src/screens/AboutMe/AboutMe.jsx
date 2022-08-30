@@ -39,36 +39,7 @@ const AboutMe = () => {
           </div>
 
 
-      
 
-          {/* <div id="pic2-words">
-            <p>
-              <span className="secret"> F </span>or as long as I can remember
-              I've wanted to help people for a living. Maybe I would become a
-              police officer? Perhaps a doctor? I was never certain. At the age
-              of 17 I enlisted in the US Air Force as an aircraft mechanic. I
-              was able to gain hands-on experience working with complex systems,
-              both mechanical and electronic. This is when I learned just how
-              much I enjoyed problem solving.
-            </p>
-          </div> */}
-
-          {/* <div id="pic1-words">
-            <p>
-              <span className="secret"> E </span>ager to change the world,
-              I studied to become a social worker. I spent my time
-              volunteering at local childcare centers. Eventually, my focus on
-              sociology turned into behaviorial psychology. After graduating
-              college I chose to work with autistic children. I spent about 2
-              years as a behavior technician. This is when I noticed how
-              marginalized this particular demographic happened to be. Access to
-              materials that are both child-friendly and friendly to those who
-              are atypically developed seemed difficult to acquire. I set out
-              with a new mission; to create platforms that were both fun and
-              easy to use for atypically developed children. I hope to find work
-              with other people and companies who share my vision.
-            </p>
-          </div> */}
 
           <div id="quote-words">
             <h4>Favorite Quote</h4>
