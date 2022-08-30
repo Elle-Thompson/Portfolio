@@ -1,4 +1,8 @@
 @media only screen and (min-width: 770px) {
+  body {
+    background-color: rgb(244, 213, 211);
+
+  }
   .current {
     color: rgb(244, 213, 211);
     border-bottom: 2px solid white;
@@ -55,6 +59,10 @@
 
 
 @media only screen and (max-width: 769px) {
+  body {
+    background-color: rgb(244, 213, 211);
+
+  }
  #NavBar {
    display: none;
  }
@@ -76,7 +84,7 @@
 
  
 
-  .div-right {
+  /* .div-right {
     background: rgb(244, 213, 211);
     color: black;
     grid-row-start: 2;
@@ -84,106 +92,9 @@
     height: 100vh;
     overflow: auto;
     scroll-snap-stop: normal;
-  }
-
-  h2 {
-    font-size: 10vw;
-    /* position: absolute; */
-
-    top: 38%;
-    font-weight: 500;
-    margin: 0;
-    /* gap: 1vh; */
-    margin-left: 3%;
-  }
-
-  /* h3 {
-    margin-left: 6vw;
-    margin-top: 2vh;
-    font-size: 15px;
   } */
 
-  header {
-    display: flex-inline;
-  }
-
-  .span1 {
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typewriter;
-    display: inline-block;
-    position: relative;
-    animation-duration: 5s;
-    animation-timing-function: steps(20, end);
-    animation-iteration-count: infinite;
-    font-size: 7vw;
-    margin-left: 4vw;
-    margin-bottom: 3vh;
-    /* margin-top: 3%; */
-    padding-bottom: 0.5vh;
-  }
-
-  .span1:after {
-    content: "|";
-    position: absolute;
-    right: 0;
-    animation: caret infinite;
-    animation-duration: 2s;
-    animation-timing-function: steps(1, end);
-  }
-
-  @keyframes typewriter {
-    0%,
-    100% {
-      width: 0;
-    }
-    20%,
-    80% {
-      width: 9em;
-    }
-  }
-  @keyframes caret {
-    0%,
-    100% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-    }
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-top: 40%;
-    margin-bottom: 30%;
-    justify-content: center;
-  }
-
-  #HOME-BTTN {
-    width: 60vw;
-    margin-left: 22vw;
-    padding: 1vh;
-  }
-
-  button {
-    width: 90%;
-    padding: 4.5%;
-    background-color: white;
-    font-size: medium;
-    font-weight: 200;
-    border-radius: 10px;
-    margin: 2%;
-    border: solid rgb(255, 236, 220) 3px;
-    color: black;
-  }
-
-  button:hover {
-    background-color: black;
-    color: rgb(203, 160, 154);
-  }
-
+  
   .home-link {
     position: absolute;
     display: flex;
@@ -193,22 +104,12 @@
     font-size: 25px;
   }
 
-  .fa-2x {
-    padding-left: 10px;
-  }
 
   .fa-3x:hover {
     color: white;
   }
-/* 
-  #plane {
-    margin-left: 44%;
-  } */
 
-  a {
-    text-decoration: none;
-    color: black;
-  }
+  
 
   #heading {
     top: 3%;
@@ -302,12 +203,7 @@
     text-align: center;
   }
 
-  iframe {
-    height: 60%;
-    margin-top: 20%;
-    border: solid rgb(255, 236, 220) 5px;
-    border-radius: 10px;
-  }
+
 
   textarea {
     font-size: 20px;
@@ -325,19 +221,7 @@
     padding: 10px;
   }
 
-  #me {
-    position: relative;
-    margin-left: 32vw;
-    z-index: 999;
-  }
+ 
 
-  img {
-    display: flex;
-    height: 65%;
-    margin-top: 23%;
-    margin-left: 30%;
-    border: solid rgb(255, 236, 220) 5px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    border-radius: 5%;
-  }
+  
 }

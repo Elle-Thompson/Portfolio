@@ -1,17 +1,10 @@
 @media only screen and (min-width: 770px) {
 
-.wrapper {
-    height: 100vh;
-    width: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
 
   #primary-picture {
     display: flex;
     justify-content: center;
     margin-top: 30%;
-
   }
 
   #primary-picture img {
@@ -19,17 +12,19 @@
     height: 40%;
   }
 
+  #secondary-picture {
+    display: none;
+  }
+
   .div-left {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    height: auto;
   }
 
   .home {
     height: 100vh;
-    /* width: auto; */
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -113,38 +108,137 @@
     font-size: 3vw;
     margin-bottom: 1%;
   }
+
+  .home h3{
+    margin-left:5%;
+  }
 }
 
 
 
 
-
-  @media only screen and (max-width: 769px) {
-  /* .wrapper {
-    height: 100vh;
-    width: auto;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-  } */
-
+@media only screen and (max-width: 769px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
   #primary-picture {
     display: none;
-    width: 50%;
-    height: auto;
-    position: absolute;
-    right: 22%;
-    border-radius: 15%;
   }
-  
+
+  #secondary-picture {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom:5%;
+  }
+  .home img {
+    display: flex;
+    width: 50%;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    border-radius: 5%;
+  }
+
+  .home .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home a {
+    text-decoration: none;
+    color: black;
+    
+  }
+
+  .home button {
+    width: 75%;
+    padding: 4.5%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 2%;
+    margin-left: 12%;
+    border: solid rgb(255, 236, 220) 3px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .home button:hover {
+    background-color: black;
+    color: rgb(203, 160, 154);
+  }
+
+  .home h2 {
+    font-size: 36px;
+    top: 15%;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
 
   .div-left {
     display: none;
-    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: black;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    height: 28vh;
   }
+
+  .home header {
+    display: flex-inline;
+    margin-left: 13%;
+  }
+
+  .home .span1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation-duration: 5s;
+    animation-timing-function: steps(20, end);
+    animation-iteration-count: infinite;
+    font-size: 36px;
+    margin-bottom: 3vh;
+    padding-bottom: 0.5vh;
+  }
+
+  .home .span1:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 2s;
+    animation-timing-function: steps(1, end);
+  }
+
+  @keyframes typewriter {
+    0%,
+    100% {
+      width: 0;
+    }
+    20%,
+    80% {
+      width: 9em;
+    }
+  }
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+.home .span3 {
+  color: white;
+}
+
+.home .links {
+  margin-top: 5%;
+  justify-content: space-evenly;
 }

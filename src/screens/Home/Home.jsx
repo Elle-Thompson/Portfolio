@@ -10,32 +10,39 @@ const Home = () => {
         <div id="primary-picture"> <img
           
           src="https://i.ibb.co/kM3Fb41/It-me.jpg"
-          alt="It-me"
+          alt="Self-photo"
         />
         </div>
       </div>
 
       <div className="div-right">
+
         <div className="buttons">
           <header>
-            <h2>Hey There! I'm Elle. </h2>
+            <h2>Hey There! I'm <span className="span3"> Elle.</span> 
+            </h2>
             <span className="span1">Front-End Developer</span>
           </header>
-
+<div id="secondary-picture"> <img
+          
+          src="https://i.ibb.co/kM3Fb41/It-me.jpg"
+          alt="Self-photo"
+        />
+        </div>
           <Link to="/AboutMe">
-            <button>ABOUT ME</button>
+            <button>About </button>
           </Link>
           <Link to="/Projects">
-            <button>PROJECTS</button>
+            <button>Projects</button>
           </Link>
           <Link to="/Skills">
-            <button>TECH STACK</button>
+            <button>Tech Stack</button>
           </Link>
           <Link to="/Resume">
-            <button>RESUME</button>
+            <button>Resume</button>
           </Link>
           <Link to="/Contact">
-            <button>CONTACT ME</button>
+            <button>Contact Me</button>
           </Link>
 
           <div className="links">
