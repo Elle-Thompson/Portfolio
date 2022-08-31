@@ -21,7 +21,10 @@
          display: none;
      }
 
-     
+     .current {
+        color: rgb(244, 213, 211);
+        border-bottom: 2px solid white;
+      }     
 }
 
 
@@ -37,59 +40,21 @@
     max-height: 8%;
     width: 100%;
     top: 0;
-    /* position: fixed;
+    position: fixed;
     text-align: left;
-    z-index: 100;  */
+    z-index: 100; 
   } 
   
-  /* #NavBar .link-item {
-    list-style: none;
-    display: block;
-    padding: 4%;
-    font-weight:600;
+  .current {
+    border-bottom: 2px solid pink;
   }
-  #NavBar a {
-      color: black;
-  }
-
-  .hamburger {
-    display:block;
-    
-} */
-
-
-/* #NavBar .link-list {
-    position: fixed;
-    left: -150%; 
-    top: 45px;
-    gap: 0;
-    padding-left:40%;
-    flex-direction: column;
-    background-color: white;
-    width: 100%;
-     text-align: center; 
-    transition: 0.3s;
-} */
-
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-   */
 
   .container {
-    max-width: 1050px;
+    max-width: 767px;
     width: 90%;
     margin: auto;
   }
   
-  /* #NavBar {
-    width: 100%;
-    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  } */
   
   .nav-container {
     display: flex;
@@ -97,8 +62,7 @@
     align-items: center;
     height: 62px;
   }
-  
-  #NavBar .menu-items {
+  .navbar .menu-items {
     display: flex;
   }
   
@@ -114,7 +78,7 @@
     padding: 0.7rem;
   }
   
-  #NavBar .nav-container a:hover{
+  .nav-container a:hover{
       font-weight: bolder;
   }
   
@@ -129,8 +93,8 @@
     display: block;
     height: 32px;
     width: 32px;
-    top: 20px;
-    right: 20px;
+    top: 2vw;
+    right: 0.5vh;
     z-index: 105;
     opacity: 0;
   }
@@ -140,9 +104,9 @@
     height: 26px;
     width: 32px;
     position: absolute;
-    top: 17px;
-    right: 20px;
-    z-index: 2;
+    top: 2vw;
+    right: 0.5vh;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -171,18 +135,21 @@
   }
   
   #NavBar .menu-items {
-    padding-top: 120px;
+    padding-top: 60px;
+    position: fixed;
     box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
     height: 100vh;
-    width: 100%;
-    transform: translate(-150%);
-    display: flex;
+    width: 50%;
+    transform: translate(250%);
     flex-direction: column;
-    margin-left: 40px;
-    padding-left: 50px;
+    right: 0;
+    padding-right: 20px;
     transition: transform 0.5s ease-in-out;
     text-align: center;
+    z-index: 2;
+    background-color: black;
   }
+
   
   #NavBar .menu-items li {
     margin-bottom: 1.2rem;
@@ -190,9 +157,13 @@
     font-weight: 500;
   }
   
-  
+  #checkbox:checked ~ .menu-items {
+      /* background-color: blue; */
+     transform: translateX(0);
+  }
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
-    transform: translateX(0);
+   
+    background-color: red;
   }
   
   .nav-container input[type="checkbox"]:checked ~ .hamburger .line1 {
@@ -200,7 +171,8 @@
   }
   
   .nav-container input[type="checkbox"]:checked ~ .hamburger .line2 {
-    transform: scaleY(0);
+    transform: scalex(50);
+    background-color: pink;
   }
   
   .nav-container input[type="checkbox"]:checked ~ .hamburger .line3 {

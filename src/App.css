@@ -7,7 +7,6 @@
     border-bottom: 2px solid white;
   }
 
-  
 
   .div-right {
     background: rgb(244, 213, 211);
@@ -55,10 +54,7 @@
     left: 15%;
   } */
 
-  .current {
-    color: rgb(244, 213, 211);
-    border-bottom: 2px solid white;
-  }
+  
 
   #footer {
     background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
