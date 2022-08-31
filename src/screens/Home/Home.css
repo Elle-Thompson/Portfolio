@@ -78,17 +78,7 @@
     left: 30%;
   }
 
-  button {
-    width: 70%;
-    padding: 2.5%;
-    background-color: white;
-    font-size: medium;
-    font-weight: 200;
-    border-radius: 10px;
-    margin: 1%;
-    border: solid rgb(255, 236, 220) 3px;
-    color: black;
-  }
+  .home 
 
   button:hover {
     background-color: black;
@@ -115,10 +105,12 @@
 }
 
 @media only screen and (max-width: 769px) {
-  .home {
+  body .home {
     display: flex;
     justify-content: center;
     align-content: center;
+    overflow: auto;
+    background-color: black;
   }
   #primary-picture {
     display: none;
@@ -141,6 +133,8 @@
   .home .buttons {
     display: flex;
     flex-direction: column;
+    background-color:rgb(244, 213, 211);
+    
   }
 
   .home a {
