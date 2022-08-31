@@ -75,7 +75,7 @@
     /* grid-row-start: 2;
     grid-row-end: 3; */
     height: 100vh;
-    overflow: auto;
+    /* overflow: auto; */
     scroll-snap-stop: normal;
   }
 
