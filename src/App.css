@@ -7,22 +7,7 @@
     border-bottom: 2px solid white;
   }
 
-  #NavBar {
-    background-color: black;
-    height: 8%;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    vertical-align: middle;
-    z-index: 100;
-  }
-
-  #nav-links {
-    display: inline-block;
-    position: absolute;
-    left: 15%;
-  }
+  
 
   .div-right {
     background: rgb(244, 213, 211);
@@ -56,31 +41,14 @@
   body {
     background-color: rgb(244, 213, 211);
   }
-  #NavBar {
-    display: flex;
-    background-color: black;
-    height: 10%;
-    width: 100%;
-    top: 0;
-    position: fixed;
-    text-align: center;
-    vertical-align: middle;
-    z-index: 100;
-  }
+  
+
   a {
     text-decoration: none;
-    color: black;
-  }
-  #NavBar ul {
-     color: white;
+    color: white;
   }
 
-  #NavBar li {
-    width: 15%;
-    list-style: none;
-    display: inline-block;
-   
-  }
+  
   /* #nav-links {
     display: inline-block;
     position: absolute;

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Contact.css'
 import Footer from "../../components/footer";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 const Contact = () => {
   const [name, setName] = useState("");

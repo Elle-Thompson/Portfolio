@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/footer";
 import "./Resume.css";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 const Resume = () => {
   // const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";

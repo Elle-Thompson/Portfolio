@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/footer";
 import "./Skills.css";
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 const Skills = () => {
   return (
