@@ -246,6 +246,14 @@
   }
 }
 
+@media only screen and  (min-width: 800px) and (max-width: 970px)  {
+h4 {
+  display:none;
+}
+
+}
+
+
 @media only screen and (max-width: 799px) {
   .projects-page-wrapper .project-wrapper {
     top: 10vh;
