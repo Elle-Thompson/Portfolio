@@ -8,13 +8,6 @@
   }
 
 
-  .div-right {
-    background: rgb(244, 213, 211);
-    color: black;
-    position: relative;
-    height: 100vh;
-    overflow: auto;
-  }
 
   .fa-2x {
     display: none;
@@ -47,18 +40,6 @@
     color: white;
   }
 
-
-  
-
-
-  /* .div-right {
-    background: rgb(244, 213, 211);
-    color: black;
- 
-    height: 100vh;
-
-    scroll-snap-stop: normal;
-  } */
 
   .home-link {
     position: absolute;

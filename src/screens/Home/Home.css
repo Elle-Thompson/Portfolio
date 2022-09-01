@@ -21,6 +21,14 @@
     position: relative;
   }
 
+  .home .div-right {
+    background: rgb(244, 213, 211);
+    color: black;
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+  }
+
   .home {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -123,6 +131,9 @@
     overflow: auto;
     background-color: black;
   }
+
+  
+
   #primary-picture {
     display: none;
   }
