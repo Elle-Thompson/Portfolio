@@ -81,9 +81,7 @@
   .contact-page-wrapper .fa-3x:hover {
     color: white;
   }
-  .fa-3x:hover {
-    color: white;
-  }
+ 
   
 }
 
@@ -121,25 +119,38 @@
     resize: none;
     border: solid rgb(255, 236, 220) 5px;
   }
+  .contact-page-wrapper .contact-links {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
 
-  .contact-page #formButton {
+  .contact-page-wrapper button {
     padding: 2%;
     width: 40%;
+    background-color: white;
+    font-size: medium;
+   
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .contact-page .contact-links {
+  /* .contact-page .contact-links {
     position: absolute;
-    bottom: 10%;
-    left: 55%;
-  }
+    bottom: 0;
+    left: 0;
+  } */
 
-  .contact-page .fa-3x {
-    display: none;
-  }
+  
   .contact-page #contactForm {
     position: absolute;
-    top: 50%;
-    left: 1%;
+    top: 30%;
+    left: 13%;
     display: grid;
     grid-template-rows: 0.3fr 0.03fr 1.7fr;
     height: 30%;
@@ -152,4 +163,18 @@
   .contact-page #contact {
     height: 75vh;
   }
+  .contact-page-wrapper .fa-3x {
+    padding: 10px;
+    font-size: 2em;
+    float:right;
+  }
+
+  .contact-page-wrapper .fa-3x:hover {
+    color: white;
+  }
+  
+  .contact-page .fa-3x {
+    display: inline-block;
+  }
+  
 }

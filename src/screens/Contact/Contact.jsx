@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import './Contact.css'
-import Footer from "../../components/footer";
 import NavBar from "../../components/NavBar/NavBar";
 
 const Contact = () => {
@@ -83,7 +82,7 @@ const Contact = () => {
         
         </div>
       </div>
-      <Footer />
+     
     </div>
   );
 };
