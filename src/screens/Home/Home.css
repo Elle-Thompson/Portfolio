@@ -1,0 +1,259 @@
+@media only screen and (min-width: 770px) {
+  #primary-picture {
+    position: absolute;
+    top: 33%;
+    left: 25%;
+  }
+
+  #primary-picture img {
+    width: 20vw;
+  }
+
+  #secondary-picture {
+    display: none;
+  }
+
+  .div-left {
+    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    position: relative;
+  }
+
+  .home .div-right {
+    background: rgb(244, 213, 211);
+    color: black;
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+  }
+
+  .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @keyframes typewriter {
+    0%,
+    100% {
+      width: 0;
+    }
+    20%,
+    80% {
+      width: 10em;
+    }
+  }
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  .span1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation-duration: 10s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+    font-size: 2vw;
+    /* margin-left: 1vw; */
+    padding-bottom: 2vh;
+  }
+
+  .span1:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 2s;
+    animation-timing-function: steps(1, end);
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+  }
+
+  .home button {
+    width: 70%;
+    padding: 2.5%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 1%;
+    border: solid rgb(255, 236, 220) 3px;
+    color: black;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  }
+
+  button:hover {
+    background-color: black;
+    color: rgb(203, 160, 154);
+  }
+
+  .fa-3x:hover {
+    color: white;
+  }
+  header {
+    display: inline-block;
+    margin-bottom: 10%;
+    margin-right: 40%;
+  }
+
+  .home h2 {
+    font-size: 3vw;
+    margin-bottom: 5%;
+  }
+
+  .home h3 {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  body .home {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: auto;
+    background-color: black;
+  }
+
+  
+
+  #primary-picture {
+    display: none;
+  }
+
+  #secondary-picture {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 5%;
+  }
+  .home img {
+    display: flex;
+    width: 50%;
+    border: solid rgb(255, 236, 220) 5px;
+
+    border-radius: 5%;
+  }
+
+  .home .buttons {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 213, 211);
+  }
+
+  .home a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .home button {
+    width: 75%;
+    padding: 4.5%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 10px;
+    margin: 2%;
+    margin-left: 12%;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home button:hover {
+    background-color: black;
+    color: rgb(203, 160, 154);
+  }
+
+  .home h2 {
+    font-size: 36px;
+    top: 15%;
+    font-weight: 600;
+    margin-bottom: 10%;
+    margin-right: 50%;
+  }
+
+  .div-left {
+    display: none;
+  }
+
+  .home header {
+    display: flex-inline;
+    margin-left: 13%;
+  }
+
+  .home .span1 {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: relative;
+    animation-duration: 5s;
+    animation-timing-function: steps(20, end);
+    animation-iteration-count: infinite;
+    font-size: 28px;
+    margin-bottom: 3vh;
+    padding-bottom: 0.5vh;
+  }
+
+  .home .span1:after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 2s;
+    animation-timing-function: steps(1, end);
+  }
+
+  @keyframes typewriter {
+    0%,
+    100% {
+      width: 0;
+    }
+    20%,
+    80% {
+      width: 9em;
+    }
+  }
+  @keyframes caret {
+    0%,
+    100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+}
+.home .span3 {
+  color: white;
+}
+
+.home .links {
+  margin-top: 5%;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,52 +1,75 @@
-@media only screen and (min-width: 900px) {
-  .skills-page #skills-icons {
-    position: absolute;
-    margin-top: 10%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 250px);
-    width: 49%;
+@media only screen and (min-width: 770px) {
+  .skills-page .skills-wrapper{
+    height: 75%;
+    width: 70%;
+    top: 15%;
+    left: 17%;
+    bottom: 5%;
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-size: 16px;
+    gap: 1%;
+    background-color: white;
+    border-radius: 10%;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+   padding-left: 2%;
+   position: absolute;
   }
   .skills-page #skills-div {
     filter: drop-shadow(0 0 0.1rem #ffffff);
     display: flex;
     align-items: center;
+    min-width: 15%;
+  }
+
+  .skills-page #skill-icon {
     float: left;
   }
-  #skills-text {
+  .skills-page #skills-text {
     text-align: center;
-    padding-top: 12%;
-    margin-left: 5%;
     font-size: 25px;
-    border-bottom: 1px solid;
+  padding-left: 4%;
   }
 }
 
-@media only screen and (max-width: 850px) {
-  .skills-page #skills-icons {
-    position: absolute;
-    margin-top: 25%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2%;
-    width: 100%;
+@media only screen and (max-width: 769px) {
+  
+  .skills-page .skills-wrapper{
+    height: 75%;
+    width: 80%;
+    top: 15%;
+    left: 8%;
+    bottom: 1%;
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    font-size: 16px;
+    gap: 1%;
+    background-color: white;
+    border-radius: 10%;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+   padding-left: 2%;
+   position: absolute;
   }
-  #skills-div {
-    filter: drop-shadow(0 0 0.1rem #ffffff);
+  .skills-page #skills-div {
     display: flex;
     align-items: center;
+  }
+
+  .skills-page #skill-icon {
     float: left;
-    margin-bottom: 3%;
   }
-  #skill-icon {
-    margin-top: 0;
-    margin-left: 0;
-    height: 10vh;
-  }
-  #skills-text {
-    font-size: 25px;
-    border-bottom: 1px solid;
-    display: none;
+  .skills-page #skills-text {
+    text-align: center;
+    font-size: 100%;
+  padding-left: 4%;
+  padding-right: 4%;
   }
 }

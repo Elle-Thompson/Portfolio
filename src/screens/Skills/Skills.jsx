@@ -1,128 +1,135 @@
 import React from "react";
-import DivLeft from "../../components/DivLeft";
 import Footer from "../../components/footer";
 import "./Skills.css";
+import NavBar from "../../components/NavBar/NavBar";
 
 const Skills = () => {
   return (
-    <div className="wrapper skills-page">
-      <DivLeft />
+    <div className="skills-page">
+    
 
       <div className="div-right">
-        <h2 id="heading">Skills</h2>
+        <h2 id="heading">Tech Stack</h2>
+<Footer/>
+<NavBar/>
 
-        <div>
-          <div id="skills-icons">
+
+        <div className="skills-wrapper">
+
+
+         
+
             <div id="skills-div">
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/ios-filled/50/000000/html.png"
-              />{" "}
-              <p id="skills-text"> HTML </p>{" "}
+              />
+              <p id="skills-text"> HTML </p>
             </div>
+
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/plasticine/50/000000/react.png"
-              />{" "}
-              <p id="skills-text">React </p>{" "}
+              />
+              <p id="skills-text">React </p>
             </div>
+
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/ios-filled/50/000000/javascript.png"
-              />{" "}
-              <p id="skills-text">JavaScript </p>{" "}
+              />
+              <p id="skills-text">JavaScript </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/color/50/000000/css3.png"
-              />{" "}
+              />
               <p id="skills-text">CSS </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/color/50/000000/mongodb.png"
-              />{" "}
+              />
               <p id="skills-text">MongoDB </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/fluency/50/000000/node-js.png"
-              />{" "}
+              />
               <p id="skills-text">Node.js </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/ios-filled/50/000000/github.png"
-              />{" "}
-              <p id="skills-text">GitHub </p>{" "}
+              />
+              <p id="skills-text">GitHub </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/color/50/000000/django.png"
-              />{" "}
+              />
               <p id="skills-text">Django </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/fluency/50/000000/python.png"
-              />{" "}
-              <p id="skills-text">Python </p>{" "}
+              />
+              <p id="skills-text">Python </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/color/50/000000/postgreesql.png"
-              />{" "}
-              <p id="skills-text">PostgreSQL </p>{" "}
+              />
+              <p id="skills-text">PostgreSQL </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/wired/50/000000/postman-api.png"
-              />{" "}
-              <p id="skills-text">Postman </p>{" "}
+              />
+              <p id="skills-text">Postman </p>
             </div>
             <div id="skills-div">
-              {" "}
+              
               <img
                 id="skill-icon"
                 alt=""
                 src="https://img.icons8.com/ios/50/000000/api-settings.png"
-              />{" "}
-              <p id="skills-text">Rest API </p>{" "}
+              />
+              <p id="skills-text">Rest API </p>
             </div>
           </div>
         </div>
-      </div>
       <Footer />
     </div>
   );

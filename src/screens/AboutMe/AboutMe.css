@@ -1,29 +1,21 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 770px) {
   .AboutMe-page .about-me-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    height: 80vh;
-    width: 48vw;
-    overflow: auto;
-    margin-top: 15%;
-    margin-left: 3%;
-    gap: 40px;
+
+    height: 55%;
+    width: 50%;
+    top: 10%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    gap: 5%;
     font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 16px;
+    position: absolute;
   }
+
   .AboutMe-page .about-me {
-    background-color: rgb(225, 216, 217);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    height: 90%;
-    width: 90%;
-    font-size: 0.9vw;
-    /* font-weight: 900; */
-    margin-top: 1%;
-    margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
+    background-color: rgb(255, 255, 255);
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1%;
@@ -31,45 +23,21 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .secret {
-    line-height: 0.5;
-    font-size: 4vh;
+    line-height: 1;
+    font-size: 4.2vh;
     float: left;
     font-weight: bold;
   }
   .AboutMe-page .name {
-    font-size: 2vh;
+    font-size: 3vh;
     font-weight: 550;
   }
-  .AboutMe-page #pic1 {
-    display: grid;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 5;
 
-    margin-left: 1%;
-    display: block;
-    margin-top: 0;
-  }
   .AboutMe-page #pic1-words {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 4;
-    grid-row-end: 5;
-    height: 98%;
-    width: 90%;
-    display: block;
-    margin-bottom: 1%;
-    background-color: rgb(225, 216, 220);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-size: 0.9vw;
-    margin-top: 1%;
-    margin-left: 2%;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
+    padding: 2%;
   }
   .AboutMe-page #pic1-img {
     height: 100%;
@@ -94,118 +62,122 @@
     margin-left: 0;
     display: block;
     margin-top: 0;
+
   }
+
   .AboutMe-page #pic2-words {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 100%;
-    width: 90%;
-    display: block;
-    margin-top: 1%;
-    background-color: rgb(225, 216, 217);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    height: 90%;
-    width: 90%;
-    font-size: 0.9vw;
-    margin-top: 1%;
-    margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
+    padding: 2%;
   }
   .AboutMe-page #quote-words {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: 85%;
-    width: 90%;
-    padding: 1%;
-    margin-left: 2%;
-    display: block;
-    margin-bottom: 1%;
+    padding: 2%;
     border-radius: 10px;
     background-color: white;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-weight: 600;
+  }
+  #quote-words h4 {
+    justify-self: center;
+
   }
   .AboutMe-page .hobbies {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    height: 100%;
-    width: 90%;
     padding-left: 4%;
-    display: block;
-    margin-top: 1%;
+    width: 120%;
     background-color: white;
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
+
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 6;
-    height: 100%;
-    width: 90%;
     padding-left: 4%;
-    display: block;
-    margin-top: 1%;
-    background-color: rgb(225, 216, 217);
+    width: 120%;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
-  .AboutMe-page h5 {
-    padding-left: 42%;
+
+  .AboutMe-page h4 {
+    padding-left: 2%;
     font-weight: 600;
-    font-size: 2vh;
+    font-size: 20px;
+    text-align: center;
   }
 
-  .AboutMe-page h6 {
-    padding-left: 30%;
-    font-weight: 600;
-    font-size: 2vh;
+  ul {
+    list-style: none;
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+    right: 5%;
+  }
+  ul li {
+    display: inline;
+    padding-left: 3%;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 1%;
+  }
+  ul li a {
+    color: white;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+  }
+
+  ul li a:hover {
+    color: rgb(244, 213, 211);
+  }
+
+  #footer {
+    display: none;
+  }
+
+  #pic1-img {
+    position: fixed;
+    right: 5%;
+    top: 33%;
+    width: 17%;
+    min-width: 180px;
+  }
+
+  #pic1-img img {
+    width: 100%;
+    border: solid rgb(255, 236, 220) 5px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    border-radius: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+  #pic2-img {
+    display: none;
   }
 }
 
-@media only screen and (max-width: 899px) {
+
+@media only screen and (max-width: 769px) {
   .AboutMe-page .about-me-wrapper {
-    background: rgb(244, 213, 211);
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 180vh;
-    width: 100vw;
-    margin-top: 20%;
-    gap: 20px;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+
   }
 
   .AboutMe-page .about-me {
-    background-color: rgb(225, 216, 217);
-    grid-row-start: 1;
-    grid-row-end: 2;
-    height: auto;
+    background-color: white;
+    font-size: 16px;
     width: 90%;
-    font-size: 15px;
-    margin-top: 1%;
-    margin-left: 2%;
-    border: solid rgb(255, 236, 220) 5px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-    padding-bottom: 1%;
+    margin: 4%;
+    padding: 1.5%;
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    line-height: 25px;
+
   }
   .AboutMe-page .secret {
     line-height: 0.5;
@@ -213,69 +185,55 @@
     float: left;
     font-weight: bold;
   }
-  .AboutMe-page .name {
-    font-size: 2vh;
-    font-weight: 550;
+  #pic1-img {
+    display: none;
+  }
+  #pic2-img {
+    margin-left: 33%;
+    margin-top: 10%;
+    width: 37%;
+    min-width: 180px;
   }
 
-  .AboutMe-page #pic1 {
-    display: none;
-  }
-  .AboutMe-page #pic1-words {
-    display: none;
-  }
-  .AboutMe-page #pic1-img {
-    display: none;
-    margin-top: 0;
-  }
-  .AboutMe-page #pic2 {
-    display: none;
-  }
-  .AboutMe-page #pic2-img {
-    display: none;
-  }
-  .AboutMe-page #pic2-words {
-    display: none;
-  }
-  .AboutMe-page #quote-words {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 85%;
-    width: 90%;
-    padding: 1%;
-    margin-left: 2%;
-    display: none;
-    margin-bottom: 1%;
-    border-radius: 10px;
-    background-color: white;
+  #pic2-img img {
+    width: 100%;
     border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-    font-weight: 600;
+    border-radius: 5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+  }
+
+  .AboutMe-page #quote-words {
+    background-color: white;
+    font-size: 16px;
+    width: 90%;
+    margin: 3%;
+    padding: 2%;
+    border-radius: 10px;
+    line-height: 25px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+
   }
   .AboutMe-page .hobbies {
-    grid-row-start: 3;
-    grid-row-end: 4;
-    height: 100%;
+    background-color: white;
+    font-size: 16px;
     width: 90%;
-    padding-left: 4%;
-    margin-top: 4%;
-    margin-left: 1.5vw;
-    background-color: rgb(225, 216, 217);
+    margin: 4%;
+    padding: 1.5%;
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page .favorite-books-movies {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    height: 100%;
-    width: 90%;
-    padding-left: 4%;
-    margin-top: 1%;
-    margin-left: 1.5vw;
     background-color: white;
+    font-size: 16px;
+    width: 90%;
+    margin: 4%;
+    padding: 1.5%;
     border-radius: 10px;
-    border: solid rgb(255, 236, 220) 5px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
   }
   .AboutMe-page h5 {
@@ -289,5 +247,4 @@
     font-weight: 600;
     font-size: 2vh;
   }
-
 }

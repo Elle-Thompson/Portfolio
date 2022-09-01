@@ -9,6 +9,7 @@ const Footer = () => {
           <button id="HOME-BTTN">HOME</button>
         </Link>
       </div>
+  
     </footer>
   );
 };
