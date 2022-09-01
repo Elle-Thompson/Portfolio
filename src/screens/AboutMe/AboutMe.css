@@ -1,5 +1,6 @@
 @media only screen and (min-width: 770px) {
   .AboutMe-page .about-me-wrapper {
+
     height: 55%;
     width: 50%;
     top: 10%;
@@ -38,12 +39,36 @@
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     padding: 2%;
   }
+  .AboutMe-page #pic1-img {
+    height: 100%;
+    width: 90%;
+    margin-left: 10px;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    height: 100%;
+    width: 90%;
+    display: block;
+    margin-top: 0;
+  }
+  .AboutMe-page #pic2-img {
+    height: 100%;
+    width: 90%;
+    margin-left: 0;
+    display: block;
+    margin-top: 0;
+
+  }
 
   .AboutMe-page #pic2-words {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-
     padding: 2%;
   }
   .AboutMe-page #quote-words {
@@ -54,6 +79,7 @@
   }
   #quote-words h4 {
     justify-self: center;
+
   }
   .AboutMe-page .hobbies {
     padding-left: 4%;
@@ -134,10 +160,12 @@
   }
 }
 
+
 @media only screen and (max-width: 769px) {
   .AboutMe-page .about-me-wrapper {
     display: flex;
     flex-flow: row wrap;
+
   }
 
   .AboutMe-page .about-me {
@@ -149,6 +177,7 @@
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
     line-height: 25px;
+
   }
   .AboutMe-page .secret {
     line-height: 0.5;
@@ -187,6 +216,7 @@
     border-radius: 10px;
     line-height: 25px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+
   }
   .AboutMe-page .hobbies {
     background-color: white;
