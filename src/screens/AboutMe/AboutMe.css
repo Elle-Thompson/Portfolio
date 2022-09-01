@@ -160,9 +160,8 @@
     display: none;
   }
   #pic2-img {
-    /* position: fixed; */
     margin-left: 33%;
-    margin-top: 20%;
+    margin-top: 10%;
     width: 37%;
     min-width: 180px;
   }
