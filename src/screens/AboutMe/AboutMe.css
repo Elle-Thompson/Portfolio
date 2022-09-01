@@ -43,7 +43,6 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-
     padding: 2%;
   }
   .AboutMe-page #quote-words {
@@ -133,6 +132,7 @@
   }
 }
 
+
 @media only screen and (max-width: 769px) {
   .AboutMe-page .about-me-wrapper {
     display: flex;
@@ -157,6 +157,7 @@
   }
   #pic1-img {
     display: none;
+
   }
   #pic2-img {
     margin-left: 33%;
