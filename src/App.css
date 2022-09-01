@@ -47,37 +47,18 @@
     color: white;
   }
 
-  
-  /* #nav-links {
-    display: inline-block;
-    position: absolute;
-    left: 15%;
-  } */
 
   
 
-  #footer {
-    background-image: url("https://i.ibb.co/dgSFNXr/bbbc491e236e0863d1e396ed78cc4836.jpg");
-    height: 60px;
-    width: 100%;
-    bottom: 0;
-    font-size: 100%;
-    display: none;
-    justify-content: flex-end;
-    position: fixed;
-    box-sizing: border-box;
-    z-index: 100;
-  }
 
-  .div-right {
+  /* .div-right {
     background: rgb(244, 213, 211);
     color: black;
-    /* grid-row-start: 2;
-    grid-row-end: 3; */
+ 
     height: 100vh;
-    /* overflow: auto; */
+
     scroll-snap-stop: normal;
-  }
+  } */
 
   .home-link {
     position: absolute;
@@ -100,84 +81,7 @@
     display: none;
   }
 
-  #projects {
-    display: flex;
-    align-content: center;
-    height: 200vh;
-  }
 
-  #proj-img {
-    margin: 0;
-  }
-
-  #project-wrapper {
-    display: grid;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    height: 50vh;
-
-    overflow: visible;
-    margin-top: 25%;
-    justify-content: center;
-  }
-
-  #proj1 {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin: 0;
-    height: 35vh;
-    padding-top: 4vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid rgb(255, 236, 220) 5px;
-  }
-
-  #proj2 {
-    grid-row-start: 4;
-    grid-row-end: 5;
-    margin: 0;
-    height: 34vh;
-    padding-top: 4vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid rgb(255, 236, 220) 5px;
-  }
-
-  #proj3 {
-    grid-row-start: 6;
-    grid-row-end: 7;
-    margin: 0;
-    height: 35vh;
-    padding-top: 4vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    border-bottom: solid black 2px;
-  }
-
-  #proj1-description {
-    font-size: 15px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-left: 4vw;
-    padding-top: 4vh;
-    border-top: solid rgb(255, 236, 220) 5px;
-  }
-
-  #proj2-description {
-    font-size: 15px;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin-left: 2vw;
-    padding-top: 4vh;
-  }
-
-  #proj3-description {
-    font-size: 15px;
-    margin-left: 2vw;
-    padding-top: 4vh;
-  }
 
   h4 {
     font-size: 25px;
@@ -189,12 +93,7 @@
     height: 50%;
   }
 
-  .links {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    display: flex;
-    justify-content: center;
-  }
+ 
 
   .fa-2x {
     padding: 10px;

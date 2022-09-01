@@ -60,7 +60,6 @@
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  /* justify-content: center; */
   padding-right: 1%;
    text-align:center;
 }
@@ -110,7 +109,6 @@ font-weight: 400;
 }
 
 #download-link {
-  /* background-color: black; */
   height: 10%;
   width: 100%;
   top: 86%;
@@ -135,6 +133,23 @@ font-weight: 400;
 #download-link a:hover {
   
   color: rgb(244, 213, 211);
+}
+
+.Resume-page button {
+  width: 75%;
+  padding: 4.5%;
+  background-color: white;
+  font-size: medium;
+  font-weight: 200;
+  border-radius: 10px;
+  margin: 2%;
+  margin-left: 45%;
+  border: solid rgb(255, 236, 220) 3px;
+  filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 }

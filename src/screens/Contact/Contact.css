@@ -48,16 +48,24 @@
     resize: none;
     border: solid rgb(255, 236, 220) 5px;
   }
-
-  .contact-page-wrapper #formButton {
+  
+  .contact-page-wrapper button {
     padding: 2%;
     width: 40%;
+    background-color: white;
+    font-size: medium;
+    font-weight: 200;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    border: solid rgb(255, 236, 220) 3px;
+    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contact-page-wrapper .contact-links {
-    /* position: absolute;
-    bottom: 0%;
-    left: 65%; */
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 2;

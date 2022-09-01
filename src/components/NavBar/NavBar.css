@@ -36,7 +36,6 @@
   #NavBar {
     display: flex;
     background-color: black;
-    /* justify-content: space-between; */
     max-height: 8%;
     width: 100%;
     top: 0;

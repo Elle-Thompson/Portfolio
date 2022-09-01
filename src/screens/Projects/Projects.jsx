@@ -31,6 +31,7 @@ const Projects = () => {
               </p>
 
             </div>
+            
 
             <div className="proj-img proj-img2">
               <a href="https://elle-thompson-metime.netlify.app/">
