@@ -1,16 +1,15 @@
 import React from "react";
-import Footer from "../../components/footer";
 import "./Resume.css";
 import NavBar from "../../components/NavBar/NavBar";
 
 const Resume = () => {
-  // const pdf = "https://drive.google.com/file/d/1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U/preview";
+  
 
   return (
     <div className="Resume-page">
       <div id="Resume" className="div-right">
         <h2 id="heading">Resume</h2>
-        <Footer />
+
         <NavBar />
 
         <div className="Resume-page-wrapper">
@@ -111,8 +110,8 @@ const Resume = () => {
 
         </div>
         
-        <div id="download-link"> <button> <a href="https://drive.google.com/uc?export=download&id=1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U"  download="Elle_Thompson_Resume"> Download Resume </a></button>  </div>
-
+        <div id="download-link"> <button>  <a href="https://drive.google.com/uc?export=download&id=1sQAdTOr3RErwvkT8Oxu64W7H6Xw9WT2U"  download="Elle_Thompson_Resume"> Download </a></button>  </div>
+        
         </div> 
     </div>
   ); 

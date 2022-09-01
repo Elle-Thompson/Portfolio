@@ -136,9 +136,9 @@
   #NavBar .menu-items {
     padding-top: 60px;
     position: fixed;
-    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .3);
     height: 100vh;
-    width: 50%;
+    width: 100%;
     transform: translate(250%);
     flex-direction: column;
     right: 0;
