@@ -59,6 +59,7 @@ const Resume = () => {
               </li>
               <li>
                 
+
                 Resolved conflicts due to inconsistencies in user story 
               </li>
               </ul>
