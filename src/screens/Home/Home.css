@@ -121,6 +121,7 @@
   .home h3 {
     margin-left: 5%;
   }
+
   .home .links {
     /* margin-top: 5%; */
     padding-top: 2%;
@@ -130,7 +131,7 @@
   }
   .home .links .fa-github {
     padding-left: 8%;
-  }
+
 }
 
 @media only screen and (max-width: 769px) {
@@ -255,6 +256,7 @@
     }
   }
 
+
 .home .links {
   margin-top: 5%;
   padding-top: 2%;
@@ -262,7 +264,9 @@
   display: flex;
   justify-content: center;
 }
+
 }
 .home .span3 {
   color: white;
 }
+
