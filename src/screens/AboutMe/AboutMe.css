@@ -43,7 +43,6 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
-
     padding: 2%;
   }
   .AboutMe-page #quote-words {
@@ -164,6 +163,7 @@
     width: 37%;
     min-width: 180px;
   }
+
 
   #pic2-img img {
     width: 100%;
