@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutMe.css";
-import Footer from "../../components/footer";
 import NavBar from "../../components/NavBar/NavBar";
 
 const AboutMe = () => {
@@ -8,7 +7,7 @@ const AboutMe = () => {
     <div className="AboutMe-page">
       <div className="div-right">
         <h2 id="heading">About Me</h2>
-        <Footer />
+
         <NavBar />
         <div id="pic1-img">  
        
