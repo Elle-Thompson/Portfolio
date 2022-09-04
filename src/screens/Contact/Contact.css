@@ -88,11 +88,11 @@
   .contact-page-wrapper .fa-3x:hover {
     color: white;
   }
-
 }
 
 
 @media only screen and (max-width: 769px) {
+
 
   .contact-page-wrapper .contact-links {
     grid-row-start: 3;
@@ -157,8 +157,6 @@
     position: absolute;
     top: 30%;
     left: 9vw;
-
-  
 
     display: grid;
     grid-template-rows: 0.3fr 0.03fr 1.7fr;
