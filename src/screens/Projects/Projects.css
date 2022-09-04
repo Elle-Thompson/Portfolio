@@ -239,7 +239,7 @@
     vertical-align: text-top;
   }
 
-  img {
+  .proj-img #proj-img {
     border: solid rgb(255, 236, 220) 5px;
     border-radius: 5%;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
@@ -267,7 +267,7 @@ h4 {
   #heading {
     display: none;
   }
-  img {
+  .proj-img #proj-img {
     border: solid rgb(255, 236, 220) 5px;
     border-radius: 5%;
     filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
