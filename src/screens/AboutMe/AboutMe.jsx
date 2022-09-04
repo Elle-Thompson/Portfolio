@@ -7,7 +7,6 @@ const AboutMe = () => {
     <div className="AboutMe-page">
       <div className="div-right">
         <h2 id="heading">About Me</h2>
-       
         <NavBar />
         <div id="pic1-img">  
        
