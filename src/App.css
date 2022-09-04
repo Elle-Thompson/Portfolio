@@ -1,6 +1,6 @@
 @media only screen and (min-width: 770px) {
   body {
-    background-color: rgb(244, 213, 211);
+    background-color: black;
   }
   .current {
     color: rgb(244, 213, 211);
@@ -26,6 +26,7 @@
     writing-mode: vertical-rl;
     -webkit-text-stroke: 1px white;
     position: fixed;
+    color: rgb(244, 213, 211);
   }
 }
 
@@ -36,7 +37,7 @@
   
 
   .fa-3x:hover {
-    color: white;
+    color: rgb(244, 213, 211);
   }
 
   #heading {

@@ -61,7 +61,7 @@
     border-radius: 5px;
     margin-bottom: 2%;
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     color: black;
     display: flex;
     justify-content: center;
@@ -79,10 +79,11 @@
     padding: 10px;
     font-size: 2em;
     float: right;
+    color: white;
   }
 
   .contact-page-wrapper .fa-3x:hover {
-    color: white;
+    color: rgb(244, 213, 211);
   }
 }
 
@@ -101,7 +102,7 @@
     background-color: white;
     font-size: medium;
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     color: black;
     display: flex;
     justify-content: center;
@@ -166,10 +167,11 @@
     padding: 10px;
     font-size: 2em;
     float: right;
+    
   }
 
   .contact-page-wrapper .fa-3x:hover {
-    color: white;
+    color: rgb(244, 213, 211);
   }
 
   .contact-page .fa-3x {

@@ -1,6 +1,6 @@
 @media only screen and (min-width: 770px) {
     #NavBar {
-        background-color: black;
+        background-color: rgb(244, 213, 211);
         height: 8%;
         width: 100%;
         top: 0;
@@ -8,6 +8,7 @@
         text-align: center;
         vertical-align: middle;
         z-index: 100;
+        border-bottom: solid rgb(255, 236, 220) 2px;
       }
     
       .link-list {
@@ -22,8 +23,8 @@
      }
 
      .current {
-        color: rgb(244, 213, 211);
-        border-bottom: 2px solid white;
+        color: black;
+        border-bottom: 3px solid white;
       }     
 }
 
