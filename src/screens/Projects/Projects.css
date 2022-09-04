@@ -9,7 +9,7 @@
     position: absolute;
     justify-content: center;
     font-size: 16px;
-    gap: 2%;
+    gap: 1.5%;
   }
 
   #proj-img {
@@ -90,7 +90,6 @@
   .proj-img2:hover .proj2-des1 {
     visibility: visible;
     opacity: 1;
-
     background-color: transparent;
     color: black;
   }
@@ -246,13 +245,11 @@
   }
 }
 
-@media only screen and  (min-width: 800px) and (max-width: 970px)  {
-h4 {
-  display:none;
+@media only screen and (min-width: 800px) and (max-width: 970px) {
+  h4 {
+    display: none;
+  }
 }
-
-}
-
 
 @media only screen and (max-width: 799px) {
   .projects-page-wrapper .project-wrapper {
@@ -278,7 +275,7 @@ h4 {
     min-width: 250px;
   }
   #proj-img:hover {
-  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
   }
 
   .proj-img {
@@ -390,14 +387,12 @@ h4 {
   }
 
   .proj-img3 {
-   
     position: relative;
     -moz-transition: all 1s linear;
     -ms-transition: all 1s linear;
     -o-transition: all 1s linear;
     -webkit-transition: all 1s linear;
     transition: all 1s linear;
-    
   }
 
   .proj3-img3 #proj-img {
@@ -479,7 +474,6 @@ h4 {
     font-size: 20px;
     font-weight: 600;
   }
-
 
   #more {
     display: none;

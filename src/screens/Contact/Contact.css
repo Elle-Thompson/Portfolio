@@ -87,7 +87,6 @@
   }
 }
 
-
 @media only screen and (max-width: 769px) {
   .contact-page-wrapper .contact-links {
     grid-row-start: 3;
@@ -167,7 +166,6 @@
     padding: 10px;
     font-size: 2em;
     float: right;
-    
   }
 
   .contact-page-wrapper .fa-3x:hover {

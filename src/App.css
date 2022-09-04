@@ -7,8 +7,6 @@
     border-bottom: 2px solid white;
   }
 
-
-
   .fa-2x {
     display: none;
   }
@@ -34,7 +32,6 @@
   body {
     background-color: rgb(244, 213, 211);
   }
-  
 
   .fa-3x:hover {
     color: rgb(244, 213, 211);
@@ -43,8 +40,6 @@
   #heading {
     display: none;
   }
-
-
 
   h4 {
     font-size: 25px;
