@@ -16,6 +16,7 @@
     border: solid rgb(255, 236, 220) 3px;
     /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     position: absolute;
+
   }
 
   .Resume-page-wrapper ul {
@@ -161,6 +162,7 @@
     bottom: 5%;
     font-family: "Poppins", sans-serif;
     display: flex;
+
     flex-direction: row;
     flex-wrap: wrap;
     background-color: white;
@@ -170,6 +172,7 @@
     border: solid rgb(255, 236, 220) 3px;
     /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     position: absolute;
+
   }
   .Resume-page-wrapper h2 {
     margin-bottom: 0;
@@ -211,3 +214,4 @@
     left: 35%;
   }
 }
+

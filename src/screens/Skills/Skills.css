@@ -1,4 +1,5 @@
 @media only screen and (min-width: 770px) {
+
   .skills-page .skills-wrapper {
     height: 75%;
     width: 70%;
@@ -18,6 +19,7 @@
     /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     padding-left: 2%;
     position: absolute;
+
   }
   .skills-page #skills-div {
     /* filter: drop-shadow(0 0 0.1rem #ffffff); */
