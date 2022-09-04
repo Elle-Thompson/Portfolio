@@ -37,7 +37,9 @@ const Contact = () => {
         <h2 id="heading">Contact</h2>
 <NavBar/>
 <div className="contact-page"> 
-        <form id="contactForm">
+
+        <form id="contactForm" action="https://formsubmit.co/ellethompson35@gmail.com" method="POST">
+
           <input type="hidden" name="form-name" value="Contact" />
 
           <input

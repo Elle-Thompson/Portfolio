@@ -1,5 +1,6 @@
 @media only screen and (min-width: 770px) {
-  .skills-page .skills-wrapper{
+
+  .skills-page .skills-wrapper {
     height: 75%;
     width: 70%;
     top: 15%;
@@ -16,8 +17,9 @@
     border-radius: 10%;
     border: solid rgb(255, 236, 220) 3px;
     /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
-   padding-left: 2%;
-   position: absolute;
+    padding-left: 2%;
+    position: absolute;
+
   }
   .skills-page #skills-div {
     /* filter: drop-shadow(0 0 0.1rem #ffffff); */
@@ -32,13 +34,12 @@
   .skills-page #skills-text {
     text-align: center;
     font-size: 25px;
-  padding-left: 4%;
+    padding-left: 4%;
   }
 }
 
 @media only screen and (max-width: 769px) {
-  
-  .skills-page .skills-wrapper{
+  .skills-page .skills-wrapper {
     height: 75%;
     width: 80%;
     top: 15%;
@@ -55,8 +56,8 @@
     border-radius: 10%;
     border: solid rgb(255, 236, 220) 3px;
     /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
-   padding-left: 2%;
-   position: absolute;
+    padding-left: 2%;
+    position: absolute;
   }
   .skills-page #skills-div {
     display: flex;
@@ -69,7 +70,7 @@
   .skills-page #skills-text {
     text-align: center;
     font-size: 100%;
-  padding-left: 4%;
-  padding-right: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 }

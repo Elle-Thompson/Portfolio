@@ -146,7 +146,6 @@
     box-sizing: border-box;
   }
 
-
   .contact-page #contactForm {
     position: absolute;
     top: 30%;
@@ -168,7 +167,7 @@
     padding: 10px;
     font-size: 2em;
     float: right;
-    
+
   }
 
   .contact-page-wrapper .fa-3x:hover {

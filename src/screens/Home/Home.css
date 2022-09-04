@@ -142,7 +142,6 @@
     background-color: black;
   }
 
-  
 
   #primary-picture {
     display: none;
@@ -255,13 +254,15 @@
     }
   }
 
-.home .links {
-  margin-top: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: center;
-}
+
+  .home .links {
+    margin-top: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+  }
+
 }
 .home .span3 {
   color: white;
