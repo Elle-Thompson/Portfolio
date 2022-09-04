@@ -1,5 +1,4 @@
 @media only screen and (min-width: 770px) {
-
   .contact-page-wrapper #contactForm {
     position: absolute;
     top: 20%;
@@ -15,9 +14,7 @@
     gap: 10px;
   }
 
-
   .contact-page-wrapper .name-input {
-
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -64,7 +61,7 @@
     border-radius: 5px;
     margin-bottom: 2%;
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     color: black;
     display: flex;
     justify-content: center;
@@ -82,18 +79,16 @@
     padding: 10px;
     font-size: 2em;
     float: right;
-
+    color: white;
   }
 
   .contact-page-wrapper .fa-3x:hover {
-    color: white;
+    color: rgb(244, 213, 211);
   }
 }
 
 
 @media only screen and (max-width: 769px) {
-
-
   .contact-page-wrapper .contact-links {
     grid-row-start: 3;
     grid-row-end: 4;
@@ -106,9 +101,8 @@
     width: 40%;
     background-color: white;
     font-size: medium;
-
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
     color: black;
     display: flex;
     justify-content: center;
@@ -157,7 +151,6 @@
     position: absolute;
     top: 30%;
     left: 9vw;
-
     display: grid;
     grid-template-rows: 0.3fr 0.03fr 1.7fr;
     height: 30%;
@@ -174,18 +167,15 @@
   .contact-page-wrapper .fa-3x {
     padding: 10px;
     font-size: 2em;
-
     float: right;
-
+    
   }
 
   .contact-page-wrapper .fa-3x:hover {
-    color: white;
+    color: rgb(244, 213, 211);
   }
-
 
   .contact-page .fa-3x {
     display: inline-block;
   }
-
 }

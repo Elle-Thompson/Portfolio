@@ -15,12 +15,12 @@
     background-color: white;
     border-radius: 10%;
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
    padding-left: 2%;
    position: absolute;
   }
   .skills-page #skills-div {
-    filter: drop-shadow(0 0 0.1rem #ffffff);
+    /* filter: drop-shadow(0 0 0.1rem #ffffff); */
     display: flex;
     align-items: center;
     min-width: 15%;
@@ -54,7 +54,7 @@
     background-color: white;
     border-radius: 10%;
     border: solid rgb(255, 236, 220) 3px;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
    padding-left: 2%;
    position: absolute;
   }

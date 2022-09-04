@@ -239,12 +239,11 @@
     vertical-align: text-top;
   }
 
-
   .proj-img #proj-img {
-
     border: solid rgb(255, 236, 220) 5px;
     border-radius: 5%;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
+
   }
 }
 
@@ -269,12 +268,11 @@ h4 {
   #heading {
     display: none;
   }
-
   .proj-img #proj-img {
-
     border: solid rgb(255, 236, 220) 5px;
     border-radius: 5%;
-    filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154));
+    /* filter: drop-shadow(0 1rem 1rem rgb(203, 160, 154)); */
+
   }
   #proj-img {
     height: 100%;
