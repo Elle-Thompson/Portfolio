@@ -28,6 +28,7 @@
 }
 
 @media only screen and (max-width: 769px) {
+
   #NavBar {
     display: flex;
     background-color: black;
@@ -122,6 +123,7 @@
     transition: transform 0.2s ease-in-out;
   }
 
+
   .nav-container .hamburger .line3 {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
@@ -143,6 +145,7 @@
     background-color: black;
   }
 
+
   #NavBar .menu-items li {
     margin-bottom: 1.2rem;
     font-size: 1.5rem;
@@ -161,6 +164,7 @@
     transform: rotate(45deg);
   }
 
+
   .nav-container input[type="checkbox"]:checked ~ .hamburger .line2 {
     transform: scalex(50);
     background-color: pink;
@@ -170,3 +174,4 @@
     transform: rotate(-45deg);
   }
 }
+

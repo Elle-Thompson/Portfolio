@@ -142,6 +142,7 @@
     background-color: black;
   }
 
+
   #primary-picture {
     display: none;
   }
@@ -253,6 +254,7 @@
     }
   }
 
+
   .home .links {
     margin-top: 5%;
     padding-top: 2%;
@@ -260,10 +262,13 @@
     display: flex;
     justify-content: center;
   }
+
   .fa-3x:hover {
     color: white;
   }
+
 }
 .home .span3 {
   color: white;
 }
+
