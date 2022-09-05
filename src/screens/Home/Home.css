@@ -263,6 +263,10 @@
     justify-content: center;
   }
 
+  .fa-3x:hover {
+    color: white;
+  }
+
 }
 .home .span3 {
   color: white;

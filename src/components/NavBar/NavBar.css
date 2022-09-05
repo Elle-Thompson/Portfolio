@@ -81,6 +81,7 @@
     position: relative;
     height: 60px;
   }
+
   .nav-container .checkbox {
     position: absolute;
     display: block;
@@ -118,7 +119,6 @@
     transition: transform 0.4s ease-in-out;
   }
 
-
   .nav-container .hamburger .line2 {
     transition: transform 0.2s ease-in-out;
   }
@@ -152,7 +152,6 @@
     font-weight: 500;
   }
 
-
   #checkbox:checked ~ .menu-items {
     /* background-color: blue; */
     transform: translateX(0);
@@ -170,7 +169,6 @@
     transform: scalex(50);
     background-color: pink;
   }
-
 
   .nav-container input[type="checkbox"]:checked ~ .hamburger .line3 {
     transform: rotate(-45deg);
