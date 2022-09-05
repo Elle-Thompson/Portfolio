@@ -10,14 +10,22 @@ const AboutMe = () => {
 
         <NavBar />
         <div id="pic1-img">  
-       
-        <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
+        <img
+          
+          src="https://i.ibb.co/kM3Fb41/It-me.jpg"
+          alt="Self-photo"
+        />
+        
         </div>
        
         <div className="about-me-wrapper">
         <div id="pic2-img">  
        
-       <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
+        <img
+          
+          src="https://i.ibb.co/kM3Fb41/It-me.jpg"
+          alt="Self-photo"
+        />
        </div>
 
         

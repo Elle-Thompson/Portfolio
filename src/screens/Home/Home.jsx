@@ -7,11 +7,7 @@ const Home = () => {
     <div className="home">
       <div className="div-left">
         <h3> Elle Thompson | Front-End Developer </h3>
-        <div id="primary-picture"> <img
-          
-          src="https://i.ibb.co/kM3Fb41/It-me.jpg"
-          alt="Self-photo"
-        />
+        <div id="primary-picture"> <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
         </div>
       </div>
 
@@ -23,11 +19,7 @@ const Home = () => {
             </h2>
             <span className="span1">Front-End Developer</span>
           </header>
-<div id="secondary-picture"> <img
-          
-          src="https://i.ibb.co/kM3Fb41/It-me.jpg"
-          alt="Self-photo"
-        />
+<div id="secondary-picture"> <img   src="https://i.ibb.co/kQGSTQ5/img-5162.jpg" alt="img-5162" border="0"/>
         </div>
           <Link to="/AboutMe">
             <button>About </button>
