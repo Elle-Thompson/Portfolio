@@ -10,6 +10,7 @@ const Projects = () => {
           <h2 id="heading">Projects</h2>
 
           <NavBar />
+
         </div>
         <div className="project-wrapper">
           <div className="proj-img proj-img1">
