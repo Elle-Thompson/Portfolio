@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../components/footer";
 import "./Projects.css";
 import NavBar from "../../components/NavBar/NavBar";
 
@@ -11,7 +10,7 @@ const Projects = () => {
           <h2 id="heading">Projects</h2>
 
           <NavBar />
-          <Footer />
+          
         </div>
         <div className="project-wrapper">
          

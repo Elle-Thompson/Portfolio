@@ -1,12 +1,15 @@
 @media only screen and (min-width: 770px) {
   #primary-picture {
     position: absolute;
-    top: 33%;
+    top: 25%;
     left: 25%;
+   
   }
 
   #primary-picture img {
-    width: 20vw;
+    width: 18vw;
+    border: solid rgb(255, 236, 220) 5px;
+    border-radius: 5%;
   }
 
   #secondary-picture {
@@ -156,6 +159,7 @@
   .home img {
     display: flex;
     width: 50%;
+    max-height: 600px;
     border: solid rgb(255, 236, 220) 5px;
 
     border-radius: 5%;
