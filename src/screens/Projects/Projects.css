@@ -168,16 +168,6 @@
     background-color: transparent;
   }
 
-  #proj-img:hover,
-  proj3-img3:hover #proj-img {
-    opacity: 0.5;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-  }
-
   .proj-img3:hover .proj3-des1 {
     visibility: visible;
     opacity: 1;
@@ -418,15 +408,6 @@
     background-color: transparent;
   }
 
-  #proj-img:hover,
-  proj3-img3:hover #proj-img {
-    opacity: 0.5;
-    -moz-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-  }
 
   .proj-img3:hover .proj3-des1 {
     visibility: visible;
